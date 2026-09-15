@@ -1,0 +1,53 @@
+name: Send Email Digests
+
+# Hourly trigger for the newspaper email digest. The Worker's own scheduled()
+# handler would need a Cloudflare cron trigger, but the Workers Free plan caps
+# the whole account at 5 cron triggers and this account is at that limit — so we
+# drive the digest over HTTP from GitHub Actions instead (unlimited, free).
+#
+# Each hour this POSTs to /api/run-digests; the Worker figures out which
+# subscribers are due for the current IST hour and emails them (idempotent —
+# a subscriber is only sent once per day, so an occasionally-late run is fine).
+#
+# Required secrets (set once):
+#   NEWSFLOW_URL  – the deployed site origin, e.g. https://newstracker.<subdomain>.workers.dev
+#   DIGEST_KEY    – shared secret; must equal the DIGEST_KEY Worker secret
+# If either is missing the job no-ops rather than failing.
+
+on:
+  schedule:
+    - cron: '5 * * * *' # a few minutes past every hour (UTC); avoids the :00 rush
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger digest run
+        env:
+          NEWSFLOW_URL: ${{ secrets.NEWSFLOW_URL }}
+          DIGEST_KEY: ${{ secrets.DIGEST_KEY }}
+        run: |
+          if [ -z "$NEWSFLOW_URL" ] || [ -z "$DIGEST_KEY" ]; then
+            echo "NEWSFLOW_URL or DIGEST_KEY not set — skipping (nothing to do)."
+            exit 0
+          fi
+          base="${NEWSFLOW_URL%/}"
+          echo "POST $base/api/run-digests"
+          code=$(curl -sS -m 60 -o /tmp/digest-resp.json -w '%{http_code}' \
+            -X POST -H "x-digest-key: $DIGEST_KEY" \
+            "$base/api/run-digests" || echo "000")
+          echo "HTTP $code"
+          cat /tmp/digest-resp.json 2>/dev/null || true
+          echo
+          # Never fail the workflow on a transient error — the next hour retries,
+          # and the Worker only sends each subscriber once per day regardless.
+          if [ "$code" -ge 200 ] && [ "$code" -lt 300 ]; then
+            echo "Digest run OK."
+          else
+            echo "Non-2xx ($code) — will retry next hour."
+          fi

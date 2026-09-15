@@ -1,0 +1,60 @@
+{
+  "base": [
+    "Capacity Expansion",
+    "Capex",
+    "Product launch",
+    "Commissioning",
+    "Order",
+    "Orderbook",
+    "Receipt of Order",
+    "Joint Venture",
+    "Partnership",
+    "Stake sale",
+    "Merger",
+    "Acquisition",
+    "QIP",
+    "Qualified Institutional Placement",
+    "Preferential Issue",
+    "Rights Issue",
+    "Buyback",
+    "Earnings",
+    "Patent",
+    "Approval",
+    "Corporate Governance",
+    "Fraud",
+    "Lawsuit",
+    "Trial",
+    "Investigation",
+    "Resignation",
+    "Fire",
+    "Accident",
+    "Default",
+    "Downgrade"
+  ],
+  "buckets": {
+    "Growth": ["Capacity Expansion", "Capex", "Product launch", "Commissioning"],
+    "Orders": ["Order", "Orderbook", "Receipt of Order"],
+    "Deals": ["Joint Venture", "Partnership", "Stake sale", "Merger", "Acquisition"],
+    "Money": [
+      "QIP",
+      "Qualified Institutional Placement",
+      "Preferential Issue",
+      "Rights Issue",
+      "Buyback",
+      "Earnings"
+    ],
+    "Approvals&IP": ["Patent", "Approval"],
+    "Trouble": [
+      "Corporate Governance",
+      "Fraud",
+      "Lawsuit",
+      "Trial",
+      "Investigation",
+      "Resignation",
+      "Fire",
+      "Accident",
+      "Default",
+      "Downgrade"
+    ]
+  }
+}

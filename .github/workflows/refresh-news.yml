@@ -1,0 +1,108 @@
+name: Refresh News Data
+
+# Scrapes fundamental news (Google News backbone + optional Munshot/Firecrawl)
+# and syncs the company list, then commits the refreshed JSON back to main.
+# Filings have their OWN workflow (refresh-filings.yml) — this workflow never
+# touches public/data/filings.json, and that one never touches news/companies.
+# Runs twice daily at 08:01 and 20:01 IST (02:31 / 14:31 UTC) and on demand.
+#
+# ALL secrets are OPTIONAL — Google News needs no key, so the news scraper
+# always produces data. MUNS_TOKEN/MUNS_EMAIL add Munshot news + filings;
+# FIRECRAWL_API_KEY adds a bonus publisher pass.
+
+on:
+  schedule:
+    - cron: '31 2,14 * * *' # 08:01 and 20:01 IST, every day (off the quarter-hour)
+  workflow_dispatch:
+
+permissions:
+  contents: write # push the data commit (Cloudflare Workers Builds auto-deploys it)
+
+jobs:
+  refresh:
+    # Only ever write data to main.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install scraper deps
+        working-directory: scrapers
+        run: npm install
+
+      - name: Sync companies from NVFO
+        continue-on-error: true
+        working-directory: scrapers
+        env:
+          NVFO_SYNC_TOKEN: ${{ secrets.NVFO_SYNC_TOKEN }}
+        run: node sync-companies.mjs
+
+      - name: Scrape news (Google News + optional Munshot/Firecrawl)
+        continue-on-error: true
+        working-directory: scrapers
+        env:
+          MUNS_TOKEN: ${{ secrets.MUNS_TOKEN }}
+          MUNS_EMAIL: ${{ secrets.MUNS_EMAIL }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          NEWSFLOW_URL: ${{ secrets.NEWSFLOW_URL }}
+          # Presence of these two flips news.mjs to the loose (recall) gate;
+          # the actual Claude call happens in the enrich step below.
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_MODEL_ID: ${{ secrets.BEDROCK_MODEL_ID }}
+        run: node news.mjs
+
+      - name: Enrich with Claude (Bedrock)
+        continue-on-error: true
+        working-directory: scrapers
+        env:
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          BEDROCK_MODEL_ID: ${{ secrets.BEDROCK_MODEL_ID }}
+          NEWSFLOW_URL: ${{ secrets.NEWSFLOW_URL }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: node enrich.mjs
+
+      - name: Commit & push refreshed data
+        id: commit
+        run: |
+          set -e
+          git config user.name "newsflow-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- public/data/news.json public/data/companies.json; then
+            echo "No data changes — nothing to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git add public/data/news.json public/data/companies.json
+          git commit -m "chore(data): refresh companies + news"
+
+          n=0
+          until [ "$n" -ge 4 ]; do
+            if git push origin HEAD:main; then
+              echo "Pushed refreshed data."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            n=$((n + 1))
+            wait=$((2 ** n))
+            echo "Push failed (attempt $n) — fetch + rebase, retry in ${wait}s…"
+            git fetch origin main
+            git rebase origin/main || git rebase --abort
+            sleep "$wait"
+          done
+
+          echo "Push failed after 4 attempts."
+          exit 1
+
+    # Note: no explicit deploy step — the push to main above is picked up by
+    # Cloudflare Workers Builds (connected repo), which rebuilds and deploys.

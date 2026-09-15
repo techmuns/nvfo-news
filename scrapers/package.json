@@ -1,0 +1,19 @@
+{
+  "name": "newsflow-scrapers",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Newsflow data scrapers (Prompt 2): Google News RSS + Munshot -> public/data/*.json",
+  "scripts": {
+    "news": "node news.mjs",
+    "filings": "node filings.mjs",
+    "all": "node news.mjs && node filings.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.1",
+    "undici": "^6.21.0"
+  }
+}

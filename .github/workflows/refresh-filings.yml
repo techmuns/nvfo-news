@@ -1,0 +1,81 @@
+name: Refresh Filings
+
+# Fetches REAL NSE corporate announcements (directly, browser-like session — no
+# API key, no third-party scraper) and commits ONLY public/data/filings.json
+# back to main. Fully decoupled from the news refresh: a filings run never
+# touches news.json or companies.json, and vice-versa.
+# Runs twice daily at 08:15 and 20:15 IST (02:45 / 14:45 UTC) and on demand.
+#
+# If NSE blocks the runner, filings.mjs leaves the file untouched (honest empty
+# state) and never writes placeholders.
+
+on:
+  schedule:
+    - cron: '45 2,14 * * *' # 08:15 and 20:15 IST, every day (offset from the news cron)
+  workflow_dispatch:
+
+permissions:
+  contents: write # push the filings commit (Cloudflare Workers Builds auto-deploys it)
+
+jobs:
+  filings:
+    # Only ever write data to main.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install scraper deps
+        working-directory: scrapers
+        run: npm install
+
+      - name: Scrape filings (NSE direct)
+        continue-on-error: true
+        working-directory: scrapers
+        run: node filings.mjs
+
+      - name: Commit & push filings
+        id: commit
+        run: |
+          set -e
+          git config user.name "newsflow-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only ever touch filings.json in this workflow.
+          if git diff --quiet -- public/data/filings.json; then
+            echo "No filings changes — nothing to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git add public/data/filings.json
+          git commit -m "chore(data): refresh filings"
+
+          n=0
+          until [ "$n" -ge 4 ]; do
+            if git push origin HEAD:main; then
+              echo "Pushed refreshed filings."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            n=$((n + 1))
+            wait=$((2 ** n))
+            echo "Push failed (attempt $n) — fetch + rebase, retry in ${wait}s…"
+            git fetch origin main
+            git rebase origin/main || git rebase --abort
+            sleep "$wait"
+          done
+
+          echo "Push failed after 4 attempts."
+          exit 1
+
+    # Note: no explicit deploy step — the push to main above is picked up by
+    # Cloudflare Workers Builds (connected repo), which rebuilds and deploys.

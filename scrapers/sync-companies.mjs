@@ -77,6 +77,7 @@ function normRow(row) {
     company,
     ticker: String(row.ticker ?? '').trim(),
     sector: String(row.sector ?? '').trim(),
+    isin: String(row.isin ?? '').trim(),
     bucket: String(row.bucket ?? '').trim().toLowerCase(),
   };
 }
@@ -121,7 +122,7 @@ function collectWeights(payload) {
     if ((name || isin) && Number.isFinite(pct) && pct > 0) {
       const key = isin || normName(name);
       const prev = byKey.get(key);
-      if (!prev || pct > prev.pct) byKey.set(key, { name, pct });
+      if (!prev || pct > prev.pct) byKey.set(key, { name, isin, pct });
     }
     for (const v of Object.values(node)) {
       if (v && typeof v === 'object') visit(v);
@@ -131,22 +132,54 @@ function collectWeights(payload) {
   return [...byKey.values()].filter((s) => s.name).sort((a, b) => b.pct - a.pct);
 }
 
-// Rank the portfolio's Top-5 tickers by family weight.
+// The look-through file names securities SHORT ("Tourism Finance Corporation"),
+// the watchlist long ("Tourism Finance Corporation of India Limited"). Compare on
+// meaningful tokens, dropping filler / geo words so a short name still lines up.
+const FILLER = new Set(['india', 'of', 'and']);
+const nameTokens = (s) => new Set(normName(s).split(' ').filter((t) => t && !FILLER.has(t)));
+const isSubset = (a, b) => [...a].every((t) => b.has(t)); // a ⊆ b
+
+// Rank the portfolio's Top-5 tickers by family weight. Each look-through
+// security is matched to a portfolio ticker by ISIN, then exact name, then
+// token-subset (funds / ETFs are skipped — they carry no single-company news).
 // Returns { top5: [ticker], weights: Map(ticker->pct), top5Sum } or null.
-function computeTop5(lookthrough, portfolio) {
-  const ranked = collectWeights(lookthrough);
+function computeTop5(lookthrough, portfolio, isinToTicker) {
+  const ranked = collectWeights(lookthrough).filter((s) => s.name && !isFund(s.name));
   if (ranked.length === 0) return null;
 
-  const tickerByNorm = new Map();
+  const exact = new Map(); // normName -> ticker
+  const index = []; // { ticker, tokens }
   for (const c of portfolio) {
-    const k = normName(c.company);
-    if (k && !tickerByNorm.has(k)) tickerByNorm.set(k, c.ticker);
+    const norm = normName(c.company);
+    if (norm && !exact.has(norm)) exact.set(norm, c.ticker);
+    index.push({ ticker: c.ticker, tokens: nameTokens(c.company) });
   }
+
+  const matchTicker = (s) => {
+    const il = (s.isin || '').toLowerCase();
+    if (il && isinToTicker.has(il)) return isinToTicker.get(il);
+    const norm = normName(s.name);
+    if (exact.has(norm)) return exact.get(norm);
+    const st = nameTokens(s.name);
+    if (st.size < 2) return ''; // too generic to subset-match safely
+    let best = '';
+    let bestGap = Infinity;
+    for (const c of index) {
+      if (isSubset(st, c.tokens) || isSubset(c.tokens, st)) {
+        const gap = Math.abs(c.tokens.size - st.size);
+        if (gap < bestGap) {
+          bestGap = gap;
+          best = c.ticker;
+        }
+      }
+    }
+    return best;
+  };
 
   const weights = new Map(); // ticker -> pct (highest match wins)
   const unmatched = [];
   for (const s of ranked) {
-    const ticker = tickerByNorm.get(normName(s.name));
+    const ticker = matchTicker(s);
     if (ticker) {
       if (!weights.has(ticker)) weights.set(ticker, s.pct);
     } else if (unmatched.length < 8) {
@@ -223,12 +256,20 @@ async function main() {
     ...existingExited,
   ]);
 
+  // ISIN -> ticker from the watchlist feed (when it carries ISINs), for exact
+  // matching of the look-through securities to portfolio tickers.
+  const isinToTicker = new Map();
+  for (const row of rows) {
+    const il = (row.isin || '').toLowerCase();
+    if (il && row.ticker) isinToTicker.set(il, row.ticker);
+  }
+
   // ---- Top-5 by family weight (graceful: keep prior Top-5 on any failure) ----
   let top5 = existingTop5;
   let weights = null;
   try {
     const lookthrough = await fetchJSON(LOOKTHROUGH_SRC);
-    const r = computeTop5(lookthrough, portfolio);
+    const r = computeTop5(lookthrough, portfolio, isinToTicker);
     if (r && r.top5.length) {
       top5 = r.top5;
       weights = r.weights;

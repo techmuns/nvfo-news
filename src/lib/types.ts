@@ -19,16 +19,18 @@ export type Importance = 'high' | 'medium' | 'low';
 
 export type Exchange = 'NSE' | 'BSE';
 
-export type FeedKey = 'portfolio' | 'watchlist' | 'universe';
+export type FeedKey = 'portfolio' | 'watchlist' | 'universe' | 'top5';
 
 export interface Company {
   company: string;
   ticker: string;
   sector: string;
+  weightPct?: number; // % of family net worth (portfolio holdings; set by the sync)
 }
 
 export interface CompaniesData {
   generated_at: string;
+  top5?: string[]; // tickers of the 5 biggest holdings by family weight
   portfolio: Company[];
   watchlist_exited: Company[];
 }

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { AlertTriangle, Loader2 } from 'lucide-react';
-import type { Company, FeedKey, NewsItem } from './lib/types';
+import type { Company, FeedKey, NewsItem, Scope } from './lib/types';
 import { loadAll, type AppData } from './lib/data';
 import {
   getCustomKeywords,
@@ -26,12 +26,13 @@ import { Feed } from './pages/Feed';
 import { Filings } from './pages/Filings';
 
 const FEED_DESC: Record<FeedKey, string> = {
+  top5: 'Your 5 biggest holdings by family weight',
   portfolio: 'Your current holdings',
   watchlist: 'Holdings, exited names & anything you add',
   universe: 'Keyword-led discovery beyond your companies',
 };
 
-function scopeCount(items: NewsItem[], key: FeedKey): number {
+function scopeCount(items: NewsItem[], key: Scope): number {
   return items.filter((i) => i.scope.includes(key)).length;
 }
 
@@ -159,18 +160,27 @@ export default function App() {
   /* ---- derived data ---- */
   const newsItems = data?.news.items ?? [];
 
+  const top5Set = useMemo(
+    () => new Set<string>(data?.companies.top5 ?? []),
+    [data],
+  );
+
   const feedItems = useMemo(
-    () => newsItems.filter((i) => i.scope.includes(feed)),
-    [newsItems, feed],
+    () =>
+      feed === 'top5'
+        ? newsItems.filter((i) => top5Set.has(i.ticker))
+        : newsItems.filter((i) => i.scope.includes(feed as Scope)),
+    [newsItems, feed, top5Set],
   );
 
   const feedCounts = useMemo<Record<FeedKey, number>>(
     () => ({
+      top5: newsItems.filter((i) => top5Set.has(i.ticker)).length,
       portfolio: scopeCount(newsItems, 'portfolio'),
       watchlist: scopeCount(newsItems, 'watchlist'),
       universe: scopeCount(newsItems, 'universe'),
     }),
-    [newsItems],
+    [newsItems, top5Set],
   );
 
   const knownCompanies = useMemo<Company[]>(() => {

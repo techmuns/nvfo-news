@@ -1,7 +1,8 @@
-import { Briefcase, Eye, Globe2, type LucideIcon } from 'lucide-react';
+import { Briefcase, Eye, Globe2, Star, type LucideIcon } from 'lucide-react';
 import type { FeedKey } from '../lib/types';
 
 const FEEDS: { key: FeedKey; label: string; icon: LucideIcon }[] = [
+  { key: 'top5', label: 'Top 5', icon: Star },
   { key: 'portfolio', label: 'Portfolio', icon: Briefcase },
   { key: 'watchlist', label: 'Watchlist', icon: Eye },
   { key: 'universe', label: 'Universe', icon: Globe2 },

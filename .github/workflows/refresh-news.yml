@@ -53,6 +53,12 @@ jobs:
           MUNS_EMAIL: ${{ secrets.MUNS_EMAIL }}
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           NEWSFLOW_URL: ${{ secrets.NEWSFLOW_URL }}
+          # Valuepickr is globally paced to 1 request / 1.5s and Discourse
+          # rate-limits it (429) hard — impractical for NVFO's large (~373-name)
+          # watchlist, so it's disabled here. Google News (backbone) + Munshot +
+          # Firecrawl + Claude filtering remain. Re-enable later scoped to the
+          # portfolio / Top-5 only.
+          VALUEPICKR: '0'
           # Presence of these two flips news.mjs to the loose (recall) gate;
           # the actual Claude call happens in the enrich step below.
           BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}

@@ -48,7 +48,9 @@ const NEWSFLOW_URL = process.env.NEWSFLOW_URL || '';
 const VALUEPICKR = process.env.VALUEPICKR !== '0'; // Valuepickr forum source (on by default)
 // Is the Claude brain available downstream? If so we can be loose here and let
 // enrich.mjs do the real keep/drop; if not, keep the interim feed keyword-clean.
-const BRAIN_ON = !!(process.env.BEDROCK_API_KEY && process.env.BEDROCK_MODEL_ID);
+// Only BEDROCK_API_KEY is required — enrich.mjs defaults the model id via its
+// fallback chain, so no BEDROCK_MODEL_ID secret is needed to turn the brain on.
+const BRAIN_ON = !!process.env.BEDROCK_API_KEY;
 
 const PER_COMPANY_CAP = 8;
 const UNIVERSE_PER_QUERY = 2;

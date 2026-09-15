@@ -40,6 +40,11 @@ const MODEL_CHAIN = process.env.BEDROCK_MODEL_ID
   : process.env.BEDROCK_MODEL_IDS
     ? process.env.BEDROCK_MODEL_IDS.split(',').map((s) => s.trim()).filter(Boolean)
     : [
+        // Default chain — enrichment runs on just BEDROCK_API_KEY (no model-id
+        // secret needed). Haiku 4.5 first (cheap, recommended), Sonnet as fallback;
+        // the loop below walks the chain, so an id the account can't call is skipped.
+        'us.anthropic.claude-haiku-4-5-20251001-v1:0',
+        'anthropic.claude-haiku-4-5-20251001-v1:0',
         'anthropic.claude-sonnet-5',
         'us.anthropic.claude-sonnet-5',
         'us.anthropic.claude-sonnet-4-5-20250929-v1:0',

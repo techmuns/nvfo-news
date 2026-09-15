@@ -1,5 +1,1872 @@
 {
-  "generated_at": "2026-09-15T00:00:00.000Z",
-  "portfolio": [],
-  "watchlist_exited": []
+  "generated_at": "2026-09-15T11:19:46.461Z",
+  "portfolio": [
+    {
+      "company": "Tourism Finance Corporation of India Limited",
+      "ticker": "TFCILTD",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Privi Speciality Chemicals Limited",
+      "ticker": "PRIVISCL",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "TruAlt Bioenergy Limited",
+      "ticker": "TRUALT",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Bliss GVS Pharma Limited",
+      "ticker": "BLISSGVS",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Jio Financial Services Limited",
+      "ticker": "JIOFIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Coal India Limited",
+      "ticker": "COALINDIA",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Mahindra Holidays & Resorts India Limited",
+      "ticker": "MHRIL",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "DCB Bank Limited",
+      "ticker": "DCBBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Elantas Beck India Limited",
+      "ticker": "ELANTAS",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Hindalco Industries Limited",
+      "ticker": "HINDALCO",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "VA Tech Wabag Limited",
+      "ticker": "WABAG",
+      "sector": "Utilities"
+    },
+    {
+      "company": "SG Mart Limited",
+      "ticker": "SGMART",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "NMDC Limited",
+      "ticker": "NMDC",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Antelopus Selan Energy Limited",
+      "ticker": "ANTELOPUS",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "ETERNAL LIMITED",
+      "ticker": "ETERNAL",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Bajaj Finance Limited",
+      "ticker": "BAJFINANCE",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "LG Electronics India Limited",
+      "ticker": "LGEINDIA",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Bharat Electronics Limited",
+      "ticker": "BEL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "ABB India Limited",
+      "ticker": "ABB",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "JSW Steel Limited",
+      "ticker": "JSWSTEEL",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Hester Biosciences Limited",
+      "ticker": "HESTERBIO",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Reliance Industries Limited",
+      "ticker": "RELIANCE",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Bharti Airtel Limited",
+      "ticker": "BHARTIARTL",
+      "sector": "Telecommunication"
+    },
+    {
+      "company": "Larsen & Toubro Limited",
+      "ticker": "LT",
+      "sector": "Construction"
+    },
+    {
+      "company": "Bharat Petroleum Corporation Limited",
+      "ticker": "BPCL",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Gujarat Mineral Development Corporation Limited",
+      "ticker": "GMDCLTD",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Thermax Limited",
+      "ticker": "THERMAX",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Wonderla Holidays Limited",
+      "ticker": "WONDERLA",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Jayaswal Neco Industries Limited",
+      "ticker": "JAYNECOIND",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Indian Energy Exchange Limited",
+      "ticker": "IEX",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Jubilant Foodworks Limited",
+      "ticker": "JUBLFOOD",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "EID Parry India Limited",
+      "ticker": "EIDPARRY",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Deepak Fertilizers and Petrochemicals Corporation Limited",
+      "ticker": "DEEPAKFERT",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Bharat Forge Limited",
+      "ticker": "BHARATFORG",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Dynamatic Technologies Limited",
+      "ticker": "DYNAMATECH",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "PG Electroplast Limited",
+      "ticker": "PGEL",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Jamna Auto Industries Limited",
+      "ticker": "JAMNAAUTO",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Tata Steel Limited",
+      "ticker": "TATASTEEL",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Engineers India Limited",
+      "ticker": "ENGINERSIN",
+      "sector": "Construction"
+    },
+    {
+      "company": "V Marc India Limited",
+      "ticker": "VMARCIND",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Fedbank Financial Services Limited",
+      "ticker": "FEDFINA",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Acme Solar Holdings Limited",
+      "ticker": "ACMESOLAR",
+      "sector": "Power"
+    },
+    {
+      "company": "Trent Limited",
+      "ticker": "TRENT",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Arman Financial Services Limited",
+      "ticker": "ARMANFIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Sobha Limited",
+      "ticker": "SOBHA",
+      "sector": "Realty"
+    },
+    {
+      "company": "Abbott India Limited",
+      "ticker": "ABBOTINDIA",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "NOCIL Limited",
+      "ticker": "NOCIL",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Container Corporation of India Limited",
+      "ticker": "CONCOR",
+      "sector": "Services"
+    },
+    {
+      "company": "Linde India Limited",
+      "ticker": "LINDEINDIA",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "One 97 Communications Limited",
+      "ticker": "PAYTM",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Neogen Chemicals Limited",
+      "ticker": "NEOGEN",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Aegis Logistics Limited",
+      "ticker": "AEGISLOG",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Gujarat Pipavav Port Limited",
+      "ticker": "GPPL",
+      "sector": "Services"
+    },
+    {
+      "company": "Vedanta Limited",
+      "ticker": "VEDL",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Artemis Medicare Services Limited",
+      "ticker": "ARTEMISMED",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Tata Motors Limited",
+      "ticker": "TMCV",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "HDFC Bank Limited",
+      "ticker": "HDFCBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "State Bank of India",
+      "ticker": "SBIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Delta Corp Limited",
+      "ticker": "DELTACORP",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Shardul Securities Limited",
+      "ticker": "SHARDUL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Vedanta Aluminium Metal Limited",
+      "ticker": "VAML",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Tata Motors Passenger Vehicles Limited",
+      "ticker": "TMPV",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Hindustan Copper Limited",
+      "ticker": "HINDCOPPER",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Thomas Cook  (India)  Limited",
+      "ticker": "THOMASCOOK",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Indian Railway Catering And Tourism Corporation Limited",
+      "ticker": "IRCTC",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Nelcast Limited",
+      "ticker": "NELCAST",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Quick Heal Technologies Limited",
+      "ticker": "QUICKHEAL",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Shriram Finance Limited",
+      "ticker": "SHRIRAMFIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Aarti Pharmalabs Limited",
+      "ticker": "AARTIPHARM",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "HLE Glascoat Limited",
+      "ticker": "HLEGLAS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Aeroflex Industries Limited",
+      "ticker": "AEROFLEX",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Cartrade Tech Limited",
+      "ticker": "CARTRADE",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Ather Energy Limited",
+      "ticker": "ATHERENERG",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Sansera Engineering Limited",
+      "ticker": "SANSERA",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Hitachi Energy India Limited",
+      "ticker": "POWERINDIA",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Orchid Pharma Limited",
+      "ticker": "ORCHPHARMA",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Tips Music Limited",
+      "ticker": "TIPSMUSIC",
+      "sector": "Media Entertainment & Publication"
+    },
+    {
+      "company": "Shadowfax Technologies Limited",
+      "ticker": "SHADOWFAX",
+      "sector": "Services"
+    },
+    {
+      "company": "Piramal Finance Limited",
+      "ticker": "PIRAMALFIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Bank of Maharashtra",
+      "ticker": "MAHABANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Capillary Technologies India Limited",
+      "ticker": "CAPILLARY",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "APL Apollo Tubes Limited",
+      "ticker": "APLAPOLLO",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "ICICI Bank Limited",
+      "ticker": "ICICIBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Mtar Technologies Limited",
+      "ticker": "MTARTECH",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Carborundum Universal Limited",
+      "ticker": "CARBORUNIV",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Mahindra & Mahindra Limited",
+      "ticker": "M&M",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "INDO-MIM Limited",
+      "ticker": "INDOMIM",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Centum Electronics Limited",
+      "ticker": "CENTUM",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Delhivery Limited",
+      "ticker": "DELHIVERY",
+      "sector": "Services"
+    },
+    {
+      "company": "Data Patterns (India) Limited",
+      "ticker": "DATAPATTNS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Saregama India Limited",
+      "ticker": "SAREGAMA",
+      "sector": "Media Entertainment & Publication"
+    },
+    {
+      "company": "Coforge Limited",
+      "ticker": "COFORGE",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Garware Hi-Tech Films Limited",
+      "ticker": "GRWRHITECH",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Apollo Hospitals Enterprise Limited",
+      "ticker": "APOLLOHOSP",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Omnitech Engineering Limited",
+      "ticker": "OMNI",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "DEE Development Engineers Limited",
+      "ticker": "DEEDEV",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Ethos Limited",
+      "ticker": "ETHOSLTD",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Kotak Mahindra Bank Limited",
+      "ticker": "KOTAKBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Aditya Birla Capital Limited",
+      "ticker": "ABCAPITAL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "TD Power Systems Limited",
+      "ticker": "TDPOWERSYS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "UPL Limited",
+      "ticker": "UPL",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Vedanta Oil and Gas Limited",
+      "ticker": "VOGL",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Power Mech Projects Limited",
+      "ticker": "POWERMECH",
+      "sector": "Construction"
+    },
+    {
+      "company": "Amber Enterprises India Limited",
+      "ticker": "AMBER",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Vedanta Power Limited",
+      "ticker": "VEDPOWER",
+      "sector": "Power"
+    },
+    {
+      "company": "Vedanta Iron and Steel Limited",
+      "ticker": "VISL",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Gravita India Limited",
+      "ticker": "GRAVITA",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "LIC Housing Finance Limited",
+      "ticker": "LICHSGFIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "The Phoenix Mills Limited",
+      "ticker": "PHOENIXLTD",
+      "sector": "Realty"
+    },
+    {
+      "company": "Jeena Sikho Lifecare Limited",
+      "ticker": "JSLL",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "HDFC Asset Management Company Limited",
+      "ticker": "HDFCAMC",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Multi Commodity Exchange of India Limited",
+      "ticker": "MCX",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Aeroflex Enterprises Limited",
+      "ticker": "AEROENTER",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Polycab India Limited",
+      "ticker": "POLYCAB",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Muthoot Finance Limited",
+      "ticker": "MUTHOOTFIN",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "NBCC (India) Limited",
+      "ticker": "NBCC",
+      "sector": "Construction"
+    },
+    {
+      "company": "Rategain Travel Technologies Limited",
+      "ticker": "RATEGAIN",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "TVS Motor Company Limited",
+      "ticker": "TVSMOTOR",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Gujarat Fluorochemicals Limited",
+      "ticker": "FLUOROCHEM",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Motilal Oswal Financial Services Limited",
+      "ticker": "MOTILALOFS",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Lloyds Metals And Energy Limited",
+      "ticker": "LLOYDSME",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Siemens Energy India Limited",
+      "ticker": "ENRIN",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Laurus Labs Limited",
+      "ticker": "LAURUSLABS",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Netweb Technologies India Limited",
+      "ticker": "NETWEB",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "IndusInd Bank Limited",
+      "ticker": "INDUSINDBK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "SJVN Limited",
+      "ticker": "SJVN",
+      "sector": "Power"
+    },
+    {
+      "company": "Emami Limited",
+      "ticker": "EMAMILTD",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "BSE Limited",
+      "ticker": "BSE",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Yes Bank Limited",
+      "ticker": "YESBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "EIH Limited",
+      "ticker": "EIHOTEL",
+      "sector": "Consumer Services"
+    }
+  ],
+  "watchlist_exited": [
+    {
+      "company": "Aarti Drugs Limited",
+      "ticker": "AARTIDRUGS",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Aarti Industries Limited",
+      "ticker": "AARTIIND",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Aditya Birla Fashion and Retail Limited",
+      "ticker": "ABFRL",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "ACC Limited",
+      "ticker": "ACC",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "Adani Ports and Special Economic Zone Limited",
+      "ticker": "ADANIPORTS",
+      "sector": "Services"
+    },
+    {
+      "company": "Adani Power Limited",
+      "ticker": "ADANIPOWER",
+      "sector": "Power"
+    },
+    {
+      "company": "Advanced Enzyme Technologies Limited",
+      "ticker": "ADVENZYMES",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Affle 3i Limited",
+      "ticker": "AFFLE",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Abans Financial Services Limited",
+      "ticker": "AFSL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Ahluwalia Contracts (India) Limited",
+      "ticker": "AHLUCONT",
+      "sector": "Construction"
+    },
+    {
+      "company": "AIA Engineering Limited",
+      "ticker": "AIAENG",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Alkem Laboratories Limited",
+      "ticker": "ALKEM",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Apar Industries Limited",
+      "ticker": "APARINDS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Alembic Pharmaceuticals Limited",
+      "ticker": "APLLTD",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Amara Raja Energy & Mobility Limited",
+      "ticker": "ARE&M",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Asahi India Glass Limited",
+      "ticker": "ASAHIINDIA",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Ashiana Housing Limited",
+      "ticker": "ASHIANA",
+      "sector": "Realty"
+    },
+    {
+      "company": "Asian Paints Limited",
+      "ticker": "ASIANPAINT",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Astra Microwave Products Limited",
+      "ticker": "ASTRAMICRO",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Aurobindo Pharma Limited",
+      "ticker": "AUROPHARMA",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Aurum PropTech Limited",
+      "ticker": "AURUM",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Automotive Axles Limited",
+      "ticker": "AUTOAXLES",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Avanti Feeds Limited",
+      "ticker": "AVANTIFEED",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Aditya Vision Limited",
+      "ticker": "AVL",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "AWL Agri Business Limited",
+      "ticker": "AWL",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Axis Bank Limited",
+      "ticker": "AXISBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Bajaj Auto Limited",
+      "ticker": "BAJAJ-AUTO",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Bajaj Consumer Care Limited",
+      "ticker": "BAJAJCON",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Bajaj Finserv Limited",
+      "ticker": "BAJAJFINSV",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Balkrishna Industries Limited",
+      "ticker": "BALKRISIND",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Bandhan Bank Limited",
+      "ticker": "BANDHANBNK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Bank of India",
+      "ticker": "BANKINDIA",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Bharat Heavy Electricals Limited",
+      "ticker": "BHEL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Biocon Limited",
+      "ticker": "BIOCON",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Birla Corporation Limited",
+      "ticker": "BIRLACORPN",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "BLS International Services Limited",
+      "ticker": "BLS",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Bosch Limited",
+      "ticker": "BOSCHLTD",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "BIRLASOFT LIMITED",
+      "ticker": "BSOFT",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Computer Age Management Services Limited",
+      "ticker": "CAMS",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Castrol India Limited",
+      "ticker": "CASTROLIND",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Central Depository Services (India) Limited",
+      "ticker": "CDSL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "CEAT Limited",
+      "ticker": "CEATLTD",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Capri Global Capital Limited",
+      "ticker": "CGCL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Clean Science and Technology Limited",
+      "ticker": "CLEAN",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Cochin Shipyard Limited",
+      "ticker": "COCHINSHIP",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Cohance Lifesciences Limited",
+      "ticker": "COHANCE",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Colgate Palmolive (India) Limited",
+      "ticker": "COLPAL",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Coromandel International Limited",
+      "ticker": "COROMANDEL",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "COSMO FIRST LIMITED",
+      "ticker": "COSMOFIRST",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Craftsman Automation Limited",
+      "ticker": "CRAFTSMAN",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "CREDITACCESS GRAMEEN LIMITED",
+      "ticker": "CREDITACC",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Dalmia Bharat Limited",
+      "ticker": "DALBHARAT",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "Dishman Carbogen Amcis Limited",
+      "ticker": "DCAL",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Deepak Nitrite Limited",
+      "ticker": "DEEPAKNTR",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Dish TV India Limited",
+      "ticker": "DISHTV",
+      "sector": "Media Entertainment & Publication"
+    },
+    {
+      "company": "Divgi Torqtransfer Systems Limited",
+      "ticker": "DIVGIITTS",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Divi's Laboratories Limited",
+      "ticker": "DIVISLAB",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Dixon Technologies (India) Limited",
+      "ticker": "DIXON",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "DLF Limited",
+      "ticker": "DLF",
+      "sector": "Realty"
+    },
+    {
+      "company": "Avenue Supermarts Limited",
+      "ticker": "DMART",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Dollar Industries Limited",
+      "ticker": "DOLLAR",
+      "sector": "Textiles"
+    },
+    {
+      "company": "Dr. Reddy's Laboratories Limited",
+      "ticker": "DRREDDY",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Easy Trip Planners Limited",
+      "ticker": "EASEMYTRIP",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Eicher Motors Limited",
+      "ticker": "EICHERMOT",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Elecon Engineering Company Limited",
+      "ticker": "ELECON",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Equitas Small Finance Bank Limited",
+      "ticker": "EQUITASBNK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Esab India Limited",
+      "ticker": "ESABINDIA",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Escorts Kubota Limited",
+      "ticker": "ESCORTS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Eureka Forbes Limited",
+      "ticker": "EUREKAFORB",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Exide Industries Limited",
+      "ticker": "EXIDEIND",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "The Federal Bank  Limited",
+      "ticker": "FEDERALBNK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Gabriel India Limited",
+      "ticker": "GABRIEL",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Gujarat Ambuja Exports Limited",
+      "ticker": "GAEL",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "GAIL (India) Limited",
+      "ticker": "GAIL",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Galaxy Surfactants Limited",
+      "ticker": "GALAXYSURF",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Gateway Distriparks Limited",
+      "ticker": "GATEWAY",
+      "sector": "Services"
+    },
+    {
+      "company": "Genus Power Infrastructures Limited",
+      "ticker": "GENUSPOWER",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "The Great Eastern Shipping Company Limited",
+      "ticker": "GESHIP",
+      "sector": "Services"
+    },
+    {
+      "company": "GMM Pfaudler Limited",
+      "ticker": "GMMPFAUDLR",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "GMR AIRPORTS LIMITED",
+      "ticker": "GMRAIRPORT",
+      "sector": "Services"
+    },
+    {
+      "company": "GNA Axles Limited",
+      "ticker": "GNA",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Godrej Properties Limited",
+      "ticker": "GODREJPROP",
+      "sector": "Realty"
+    },
+    {
+      "company": "Gokaldas Exports Limited",
+      "ticker": "GOKEX",
+      "sector": "Textiles"
+    },
+    {
+      "company": "Godawari Power And Ispat limited",
+      "ticker": "GPIL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Grasim Industries Limited",
+      "ticker": "GRASIM",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "Greenply Industries Limited",
+      "ticker": "GREENPLY",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Hindustan Aeronautics Limited",
+      "ticker": "HAL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Happiest Minds Technologies Limited",
+      "ticker": "HAPPSTMNDS",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Hariom Pipe Industries Limited",
+      "ticker": "HARIOMPIPE",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Havells India Limited",
+      "ticker": "HAVELLS",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "HCL Technologies Limited",
+      "ticker": "HCLTECH",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "HDFC Life Insurance Company Limited",
+      "ticker": "HDFCLIFE",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "HEG Limited",
+      "ticker": "HEG",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Hero MotoCorp Limited",
+      "ticker": "HEROMOTOCO",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Hindustan Oil Exploration Company Limited",
+      "ticker": "HINDOILEXP",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Hindustan Petroleum Corporation Limited",
+      "ticker": "HINDPETRO",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Hindustan Unilever Limited",
+      "ticker": "HINDUNILVR",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Hindustan Zinc Limited",
+      "ticker": "HINDZINC",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Hi-Tech Pipes Limited",
+      "ticker": "HITECH",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Hubtown Limited",
+      "ticker": "HUBTOWN",
+      "sector": "Realty"
+    },
+    {
+      "company": "Housing & Urban Development Corporation Limited",
+      "ticker": "HUDCO",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "ICICI Lombard General Insurance Company Limited",
+      "ticker": "ICICIGI",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "ICICI Prudential Life Insurance Company Limited",
+      "ticker": "ICICIPRULI",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Indo Count Industries Limited",
+      "ticker": "ICIL",
+      "sector": "Textiles"
+    },
+    {
+      "company": "Vodafone Idea Limited",
+      "ticker": "IDEA",
+      "sector": "Telecommunication"
+    },
+    {
+      "company": "IDFC First Bank Limited",
+      "ticker": "IDFCFIRSTB",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Igarashi Motors India Limited",
+      "ticker": "IGARASHI",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "IIFL Finance Limited",
+      "ticker": "IIFL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Indegene Limited",
+      "ticker": "INDGN",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "The Indian Hotels Company Limited",
+      "ticker": "INDHOTEL",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Indian Bank",
+      "ticker": "INDIANB",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "InterGlobe Aviation Limited",
+      "ticker": "INDIGO",
+      "sector": "Services"
+    },
+    {
+      "company": "Indoco Remedies Limited",
+      "ticker": "INDOCO",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Infosys Limited",
+      "ticker": "INFY",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Inox Wind Limited",
+      "ticker": "INOXWIND",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Intellect Design Arena Limited",
+      "ticker": "INTELLECT",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "ION Exchange (India) Limited",
+      "ticker": "IONEXCHANG",
+      "sector": "Utilities"
+    },
+    {
+      "company": "IPCA Laboratories Limited",
+      "ticker": "IPCALAB",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "IRB Infrastructure Developers Limited",
+      "ticker": "IRB",
+      "sector": "Construction"
+    },
+    {
+      "company": "Indian Railway Finance Corporation Limited",
+      "ticker": "IRFC",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "ITC Limited",
+      "ticker": "ITC",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "The Jammu & Kashmir Bank Limited",
+      "ticker": "J&KBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Jindal Saw Limited",
+      "ticker": "JINDALSAW",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "JM Financial Limited",
+      "ticker": "JMFINANCIL",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Jyothy Labs Limited",
+      "ticker": "JYOTHYLAB",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Kajaria Ceramics Limited",
+      "ticker": "KAJARIACER",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Sai Silks (Kalamandir) Limited",
+      "ticker": "KALAMANDIR",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Kirloskar Ferrous Industries Limited",
+      "ticker": "KIRLFER",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Kirloskar Industries Limited",
+      "ticker": "KIRLOSIND",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Kirloskar Pneumatic Company Limited",
+      "ticker": "KIRLPNU",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Ksb Limited",
+      "ticker": "KSB",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Latent View Analytics Limited",
+      "ticker": "LATENTVIEW",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "LTM Limited",
+      "ticker": "LTM",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "L&T Technology Services Limited",
+      "ticker": "LTTS",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Lux Industries Limited",
+      "ticker": "LUXIND",
+      "sector": "Textiles"
+    },
+    {
+      "company": "Manappuram Finance Limited",
+      "ticker": "MANAPPURAM",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Man Industries (India) Limited",
+      "ticker": "MANINDS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "C.E. Info Systems Limited",
+      "ticker": "MAPMYINDIA",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Maruti Suzuki India Limited",
+      "ticker": "MARUTI",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Mastek Limited",
+      "ticker": "MASTEK",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Mazagon Dock Shipbuilders Limited",
+      "ticker": "MAZDOCK",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Global Health Limited",
+      "ticker": "MEDANTA",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Metro Brands Limited",
+      "ticker": "METROBRAND",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Metropolis Healthcare Limited",
+      "ticker": "METROPOLIS",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Mstc Limited",
+      "ticker": "MSTCLTD",
+      "sector": "Services"
+    },
+    {
+      "company": "Info Edge (India) Limited",
+      "ticker": "NAUKRI",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "NAVA LIMITED",
+      "ticker": "NAVA",
+      "sector": "Power"
+    },
+    {
+      "company": "Nazara Technologies Limited",
+      "ticker": "NAZARA",
+      "sector": "Media Entertainment & Publication"
+    },
+    {
+      "company": "Nestle India Limited",
+      "ticker": "NESTLEIND",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Neuland Laboratories Limited",
+      "ticker": "NEULANDLAB",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "NHPC Limited",
+      "ticker": "NHPC",
+      "sector": "Power"
+    },
+    {
+      "company": "NMDC Steel Limited",
+      "ticker": "NSLNISP",
+      "sector": "Metals & Mining"
+    },
+    {
+      "company": "Nuvoco Vistas Corporation Limited",
+      "ticker": "NUVOCO",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "Oberoi Realty Limited",
+      "ticker": "OBEROIRLTY",
+      "sector": "Realty"
+    },
+    {
+      "company": "Oil India Limited",
+      "ticker": "OIL",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Onesource Specialty Pharma Limited",
+      "ticker": "ONESOURCE",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Orient Electric Limited",
+      "ticker": "ORIENTELEC",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Paushak Limited",
+      "ticker": "PAUSHAKLTD",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Petronet LNG Limited",
+      "ticker": "PETRONET",
+      "sector": "Oil Gas & Consumable Fuels"
+    },
+    {
+      "company": "Pidilite Industries Limited",
+      "ticker": "PIDILITIND",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Polyplex Corporation Limited",
+      "ticker": "POLYPLEX",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Poonawalla Fincorp Limited",
+      "ticker": "POONAWALLA",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Power Grid Corporation of India Limited",
+      "ticker": "POWERGRID",
+      "sector": "Power"
+    },
+    {
+      "company": "Piramal Pharma Limited",
+      "ticker": "PPLPHARMA",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Prestige Estates Projects Limited",
+      "ticker": "PRESTIGE",
+      "sector": "Realty"
+    },
+    {
+      "company": "Prism Johnson Limited",
+      "ticker": "PRSMJOHNSN",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "RACL Geartech Limited",
+      "ticker": "RACLGEAR",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Radico Khaitan Limited",
+      "ticker": "RADICO",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Rain Industries Limited",
+      "ticker": "RAIN",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Rainbow Childrens Medicare Limited",
+      "ticker": "RAINBOW",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Rajratan Global Wire Limited",
+      "ticker": "RAJRATAN",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Ratnamani Metals & Tubes Limited",
+      "ticker": "RATNAMANI",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Raymond Limited",
+      "ticker": "RAYMOND",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Raymond Lifestyle Limited",
+      "ticker": "RAYMONDLSL",
+      "sector": "Textiles"
+    },
+    {
+      "company": "Restaurant Brands Asia Limited",
+      "ticker": "RBA",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "RBZ Jewellers Limited",
+      "ticker": "RBZJEWEL",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "REC Limited",
+      "ticker": "RECLTD",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Redington Limited",
+      "ticker": "REDINGTON",
+      "sector": "Services"
+    },
+    {
+      "company": "RHI MAGNESITA INDIA LIMITED",
+      "ticker": "RHIM",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Rolex Rings Limited",
+      "ticker": "ROLEXRINGS",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "ROUTE MOBILE LIMITED",
+      "ticker": "ROUTE",
+      "sector": "Telecommunication"
+    },
+    {
+      "company": "Reliance Power Limited",
+      "ticker": "RPOWER",
+      "sector": "Power"
+    },
+    {
+      "company": "Samhi Hotels Limited",
+      "ticker": "SAMHI",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Sammaan Capital Limited",
+      "ticker": "SAMMAANCAP",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Sanghvi Movers Limited",
+      "ticker": "SANGHVIMOV",
+      "sector": "Services"
+    },
+    {
+      "company": "SBI Cards and Payment Services Limited",
+      "ticker": "SBICARD",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "SBI Life Insurance Company Limited",
+      "ticker": "SBILIFE",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Schneider Electric Infrastructure Limited",
+      "ticker": "SCHNEIDER",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Shalby Limited",
+      "ticker": "SHALBY",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Sharda Motor Industries Limited",
+      "ticker": "SHARDAMOTR",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Shilpa Medicare Limited",
+      "ticker": "SHILPAMED",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Shoppers Stop Limited",
+      "ticker": "SHOPERSTOP",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Shyam Metalics and Energy Limited",
+      "ticker": "SHYAMMETL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Siemens Limited",
+      "ticker": "SIEMENS",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Sirca Paints India Limited",
+      "ticker": "SIRCA",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "SIS LIMITED",
+      "ticker": "SIS",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "The South Indian Bank Limited",
+      "ticker": "SOUTHBANK",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Spandana Sphoorty Financial Limited",
+      "ticker": "SPANDANA",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Strides Pharma Science Limited",
+      "ticker": "STAR",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Stylam Industries Limited",
+      "ticker": "STYLAMIND",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Subex Limited",
+      "ticker": "SUBEXLTD",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Sudarshan Chemical Industries Limited",
+      "ticker": "SUDARSCHEM",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Sumitomo Chemical India Limited",
+      "ticker": "SUMICHEM",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Sun TV Network Limited",
+      "ticker": "SUNTV",
+      "sector": "Media Entertainment & Publication"
+    },
+    {
+      "company": "Suprajit Engineering Limited",
+      "ticker": "SUPRAJIT",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "Surya Roshni Limited",
+      "ticker": "SURYAROSNI",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Suven Life Sciences Limited",
+      "ticker": "SUVEN",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Suzlon Energy Limited",
+      "ticker": "SUZLON",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Swiggy Limited",
+      "ticker": "SWIGGY",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Sterling and Wilson Renewable Energy Limited",
+      "ticker": "SWSOLAR",
+      "sector": "Construction"
+    },
+    {
+      "company": "Syngene International Limited",
+      "ticker": "SYNGENE",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Transformers And Rectifiers (India) Limited",
+      "ticker": "TARIL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Tata Communications Limited",
+      "ticker": "TATACOMM",
+      "sector": "Telecommunication"
+    },
+    {
+      "company": "Tata Power Company Limited",
+      "ticker": "TATAPOWER",
+      "sector": "Power"
+    },
+    {
+      "company": "Tatva Chintan Pharma Chem Limited",
+      "ticker": "TATVA",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Tata Consultancy Services Limited",
+      "ticker": "TCS",
+      "sector": "Information Technology"
+    },
+    {
+      "company": "Texmaco Rail & Engineering Limited",
+      "ticker": "TEXRAIL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Time Technoplast Limited",
+      "ticker": "TIMETECHNO",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Timken India Limited",
+      "ticker": "TIMKEN",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Titan Company Limited",
+      "ticker": "TITAN",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Triveni Engineering & Industries Limited",
+      "ticker": "TRIVENI",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "UltraTech Cement Limited",
+      "ticker": "ULTRACEMCO",
+      "sector": "Construction Materials"
+    },
+    {
+      "company": "Ultramarine & Pigments Limited",
+      "ticker": "ULTRAMAR",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "Uniparts India Limited",
+      "ticker": "UNIPARTS",
+      "sector": "Automobile and Auto Components"
+    },
+    {
+      "company": "United Spirits Limited",
+      "ticker": "UNITDSPR",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "UTI Asset Management Company Limited",
+      "ticker": "UTIAMC",
+      "sector": "Financial Services"
+    },
+    {
+      "company": "Vaibhav Global Limited",
+      "ticker": "VAIBHAVGBL",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Varun Beverages Limited",
+      "ticker": "VBL",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Venky's (India) Limited",
+      "ticker": "VENKEYS",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Vintage Coffee And Beverages Limited",
+      "ticker": "VINCOFE",
+      "sector": "Fast Moving Consumer Goods"
+    },
+    {
+      "company": "Vindhya Telelinks Limited",
+      "ticker": "VINDHYATEL",
+      "sector": "Construction"
+    },
+    {
+      "company": "Vishnu Chemicals Limited",
+      "ticker": "VISHNU",
+      "sector": "Chemicals"
+    },
+    {
+      "company": "V-Mart Retail Limited",
+      "ticker": "VMART",
+      "sector": "Consumer Services"
+    },
+    {
+      "company": "Voltas Limited",
+      "ticker": "VOLTAS",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Websol Energy System Limited",
+      "ticker": "WEBELSOLAR",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Welspun Corp Limited",
+      "ticker": "WELCORP",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Welspun Enterprises Limited",
+      "ticker": "WELENT",
+      "sector": "Construction"
+    },
+    {
+      "company": "Welspun Specialty Solutions Limited",
+      "ticker": "WELSPLSOL",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Whirlpool of India Limited",
+      "ticker": "WHIRLPOOL",
+      "sector": "Consumer Durables"
+    },
+    {
+      "company": "Wockhardt Limited",
+      "ticker": "WOCKPHARMA",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Xpro India Limited",
+      "ticker": "XPROINDIA",
+      "sector": "Capital Goods"
+    },
+    {
+      "company": "Yatharth Hospital & Trauma Care Services Limited",
+      "ticker": "YATHARTH",
+      "sector": "Healthcare"
+    },
+    {
+      "company": "Zee Entertainment Enterprises Limited",
+      "ticker": "ZEEL",
+      "sector": "Media Entertainment & Publication"
+    }
+  ]
 }

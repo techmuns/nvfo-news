@@ -250,7 +250,8 @@ export function SubscribePanel({ open, onClose }: { open: boolean; onClose: () =
               <span className="text-[11px] font-bold uppercase tracking-wide text-slate-500">Which feeds</span>
               <div className="mt-1.5 space-y-2">
                 {[
-                  { key: 'portfolio', label: 'Portfolio', hint: 'your current holdings' },
+                  { key: 'top5', label: 'Top 5 holdings', hint: 'just your 5 biggest positions by weight' },
+                  { key: 'portfolio', label: 'Portfolio', hint: 'all your current holdings' },
                   { key: 'watchlist', label: 'Watchlist', hint: 'holdings + exited + added' },
                 ].map((f) => (
                   <button

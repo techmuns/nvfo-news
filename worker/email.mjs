@@ -57,6 +57,9 @@ export function hourLabel(h) {
 
 export function editionLabel(feeds) {
   const has = (f) => feeds.includes(f);
+  const others = has('portfolio') || has('watchlist') || has('universe');
+  if (has('top5') && others) return 'Top 5 + Full';
+  if (has('top5')) return 'Top 5 Holdings';
   if (has('portfolio') && has('watchlist')) return 'Portfolio & Watchlist';
   if (has('portfolio')) return 'Portfolio';
   if (has('watchlist')) return 'Watchlist';
@@ -71,14 +74,26 @@ function cadenceLabel(days) {
 }
 
 export function buildSubject(count, feeds, iso) {
-  const edition = feeds.includes('portfolio') ? 'portfolio' : feeds.includes('watchlist') ? 'watchlist' : 'feeds';
+  const edition = feeds.includes('top5')
+    ? 'Top 5 holdings'
+    : feeds.includes('portfolio')
+      ? 'portfolio'
+      : feeds.includes('watchlist')
+        ? 'watchlist'
+        : 'feeds';
   const n = count || 0;
   return `Newsflow · ${n} fundamental update${n === 1 ? '' : 's'} on your ${edition} — ${shortDate(iso)}`;
 }
 
-// Pick + order the items for one subscriber's edition.
-export function selectItems(items, feeds, limit = 30) {
-  const inFeed = (it) => (it.scope || []).some((s) => feeds.includes(s));
+// Pick + order the items for one subscriber's edition. `top5` is the list of
+// Top-5 tickers — when the subscriber picked the 'top5' feed, an item counts if
+// its ticker is one of those (in addition to any scope feeds they also chose).
+export function selectItems(items, feeds, limit = 30, top5 = []) {
+  const top5Set = new Set(top5);
+  const wantsTop5 = feeds.includes('top5');
+  const scopeFeeds = feeds.filter((f) => f !== 'top5');
+  const inFeed = (it) =>
+    (wantsTop5 && top5Set.has(it.ticker)) || (it.scope || []).some((s) => scopeFeeds.includes(s));
   let pool = items.filter(inFeed);
   const enriched = pool.filter((it) => it.enriched);
   if (enriched.length) pool = enriched; // once Claude is on, only clean items

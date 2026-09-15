@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-09-15T15:27:10.176Z",
+  "generated_at": "2026-09-15T15:34:19.273Z",
   "top5": [
     "PRIVISCL",
+    "TFCILTD",
     "TRUALT",
-    "COALINDIA",
-    "JIOFIN",
-    "SGMART"
+    "MHRIL",
+    "COALINDIA"
   ],
   "portfolio": [
     {
       "company": "Tourism Finance Corporation of India Limited",
       "ticker": "TFCILTD",
-      "sector": "Financial Services"
+      "sector": "Financial Services",
+      "weightPct": 12.67
     },
     {
       "company": "Privi Speciality Chemicals Limited",
@@ -45,7 +46,8 @@
     {
       "company": "Mahindra Holidays & Resorts India Limited",
       "ticker": "MHRIL",
-      "sector": "Consumer Services"
+      "sector": "Consumer Services",
+      "weightPct": 2.26
     },
     {
       "company": "DCB Bank Limited",
@@ -56,7 +58,8 @@
     {
       "company": "Elantas Beck India Limited",
       "ticker": "ELANTAS",
-      "sector": "Chemicals"
+      "sector": "Chemicals",
+      "weightPct": 1.36
     },
     {
       "company": "Hindalco Industries Limited",
@@ -175,7 +178,8 @@
     {
       "company": "Jayaswal Neco Industries Limited",
       "ticker": "JAYNECOIND",
-      "sector": "Capital Goods"
+      "sector": "Capital Goods",
+      "weightPct": 0.43
     },
     {
       "company": "Indian Energy Exchange Limited",
@@ -198,7 +202,8 @@
     {
       "company": "Deepak Fertilizers and Petrochemicals Corporation Limited",
       "ticker": "DEEPAKFERT",
-      "sector": "Chemicals"
+      "sector": "Chemicals",
+      "weightPct": 0.93
     },
     {
       "company": "Bharat Forge Limited",
@@ -221,7 +226,8 @@
     {
       "company": "Jamna Auto Industries Limited",
       "ticker": "JAMNAAUTO",
-      "sector": "Automobile and Auto Components"
+      "sector": "Automobile and Auto Components",
+      "weightPct": 1.45
     },
     {
       "company": "Tata Steel Limited",
@@ -283,7 +289,8 @@
     {
       "company": "Container Corporation of India Limited",
       "ticker": "CONCOR",
-      "sector": "Services"
+      "sector": "Services",
+      "weightPct": 0.4
     },
     {
       "company": "Linde India Limited",
@@ -481,7 +488,8 @@
     {
       "company": "ICICI Bank Limited",
       "ticker": "ICICIBANK",
-      "sector": "Financial Services"
+      "sector": "Financial Services",
+      "weightPct": 0.93
     },
     {
       "company": "Mtar Technologies Limited",
@@ -729,7 +737,8 @@
     {
       "company": "BSE Limited",
       "ticker": "BSE",
-      "sector": "Financial Services"
+      "sector": "Financial Services",
+      "weightPct": 0.67
     },
     {
       "company": "Yes Bank Limited",

@@ -51,13 +51,13 @@ jobs:
         env:
           MUNS_TOKEN: ${{ secrets.MUNS_TOKEN }}
           MUNS_EMAIL: ${{ secrets.MUNS_EMAIL }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           NEWSFLOW_URL: ${{ secrets.NEWSFLOW_URL }}
-          # Valuepickr is globally paced to 1 request / 1.5s and Discourse
-          # rate-limits it (429) hard — impractical for NVFO's large (~373-name)
-          # watchlist, so it's disabled here. Google News (backbone) + Munshot +
-          # Firecrawl + Claude filtering remain. Re-enable later scoped to the
-          # portfolio / Top-5 only.
+          # Valuepickr and Firecrawl are both DISABLED for NVFO. Proven from the
+          # Dhamma repo's own runs: each contributes ~0 items, while Valuepickr's
+          # 429-throttled 1.5s pacing and Firecrawl's 30s timeouts dominate the
+          # runtime on this large (~373-name) watchlist. Google News (backbone) +
+          # Claude filtering do all the real work. Omitting FIRECRAWL_API_KEY
+          # here skips Firecrawl entirely (no wasted 30s aborts).
           VALUEPICKR: '0'
           # Presence of these two flips news.mjs to the loose (recall) gate;
           # the actual Claude call happens in the enrich step below.

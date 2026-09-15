@@ -14,6 +14,14 @@ on:
   schedule:
     - cron: '31 2,14 * * *' # 08:01 and 20:01 IST, every day (off the quarter-hour)
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'full = scrape + Claude enrich; sync-only = refresh companies + Top-5 only (no scrape, no Claude, no credits)'
+        type: choice
+        options:
+          - full
+          - sync-only
+        default: full
 
 permissions:
   contents: write # push the data commit (Cloudflare Workers Builds auto-deploys it)
@@ -46,6 +54,7 @@ jobs:
         run: node sync-companies.mjs
 
       - name: Scrape news (Google News + optional Munshot/Firecrawl)
+        if: ${{ inputs.mode != 'sync-only' }}
         continue-on-error: true
         working-directory: scrapers
         env:
@@ -66,6 +75,7 @@ jobs:
         run: node news.mjs
 
       - name: Enrich with Claude (Bedrock)
+        if: ${{ inputs.mode != 'sync-only' }}
         continue-on-error: true
         working-directory: scrapers
         env:
@@ -78,6 +88,8 @@ jobs:
 
       - name: Commit & push refreshed data
         id: commit
+        env:
+          MODE: ${{ inputs.mode }}
         run: |
           set -e
           git config user.name "newsflow-bot"
@@ -89,8 +101,10 @@ jobs:
             exit 0
           fi
 
+          msg="chore(data): refresh companies + news"
+          [ "$MODE" = "sync-only" ] && msg="chore(data): refresh companies + Top-5"
           git add public/data/news.json public/data/companies.json
-          git commit -m "chore(data): refresh companies + news"
+          git commit -m "$msg"
 
           n=0
           until [ "$n" -ge 4 ]; do

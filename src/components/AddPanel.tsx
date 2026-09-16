@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { X, Plus, Tag, Building2, Info } from 'lucide-react';
+import { X, Plus, Tag, Building2, Info, RotateCcw } from 'lucide-react';
 import type { Company } from '../lib/types';
 import { TOPIC_ORDER, TOPIC } from '../lib/theme';
 
@@ -21,9 +21,11 @@ export function AddPanel({
   onRemoveKeyword,
   knownCompanies,
   trackedTickers,
-  customWatchlist,
+  watchlist,
+  removedCompanies,
   onAddCompany,
   onRemoveCompany,
+  onRestoreCompany,
 }: {
   open: boolean;
   onClose: () => void;
@@ -33,9 +35,11 @@ export function AddPanel({
   onRemoveKeyword: (kw: string) => void;
   knownCompanies: Company[];
   trackedTickers: Set<string>;
-  customWatchlist: Company[];
+  watchlist: Company[];
+  removedCompanies: Company[];
   onAddCompany: (c: Company) => void;
   onRemoveCompany: (ticker: string) => void;
+  onRestoreCompany: (ticker: string) => void;
 }) {
   const [kwInput, setKwInput] = useState('');
   const [coInput, setCoInput] = useState('');
@@ -247,26 +251,64 @@ export function AddPanel({
               )}
             </div>
 
-            {customWatchlist.length > 0 && (
-              <div className="mt-3">
-                <p className="mb-1.5 text-[11px] font-bold uppercase tracking-wide text-slate-500">
-                  Your added stocks
+            {watchlist.length > 0 && (
+              <div className="mt-4">
+                <div className="mb-1.5 flex items-center justify-between">
+                  <p className="text-[11px] font-bold uppercase tracking-wide text-slate-500">
+                    Your watchlist
+                  </p>
+                  <span className="rounded-full bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">
+                    {watchlist.length}
+                  </span>
+                </div>
+                <p className="mb-2 flex items-start gap-1 text-[11px] text-slate-400">
+                  <Info className="mt-px h-3 w-3 shrink-0" />
+                  Remove a company to stop tracking it — it leaves every feed and
+                  the scraper skips it from the next refresh.
                 </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {customWatchlist.map((c) => (
-                    <span
+                <div className="max-h-56 space-y-1 overflow-y-auto rounded-lg bg-slate-50 p-2 ring-1 ring-slate-100">
+                  {watchlist.map((c) => (
+                    <div
                       key={c.ticker}
-                      className="inline-flex items-center gap-1 rounded-full bg-purple-100 px-2 py-0.5 text-[11px] font-bold text-purple-700 ring-1 ring-purple-200"
+                      className="flex items-center justify-between gap-2 rounded-md bg-white px-2.5 py-1.5 text-sm ring-1 ring-slate-100"
                     >
-                      {c.company}
+                      <span className="min-w-0 flex-1 truncate font-medium text-slate-700">
+                        {c.company}
+                      </span>
+                      <span className="shrink-0 text-[10px] font-bold uppercase tracking-wide text-slate-400">
+                        {c.ticker}
+                      </span>
                       <button
                         onClick={() => onRemoveCompany(c.ticker)}
-                        className="text-purple-400 hover:text-purple-700"
+                        className="shrink-0 rounded p-0.5 text-slate-300 transition hover:bg-rose-50 hover:text-rose-600"
                         aria-label={`Remove ${c.company}`}
+                        title={`Remove ${c.company}`}
                       >
-                        <X className="h-3 w-3" />
+                        <X className="h-4 w-4" />
                       </button>
-                    </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {removedCompanies.length > 0 && (
+              <div className="mt-4">
+                <p className="mb-1.5 text-[11px] font-bold uppercase tracking-wide text-slate-500">
+                  Removed ({removedCompanies.length})
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {removedCompanies.map((c) => (
+                    <button
+                      key={c.ticker}
+                      onClick={() => onRestoreCompany(c.ticker)}
+                      className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold text-slate-500 ring-1 ring-slate-200 transition hover:bg-emerald-50 hover:text-emerald-700 hover:ring-emerald-200"
+                      aria-label={`Restore ${c.company}`}
+                      title={`Restore ${c.company}`}
+                    >
+                      <RotateCcw className="h-3 w-3" />
+                      {c.company}
+                    </button>
                   ))}
                 </div>
               </div>
@@ -275,9 +317,8 @@ export function AddPanel({
         </div>
 
         <div className="border-t border-slate-200 px-5 py-3 text-center text-[11px] text-slate-400">
-          Saved on this device.{' '}
-          {/* TODO(Prompt 3): move to Cloudflare Worker + KV so the scraper reads these. */}
-          <span className="font-semibold">Syncs to the scraper in a later update.</span>
+          Saved for everyone on this dashboard.{' '}
+          <span className="font-semibold">The scraper picks up changes on the next refresh.</span>
         </div>
       </aside>
     </>

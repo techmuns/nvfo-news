@@ -7,6 +7,8 @@ import {
   setCustomKeywords,
   getCustomWatchlist,
   setCustomWatchlist,
+  getRemovedTickers,
+  setRemovedTickers,
 } from './lib/storage';
 import {
   loadCustom,
@@ -14,6 +16,8 @@ import {
   removeKeywordRemote,
   addStockRemote,
   removeStockRemote,
+  addRemovedRemote,
+  removeRemovedRemote,
   requestRefresh,
 } from './lib/api';
 import { TopBar } from './components/TopBar';
@@ -56,6 +60,9 @@ export default function App() {
   const [customWatchlist, setCustomWatchlistState] = useState<Company[]>(() =>
     getCustomWatchlist(),
   );
+  const [removedTickers, setRemovedTickersState] = useState<string[]>(() =>
+    getRemovedTickers(),
+  );
 
   const fetchData = useCallback(async (isRefresh = false) => {
     if (isRefresh) setRefreshing(true);
@@ -97,9 +104,10 @@ export default function App() {
   // Load custom keywords / stocks from the Worker KV (falls back to the
   // localStorage cache inside loadCustom if the API isn't reachable).
   useEffect(() => {
-    void loadCustom().then(({ keywords, stocks }) => {
+    void loadCustom().then(({ keywords, stocks, removed }) => {
       setCustomKeywordsState(keywords);
       setCustomWatchlistState(stocks);
+      setRemovedTickersState(removed);
     });
   }, []);
 
@@ -135,26 +143,58 @@ export default function App() {
     [customKeywords],
   );
 
+  const removedSet = useMemo(
+    () => new Set(removedTickers.map((t) => t.toUpperCase())),
+    [removedTickers],
+  );
+
+  const restoreCompany = useCallback(
+    (ticker: string) => {
+      const up = ticker.toUpperCase();
+      const next = removedTickers.filter((t) => t.toUpperCase() !== up);
+      if (next.length === removedTickers.length) return;
+      setRemovedTickersState(next);
+      setRemovedTickers(next);
+      void removeRemovedRemote(ticker);
+    },
+    [removedTickers],
+  );
+
   const addCompany = useCallback(
     (c: Company) => {
+      // Re-adding a company you'd removed simply un-hides it again.
+      if (removedSet.has(c.ticker.toUpperCase())) {
+        restoreCompany(c.ticker);
+        return;
+      }
       if (customWatchlist.some((x) => x.ticker === c.ticker)) return;
       const next = [...customWatchlist, c];
       setCustomWatchlistState(next);
       setCustomWatchlist(next);
       void addStockRemote(c);
     },
-    [customWatchlist],
+    [customWatchlist, removedSet, restoreCompany],
   );
 
   const removeCompany = useCallback(
     (ticker: string) => {
-      const target = customWatchlist.find((x) => x.ticker === ticker);
-      const next = customWatchlist.filter((x) => x.ticker !== ticker);
-      setCustomWatchlistState(next);
-      setCustomWatchlist(next);
-      if (target) void removeStockRemote(target);
+      // A custom-added stock is deleted outright; a synced (portfolio / exited)
+      // company is hidden via the removed list so the next sync can't bring it back.
+      const custom = customWatchlist.find((x) => x.ticker === ticker);
+      if (custom) {
+        const next = customWatchlist.filter((x) => x.ticker !== ticker);
+        setCustomWatchlistState(next);
+        setCustomWatchlist(next);
+        void removeStockRemote(custom);
+        return;
+      }
+      if (removedSet.has(ticker.toUpperCase())) return;
+      const next = [...removedTickers, ticker];
+      setRemovedTickersState(next);
+      setRemovedTickers(next);
+      void addRemovedRemote(ticker);
     },
-    [customWatchlist],
+    [customWatchlist, removedTickers, removedSet],
   );
 
   /* ---- derived data ---- */
@@ -165,22 +205,28 @@ export default function App() {
     [data],
   );
 
+  // Hide news for companies the user removed from the watchlist.
+  const visibleItems = useMemo(
+    () => newsItems.filter((i) => !removedSet.has(i.ticker.toUpperCase())),
+    [newsItems, removedSet],
+  );
+
   const feedItems = useMemo(
     () =>
       feed === 'top5'
-        ? newsItems.filter((i) => top5Set.has(i.ticker))
-        : newsItems.filter((i) => i.scope.includes(feed as Scope)),
-    [newsItems, feed, top5Set],
+        ? visibleItems.filter((i) => top5Set.has(i.ticker))
+        : visibleItems.filter((i) => i.scope.includes(feed as Scope)),
+    [visibleItems, feed, top5Set],
   );
 
   const feedCounts = useMemo<Record<FeedKey, number>>(
     () => ({
-      top5: newsItems.filter((i) => top5Set.has(i.ticker)).length,
-      portfolio: scopeCount(newsItems, 'portfolio'),
-      watchlist: scopeCount(newsItems, 'watchlist'),
-      universe: scopeCount(newsItems, 'universe'),
+      top5: visibleItems.filter((i) => top5Set.has(i.ticker)).length,
+      portfolio: scopeCount(visibleItems, 'portfolio'),
+      watchlist: scopeCount(visibleItems, 'watchlist'),
+      universe: scopeCount(visibleItems, 'universe'),
     }),
-    [newsItems, top5Set],
+    [visibleItems, top5Set],
   );
 
   const knownCompanies = useMemo<Company[]>(() => {
@@ -192,9 +238,25 @@ export default function App() {
     ];
   }, [data, customWatchlist]);
 
+  // The watchlist actually shown (removed companies hidden), plus the removed
+  // names resolved back to companies so they can be restored.
+  const activeCompanies = useMemo<Company[]>(
+    () => knownCompanies.filter((c) => !removedSet.has(c.ticker.toUpperCase())),
+    [knownCompanies, removedSet],
+  );
+
+  const removedCompanies = useMemo<Company[]>(() => {
+    const byTicker = new Map(
+      knownCompanies.map((c) => [c.ticker.toUpperCase(), c] as const),
+    );
+    return removedTickers.map(
+      (t) => byTicker.get(t.toUpperCase()) ?? { company: t, ticker: t, sector: '' },
+    );
+  }, [knownCompanies, removedTickers]);
+
   const trackedTickers = useMemo(
-    () => new Set(knownCompanies.map((c) => c.ticker)),
-    [knownCompanies],
+    () => new Set(activeCompanies.map((c) => c.ticker)),
+    [activeCompanies],
   );
 
   /* ---- render ---- */
@@ -263,9 +325,11 @@ export default function App() {
           onRemoveKeyword={removeKeyword}
           knownCompanies={knownCompanies}
           trackedTickers={trackedTickers}
-          customWatchlist={customWatchlist}
+          watchlist={activeCompanies}
+          removedCompanies={removedCompanies}
           onAddCompany={addCompany}
           onRemoveCompany={removeCompany}
+          onRestoreCompany={restoreCompany}
         />
       )}
 

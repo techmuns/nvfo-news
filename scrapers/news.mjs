@@ -151,7 +151,7 @@ function toUniverseItem(raw, cfg, matcher) {
 
 // Pull custom keywords + watchlist stocks from the Worker KV (Prompt 3).
 async function fetchCustom() {
-  if (!NEWSFLOW_URL) return { keywords: [], stocks: [] };
+  if (!NEWSFLOW_URL) return { keywords: [], stocks: [], removed: [] };
   try {
     const res = await fetchWithTimeout(
       `${NEWSFLOW_URL.replace(/\/$/, '')}/api/custom`,
@@ -162,11 +162,14 @@ async function fetchCustom() {
     const j = await res.json();
     const keywords = Array.isArray(j.keywords) ? j.keywords.filter(Boolean) : [];
     const stocks = Array.isArray(j.stocks) ? j.stocks : [];
-    console.log(`[custom] KV: ${keywords.length} keywords, ${stocks.length} stocks`);
-    return { keywords, stocks };
+    const removed = Array.isArray(j.removed)
+      ? j.removed.filter(Boolean).map((t) => String(t).toUpperCase())
+      : [];
+    console.log(`[custom] KV: ${keywords.length} keywords, ${stocks.length} stocks, ${removed.length} removed`);
+    return { keywords, stocks, removed };
   } catch (e) {
     console.log(`[custom] fetch failed (${e.message}) — using base lists only.`);
-    return { keywords: [], stocks: [] };
+    return { keywords: [], stocks: [], removed: [] };
   }
 }
 
@@ -240,6 +243,7 @@ async function main() {
   const base = loadCompanies();
   const keywords = loadKeywords();
   const custom = await fetchCustom();
+  const removedSet = new Set((custom.removed || []).map((t) => String(t).toUpperCase()));
 
   // Merge custom watchlist stocks into the company list.
   const seenTickers = new Set(base.all.map((c) => c.ticker));
@@ -252,7 +256,10 @@ async function main() {
     seenTickers.add(ticker);
     customCompanies.push({ company: name, ticker, sector: '', scope: ['watchlist'] });
   }
-  const companies = [...base.all, ...customCompanies];
+  // Drop companies the user removed from the watchlist — no scraping, no cost.
+  const companies = [...base.all, ...customCompanies].filter(
+    (c) => !removedSet.has(String(c.ticker).toUpperCase()),
+  );
   const matcher = buildKeywordMatcher(keywords, custom.keywords);
 
   const existingEnv = readJSON(NEWS_PATH, { items: [] });
@@ -263,7 +270,7 @@ async function main() {
   }
 
   console.log(
-    `[news] ${companies.length} companies (+${customCompanies.length} custom) · ${(keywords.base || []).length}+${custom.keywords.length} keywords · brain ${BRAIN_ON ? 'ON' : 'off'} · Munshot ${MUNS_TOKEN ? 'ON' : 'off'}`,
+    `[news] ${companies.length} companies (+${customCompanies.length} custom, -${removedSet.size} removed) · ${(keywords.base || []).length}+${custom.keywords.length} keywords · brain ${BRAIN_ON ? 'ON' : 'off'} · Munshot ${MUNS_TOKEN ? 'ON' : 'off'}`,
   );
 
   /* ---- per-company pass ---- */
@@ -372,16 +379,27 @@ async function main() {
 
   const merged = mergeItems(existing, incoming, { retentionDays: 100, cap: 2000 });
   // Collapse near-duplicate stories so the feed never shows the same event twice.
-  const finalItems = collapseDuplicates(merged.items).sort((a, b) =>
+  let finalItems = collapseDuplicates(merged.items).sort((a, b) =>
     String(b.date || '').localeCompare(String(a.date || '')),
   );
   const collapsed = merged.items.length - finalItems.length;
+
+  // Belt & suspenders: drop any lingering stories for removed companies so they
+  // clear from the feed (and the emails) on the very next run.
+  let removedDropped = 0;
+  if (removedSet.size) {
+    const before = finalItems.length;
+    finalItems = finalItems.filter(
+      (it) => !removedSet.has(String(it.ticker || '').toUpperCase()),
+    );
+    removedDropped = before - finalItems.length;
+  }
 
   if (finalItems.length === 0) {
     console.log('[news] Nothing to write after merge — leaving file untouched.');
     return;
   }
-  if (merged.added === 0 && merged.removed === 0 && collapsed === 0) {
+  if (merged.added === 0 && merged.removed === 0 && collapsed === 0 && removedDropped === 0) {
     console.log('[news] No new items, nothing aged out, no dupes — leaving file untouched.');
     return;
   }
@@ -394,7 +412,7 @@ async function main() {
   };
   writeJSON(NEWS_PATH, envelope);
   console.log(
-    `[news] WROTE ${finalItems.length} items (+${merged.added} new, -${merged.removed} aged, -${collapsed} dupes) · ${JSON.stringify(envelope.counts)}`,
+    `[news] WROTE ${finalItems.length} items (+${merged.added} new, -${merged.removed} aged, -${collapsed} dupes, -${removedDropped} removed) · ${JSON.stringify(envelope.counts)}`,
   );
 }
 

@@ -10,6 +10,7 @@ import type { Company } from './types';
 
 const KEYWORDS_KEY = 'newsflow.customKeywords.v1';
 const WATCHLIST_KEY = 'newsflow.customWatchlist.v1';
+const REMOVED_KEY = 'newsflow.removedCompanies.v1';
 
 function read<T>(key: string, fallback: T): T {
   try {
@@ -46,4 +47,14 @@ export function getCustomWatchlist(): Company[] {
 
 export function setCustomWatchlist(list: Company[]): void {
   write(WATCHLIST_KEY, list);
+}
+
+/* ---- removed companies (tickers hidden from the synced watchlist) ---- */
+
+export function getRemovedTickers(): string[] {
+  return read<string[]>(REMOVED_KEY, []);
+}
+
+export function setRemovedTickers(list: string[]): void {
+  write(REMOVED_KEY, list);
 }

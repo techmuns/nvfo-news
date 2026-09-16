@@ -9,6 +9,8 @@ import {
   setCustomKeywords,
   getCustomWatchlist,
   setCustomWatchlist,
+  getRemovedTickers,
+  setRemovedTickers,
 } from './storage';
 
 const API = '/api/custom';
@@ -27,27 +29,43 @@ function toCompany(s: CustomStock): Company {
 }
 
 // Load custom lists from KV; fall back to the localStorage cache on any failure.
-export async function loadCustom(): Promise<{ keywords: string[]; stocks: Company[] }> {
+export async function loadCustom(): Promise<{
+  keywords: string[];
+  stocks: Company[];
+  removed: string[];
+}> {
   try {
     const res = await fetch(API, { headers: { accept: 'application/json' } });
     if (res.ok) {
-      const j = (await res.json()) as { keywords?: string[]; stocks?: CustomStock[] };
+      const j = (await res.json()) as {
+        keywords?: string[];
+        stocks?: CustomStock[];
+        removed?: string[];
+      };
       const keywords = Array.isArray(j.keywords) ? j.keywords : [];
       const stocks = (Array.isArray(j.stocks) ? j.stocks : []).map(toCompany);
+      const removed = Array.isArray(j.removed)
+        ? j.removed.filter((t): t is string => typeof t === 'string')
+        : [];
       // Keep the offline cache in sync.
       setCustomKeywords(keywords);
       setCustomWatchlist(stocks);
-      return { keywords, stocks };
+      setRemovedTickers(removed);
+      return { keywords, stocks, removed };
     }
   } catch {
     /* offline / worker not reachable — use cache below */
   }
-  return { keywords: getCustomKeywords(), stocks: getCustomWatchlist() };
+  return {
+    keywords: getCustomKeywords(),
+    stocks: getCustomWatchlist(),
+    removed: getRemovedTickers(),
+  };
 }
 
 async function push(
   method: 'POST' | 'DELETE',
-  type: 'keyword' | 'stock',
+  type: 'keyword' | 'stock' | 'removed',
   value: unknown,
 ): Promise<boolean> {
   try {
@@ -68,6 +86,9 @@ export const addStockRemote = (c: Company) =>
   push('POST', 'stock', { name: c.company, ticker: c.ticker });
 export const removeStockRemote = (c: Company) =>
   push('DELETE', 'stock', { name: c.company, ticker: c.ticker });
+// Hide / un-hide a synced (portfolio or exited) company by its ticker.
+export const addRemovedRemote = (ticker: string) => push('POST', 'removed', ticker);
+export const removeRemovedRemote = (ticker: string) => push('DELETE', 'removed', ticker);
 
 /* ---- email digest subscription (Prompt 4) ---- */
 export interface SubscribeInput {

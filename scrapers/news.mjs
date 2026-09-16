@@ -99,9 +99,13 @@ function toNewsItem(raw, company, matcher) {
   if (!mentionsCompany(company, text)) return null; // must be about this company
   if (isNoise(raw.title)) return null; // crude price-noise pre-filter
   if (isBlockedSource(raw.source, raw.link)) return null; // hard data/SEO blocklist
-  const hit = matcher.match(text); // HINT only (may be null)
-  // Fallback with no brain: require a literal keyword so the feed stays clean.
-  if (!BRAIN_ON && !hit) return null;
+  const hit = matcher.match(text); // fundamental-keyword match (also the topic hint)
+  // KEYWORD-GATED: only keep news that hits a fundamental keyword (orders, capex,
+  // M&A, approvals, results, trouble…). This is what stops big-cap holdings
+  // (Reliance, Coal India, L&T) from being buried under share-price / index
+  // headlines — those never match a keyword, so they're dropped here instead of
+  // flooding the 8-item cap. Claude (enrich.mjs) then refines and can still drop.
+  if (!hit) return null;
   const url = raw.link;
   return {
     id: 'n' + sha1short(normalizeUrl(url)),
@@ -125,7 +129,7 @@ function toUniverseItem(raw, cfg, matcher) {
   if (isNoise(raw.title)) return null;
   if (isBlockedSource(raw.source, raw.link)) return null;
   const hit = matcher.match(`${raw.title} ${raw.snippet || ''}`);
-  if (!BRAIN_ON && !hit) return null; // keep universe clean when brain is off
+  if (!hit) return null; // keyword-gated: only fundamental-keyword theme stories
   const url = raw.link;
   return {
     id: 'n' + sha1short(normalizeUrl(url)),

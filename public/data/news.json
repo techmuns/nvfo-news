@@ -1,13 +1,631 @@
 {
-  "generated_at": "2026-10-05T21:39:31.734Z",
+  "generated_at": "2026-10-06T09:23:12.794Z",
   "source": "google-news+munshot+claude",
   "counts": {
-    "portfolio": 625,
-    "watchlist": 1580,
-    "universe": 18,
-    "total": 1598
+    "portfolio": 636,
+    "watchlist": 1615,
+    "universe": 19,
+    "total": 1634
   },
   "items": [
+    {
+      "id": "nc66d0bc7d9de",
+      "ticker": "KIRLPNU",
+      "company": "Kirloskar Pneumatic Company Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Q1 2027 Kirloskar Pneumatic Company Ltd Earnings Call Transcript",
+      "url": "https://www.gurufocus.com/news/8972077/q1-2027-kirloskar-pneumatic-company-ltd-earnings-call-transcript?mobile=true",
+      "source": "gurufocus.com",
+      "date": "2026-10-06T09:17:34.820Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Q1 2027 earnings call transcript available for review.",
+      "enriched": true
+    },
+    {
+      "id": "nda01c1a13237",
+      "ticker": "TITAN",
+      "company": "Titan Company Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Titan Shareholder Approval: 2026 Stock Unit Scheme અને નવા ડિરેક્ટર્સની નિમણૂક પર મહોર | Whalesbook Corporate News",
+      "url": "https://www.whalesbook.com/corporate-news/Gujarati/consumer-products/Titan-Shareholders-Approve-2026-Stock-Unit-Scheme-and-Board-Appointments/6aabf4e8f2017017ae6c88e5",
+      "source": "whalesbook.com",
+      "date": "2026-10-06T09:17:12.393Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Shareholders approved 2026 stock unit scheme and new director appointments.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nd0b21d73888b",
+      "ticker": "TIMETECHNO",
+      "company": "Time Technoplast Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Time Technoplast certifies timely repayment of commercial paper",
+      "url": "https://scanx.trade/stock-market-news/companies/time-technoplast-certifies-timely-repayment-commercial-paper/52740634",
+      "source": "scanx.trade",
+      "date": "2026-10-06T09:17:12.306Z",
+      "topic": "Money",
+      "keyword": "Merger",
+      "importance": "low",
+      "mood": "positive",
+      "takeaway": "Time Technoplast repaid commercial paper on time, showing sound financial management.",
+      "enriched": true
+    },
+    {
+      "id": "neeb34a163345",
+      "ticker": "TEXRAIL",
+      "company": "Texmaco Rail & Engineering Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Texmaco Rail Bags ₹27.82 Cr Order from Hindalco for BTAP Rake & Brake VanTexmaco Rail Gets Massive ₹27.82 Cr Hindalco Order Boost",
+      "url": "https://metrorailnews.in/texmaco-rail-hindalco-btap-rake-order/",
+      "source": "metrorailnews.in",
+      "date": "2026-10-06T09:17:11.528Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Texmaco Rail secured ₹27.82 crore order from Hindalco for BTAP rake and brake van.",
+      "enriched": true
+    },
+    {
+      "id": "nbb839e151380",
+      "ticker": "SPANDANA",
+      "company": "Spandana Sphoorty Financial Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Spandana Sphoorty Share: घाटे में आई कमी, ₹400 करोड़ का Rights Issue सफल | Whalesbook Corporate News",
+      "url": "https://www.whalesbook.com/corporate-news/Hindi/bankingfinance/Spandana-Sphoorty-Consolidated-Net-Loss-Narrows-to-indian-rupee699-Cr-Rights-Issue-Successful/6a6377600037f071726ee9e7",
+      "source": "whalesbook.com",
+      "date": "2026-10-06T09:17:03.842Z",
+      "topic": "Money",
+      "keyword": "Rights Issue",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Spandana Sphoorty raised ₹400 crore via rights issue; losses narrowed.",
+      "enriched": true
+    },
+    {
+      "id": "n7aa3eef98975",
+      "ticker": "SIEMENS",
+      "company": "Siemens Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings Release Q3 FY 2026 | Siemens Energy",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q3-fy-2026.html",
+      "source": "siemens-energy.com",
+      "date": "2026-10-06T09:17:02.314Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "neutral",
+      "takeaway": "Siemens Energy released Q3 FY2026 earnings.",
+      "enriched": true
+    },
+    {
+      "id": "nc04732f37f92",
+      "ticker": "SHILPAMED",
+      "company": "Shilpa Medicare Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shilpa Medicare's 238% Rally Faces An Earnings Test",
+      "url": "https://www.ndtvprofit.com/business/shilpa-medicares-238-rally-faces-an-earnings-test-12095135",
+      "source": "ndtvprofit.com",
+      "date": "2026-10-06T09:17:00.736Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Shilpa Medicare stock up 238%; earnings results pending.",
+      "enriched": true
+    },
+    {
+      "id": "nc7fe45c6229a",
+      "ticker": "SANGHVIMOV",
+      "company": "Sanghvi Movers Limited",
+      "sector": "Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Sanghvi Movers publishes Q2FY27 earnings call audio recording",
+      "url": "https://scanx.trade/stock-market-news/companies/sanghvi-movers-q2-results-earnings-call-audio-released-for-review/47315190",
+      "source": "scanx.trade",
+      "date": "2026-10-06T09:16:58.884Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Sanghvi Movers published Q2FY27 earnings call recording.",
+      "enriched": true
+    },
+    {
+      "id": "n52174ad6dea4",
+      "ticker": "SAMHI",
+      "company": "Samhi Hotels Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "SAMHI Hotels: Demand revival, inventory expansion keep growth outlook intact- Moneycontrol.com",
+      "url": "https://www.moneycontrol.com/news/business/stocks/samhi-hotels-demand-revival-and-inventory-expansion-keep-growth-outlook-intact-13994785.html",
+      "source": "moneycontrol.com",
+      "date": "2026-10-06T09:16:58.572Z",
+      "topic": "Growth",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Samhi Hotels sees demand revival and inventory expansion supporting growth.",
+      "enriched": true
+    },
+    {
+      "id": "n176e70f48c51",
+      "ticker": "SAMHI",
+      "company": "Samhi Hotels Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "SAMHI Hotels Q1 Net Profit Rises to ₹18.3 Crore; Approves ₹750 Crore Fundraise",
+      "url": "https://www.sahi.com/news/samhi-hotels-q1-net-profit-rises-to-18-3-crore-approves-750-crore-fundraise-4943-PE1_COR",
+      "source": "sahi.com",
+      "date": "2026-10-06T09:16:58.572Z",
+      "topic": "Money",
+      "keyword": "Acquisition",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Q1 profit rose to ₹18.3 crore; company approved ₹750 crore fundraise.",
+      "enriched": true,
+      "sources_count": 2
+    },
+    {
+      "id": "n71762f4e620c",
+      "ticker": "REDINGTON",
+      "company": "Redington Limited",
+      "sector": "Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Vardhman Textiles and Serentica partner for captive hybrid project – Renewable Watch",
+      "url": "https://renewablewatch.in/2026/10/06/vardhman-textiles-and-serentica-partner-for-captive-hybrid-project/",
+      "source": "renewablewatch.in",
+      "date": "2026-10-06T09:16:56.775Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Vardhman Textiles and Serentica partnered for a captive hybrid renewable energy project.",
+      "enriched": true
+    },
+    {
+      "id": "n02757f6c3471",
+      "ticker": "REDINGTON",
+      "company": "Redington Limited",
+      "sector": "Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "OPSWAT Signs Distribution Deal with Redington for Critical Infrastructure Security",
+      "url": "https://digitalterminal.in/channel/opswat-signs-distribution-deal-with-redington-for-critical-infrastructure-security",
+      "source": "digitalterminal.in",
+      "date": "2026-10-06T09:16:56.775Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "OPSWAT signed a distribution deal with Redington for critical infrastructure security solutions.",
+      "enriched": true
+    },
+    {
+      "id": "n37a87e09ca47",
+      "ticker": "POWERGRID",
+      "company": "Power Grid Corporation of India Limited",
+      "sector": "Power",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Laser Power & Infra Bags Rs 73 Crore Order From Power Grid | Whalesbook Corporate News",
+      "url": "https://www.whalesbook.com/corporate-news/English/industrial-goodsservices/Laser-Power-and-Infra-Bags-Rs-73-Crore-Order-From-Power-Grid/6abe9b2baf0ff73182754588",
+      "source": "whalesbook.com",
+      "date": "2026-10-06T09:16:51.181Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Laser Power & Infra wins Rs 73 crore order from Power Grid Corporation.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n4b9d57c20eb7",
+      "ticker": "POONAWALLA",
+      "company": "Poonawalla Fincorp Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Poonawalla Fincorp Q2 FY27 Earnings Call, October 09 | Earnings Pulse | Earnings Pulse",
+      "url": "https://earningspulse.ai/article/announcement/2026-09-30/POONAWALLA/1790764686/poonawalla-fincorp-q2-fy27-earnings-call-october-09",
+      "source": "earningspulse.ai",
+      "date": "2026-10-06T09:16:50.660Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Poonawalla Fincorp Q2 FY27 earnings call scheduled for October 09.",
+      "enriched": true
+    },
+    {
+      "id": "na5592ea10d1e",
+      "ticker": "OIL",
+      "company": "Oil India Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Simplex Infra Bags Rs 255.52 Cr Oil India Drilling Order - Equitypandit",
+      "url": "https://www.equitypandit.com/simplex-infra-bags-rs-255-52-cr-oil-india-drilling-order/",
+      "source": "equitypandit.com",
+      "date": "2026-10-06T09:16:48.936Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Simplex Infra bags Rs 255.52 crore drilling order from Oil India.",
+      "sources_count": 4,
+      "enriched": true
+    },
+    {
+      "id": "n86292b6bacd4",
+      "ticker": "HAPPSTMNDS",
+      "company": "Happiest Minds Technologies Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech",
+      "source": "barandbench.com",
+      "date": "2026-10-06T09:16:18.894Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "high",
+      "mood": "neutral",
+      "takeaway": "Happiest Minds to merge into ITC Infotech; legal advisors appointed for transaction.",
+      "enriched": true
+    },
+    {
+      "id": "nd503b1861792",
+      "ticker": "GATEWAY",
+      "company": "Gateway Distriparks Limited",
+      "sector": "Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Gateway Distriparks Ltd (BOM:543489) (Q1 2027) Earnings Call Highlights: Navigating ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gateway-distriparks-ltd-bom-543489-030106392.html",
+      "source": "finance.yahoo.com",
+      "date": "2026-10-06T09:16:13.619Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Gateway Distriparks reported Q1 FY27 earnings; details from earnings call.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nea08cfc7ebed",
+      "ticker": "GENUSPOWER",
+      "company": "Genus Power Infrastructures Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Genus Power Maintains Revenue Guidance At ₹6,000–6,500 Crore For FY27",
+      "url": "https://www.sahi.com/news/genus-power-maintains-revenue-guidance-at-6-000-6-500-crore-for-fy27",
+      "source": "sahi.com",
+      "date": "2026-10-06T09:16:13.353Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Genus Power maintains FY27 revenue guidance of ₹6,000–6,500 crore.",
+      "enriched": true
+    },
+    {
+      "id": "n6dc2dc9f18ab",
+      "ticker": "ESCORTS",
+      "company": "Escorts Kubota Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Auto makers turn to captive renewable power as costs, ESG pressures rise | Mint",
+      "url": "https://www.livemint.com/auto-news/auto-firms-crank-up-captive-green-power-projects/amp-11791194645856.html",
+      "source": "livemint.com",
+      "date": "2026-10-06T09:16:09.541Z",
+      "topic": "Growth",
+      "keyword": "Commissioning",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Escorts Kubota setting up captive renewable power to cut costs and meet ESG goals.",
+      "enriched": true
+    },
+    {
+      "id": "n57e1d43fbe39",
+      "ticker": "EICHERMOT",
+      "company": "Eicher Motors Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "IHE and Eicher Trucks and Buses promote school bus safety awareness among students in Oman | ZAWYA",
+      "url": "https://www.zawya.com/en/press-release/companies-news/ihe-and-eicher-trucks-and-buses-promote-school-bus-safety-awareness-among-students-in-oman-1498457",
+      "source": "zawya.com",
+      "date": "2026-10-06T09:16:07.958Z",
+      "topic": "Deals",
+      "keyword": "Joint Venture",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "IHE and Eicher Trucks & Buses partnering on school bus safety awareness in Oman.",
+      "enriched": true
+    },
+    {
+      "id": "n3eaef367d54c",
+      "ticker": "CAMS",
+      "company": "Computer Age Management Services Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Q1 2027 Computer Age Management Services Ltd Earnings Call Transcript",
+      "url": "https://www.gurufocus.com/news/9008874/q1-2027-computer-age-management-services-ltd-earnings-call-transcript",
+      "source": "gurufocus.com",
+      "date": "2026-10-06T09:15:58.233Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Q1 2027 earnings call transcript available for investor review.",
+      "enriched": true
+    },
+    {
+      "id": "n3e1166873c9a",
+      "ticker": "AXISBANK",
+      "company": "Axis Bank Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Axis Bank announces senior management departure By Investing.com",
+      "url": "https://investing.com/news/company-news/axis-bank-announces-senior-management-departure-93CH-4932260",
+      "source": "investing.com",
+      "date": "2026-10-06T09:15:51.517Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Senior management departure at Axis Bank.",
+      "enriched": true
+    },
+    {
+      "id": "ne12b6882ec51",
+      "ticker": "AWL",
+      "company": "AWL Agri Business Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "AWL Agri Business Q2FY27 Results: Revenue up 24% YoY, Food segment hits record",
+      "url": "https://scanx.trade/stock-market-news/companies/awl-agri-business-q2fy27-results-revenue-up-24-yoy-food-segment-hits/52760360",
+      "source": "scanx.trade",
+      "date": "2026-10-06T09:15:51.002Z",
+      "topic": "Money",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "AWL Agri Q2FY27 revenue up 24% YoY; food segment hits record.",
+      "enriched": true
+    },
+    {
+      "id": "n8652b7ef570f",
+      "ticker": "ASIANPAINT",
+      "company": "Asian Paints Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Asian Paints Ltd (BOM:500820) (Q1 2027) Earnings Call Highlights: Strong Volume Growth Amidst ...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/asian-paints-ltd-bom-500820-010234656.html",
+      "source": "finance.yahoo.com",
+      "date": "2026-10-06T09:15:47.722Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Asian Paints Q1 2027 shows strong volume growth.",
+      "enriched": true
+    },
+    {
+      "id": "n0f60e007b26d",
+      "ticker": "ASAHIINDIA",
+      "company": "Asahi India Glass Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Asahi India Glass fixes record date for AGM and dividend payment",
+      "url": "https://scanx.trade/stock-market-news/companies/asahi-india-glass-q1-results-net-profit-surges-to-1-5b-vs-560m-yoy/47462038",
+      "source": "scanx.trade",
+      "date": "2026-10-06T09:15:46.968Z",
+      "topic": "Money",
+      "keyword": "Acquisition",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Asahi India Glass sets record date for AGM and dividend payment to shareholders.",
+      "enriched": true
+    },
+    {
+      "id": "n7971a7671482",
+      "ticker": "ARE&M",
+      "company": "Amara Raja Energy & Mobility Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Amara Raja Commissions INR 500 Crore 60 MWh Battery CQP in Telangana - Asia Pacific | Energetica India Magazine",
+      "url": "https://energetica-india.net/news/amara-raja-commissions-inr-500-crore-60-mwh-battery-cqp-in-telangana",
+      "source": "energetica-india.net",
+      "date": "2026-10-06T09:15:45.832Z",
+      "topic": "Growth",
+      "keyword": "Commissioning",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Amara Raja commissions Rs 500 cr, 60 MWh battery manufacturing facility in Telangana.",
+      "enriched": true
+    },
+    {
+      "id": "n915eafbe74b3",
+      "ticker": "ADANIPOWER",
+      "company": "Adani Power Limited",
+      "sector": "Power",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Rajasthan reviews renewable energy park joint venture, land and policy issues, ETRajasthan",
+      "url": "https://rajasthan.economictimes.indiatimes.com/news/infrastructure/rajasthan-reviews-renewable-energy-park-joint-venture-land-and-policy-issues/134686357",
+      "source": "rajasthan.economictimes.indiatimes.com",
+      "date": "2026-10-06T09:15:45.104Z",
+      "topic": "Deals",
+      "keyword": "Joint Venture",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Rajasthan reviews renewable energy park joint venture with Adani Power on land and policy.",
+      "enriched": true
+    },
+    {
+      "id": "n3e5f46f2ef2c",
+      "ticker": "PNB",
+      "company": "Punjab National Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Big Fire in PNB Branch Fire in Sundargarh Odisha",
+      "url": "https://hellobanker.in/big-fire-in-pnb-branch-fire-in-sundargarh-odisha/",
+      "source": "hellobanker.in",
+      "date": "2026-10-06T09:15:34.483Z",
+      "topic": "Trouble",
+      "keyword": "Fire",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Fire broke out at PNB branch in Sundargarh, Odisha.",
+      "enriched": true
+    },
+    {
+      "id": "ne6bb8a9caf11",
+      "ticker": "MAHABANK",
+      "company": "Bank of Maharashtra",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Former Bank of Maharashtra manager gets 7 years in Rs 3.61 crore fraud case",
+      "url": "https://thenewsmill.com/2026/10/cbi-court-sentences-former-bank-of-maharashtra-manager-to-seven-years-in-rs-3-61-crore-fraud-case/",
+      "source": "thenewsmill.com",
+      "date": "2026-10-06T09:15:03.418Z",
+      "topic": "Trouble",
+      "keyword": "Fraud",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Former manager convicted in Rs 3.61 crore fraud case; governance concern for the bank.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n5db7db8ef8a7",
+      "ticker": "TIPSMUSIC",
+      "company": "Tips Music Limited",
+      "sector": "Media Entertainment & Publication",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Tips Music Ltd Buyback: Company ne buyback karke khtam kiya khel, promoter stake hua up! | Whalesbook Corporate News",
+      "url": "https://www.whalesbook.com/corporate-news/Hinglish/other/Tips-Music-Ltd-Closes-Share-Buyback-Deploys-4444-Crore-Total-Capital/6abcff8780ecbb8a5f197f3b",
+      "source": "whalesbook.com",
+      "date": "2026-10-06T09:12:13.355Z",
+      "topic": "Money",
+      "keyword": "Buyback",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Tips Music completed a buyback, increasing promoter stake.",
+      "enriched": true
+    },
+    {
+      "id": "n9ad76031ec79",
+      "ticker": "EMAMILTD",
+      "company": "Emami Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Emami executes 650,000-share buyback of Emami stock",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT2lwT2doUGNsZ3VMWjlQWFFHUDlmSlZ1U0RuY2N5eEs4SXJyelFVQzkxbHdWUHlkRzR1aGpIZEpXZDBtMV9XVWpfZFVNaWhXSFVGY2RUSXlCN1ZjeXR5NHc4TUYwYllwVHdpcW1iZUlLUkgtMG14TjVUOWVFUzFFZGtaTU5URzlaVm5FWnhONDhtRVZZZnlILVJ1TVBJMG9WM3lKTllnMUFJdTRLNjJV?oc=5",
+      "source": "AD HOC NEWS",
+      "date": "2026-10-05T23:59:10.000Z",
+      "topic": "Money",
+      "keyword": "Buyback",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Emami bought back 650,000 shares from the market.",
+      "enriched": true
+    },
+    {
+      "id": "n037024c51c20",
+      "ticker": "POWERGRID",
+      "company": "Power Grid Corporation of India Limited",
+      "sector": "Power",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Laser Power & Infra Secures ₹72.76 Crore HTLS Reconductoring Order From Powergrid",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHF2OTdYcXk2YVIwRzN5OGlaVUpROUw1UWNuam1HYTVSZTZNQWtRa0hKbnlKWUlROFlyWW1yQ2VUNjhNVDdYZVRnR2w3NzZmRW03Q0RST1lyMUJ6RG9xM1o2VF9nX2ZwVjlteUxfZnk5aExiNDQyajI2dHRJbHVvSkdUakF0R0tIV1VLWTk4enVoaFdaV0FPNUV1MDE5U0NEMFdrTlNOdw?oc=5",
+      "source": "Sahi",
+      "date": "2026-10-05T23:04:28.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Laser Power & Infra won a ₹72.76 crore HTLS reconductoring contract from Powergrid.",
+      "enriched": true
+    },
     {
       "id": "n17fbd49b0700",
       "ticker": "GOKEX",
@@ -63,26 +681,6 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Man Industries secured ₹600 crore order; total unexecuted orderbook now ₹4,100 crore.",
-      "enriched": true
-    },
-    {
-      "id": "n869e5f6d103e",
-      "ticker": "TITAN",
-      "company": "Titan Company Limited",
-      "sector": "Consumer Durables",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Titan Shareholder Approval: కొత్త స్టాక్ యూనిట్ స్కీమ్‌కు గ్రీన్ సిగ్నల్.. బోర్డులోకి కొత్త డైరెక్టర్లు | Whalesbook Corporate News",
-      "url": "https://www.whalesbook.com/corporate-news/Telugu/consumer-products/Titan-Shareholders-Approve-2026-Stock-Unit-Scheme-and-Board-Appointments/6aabf4e8f2017017ae6c88e5",
-      "source": "whalesbook.com",
-      "date": "2026-10-05T21:35:04.743Z",
-      "topic": "Approvals&IP",
-      "keyword": "Approval",
-      "importance": "medium",
-      "mood": "positive",
-      "takeaway": "Titan shareholders approve new stock unit scheme and board appointments.",
-      "sources_count": 2,
       "enriched": true
     },
     {
@@ -179,47 +777,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Schneider Electric acquires AI business for record $23 billion.",
-      "enriched": true
-    },
-    {
-      "id": "n4437cb7e8513",
-      "ticker": "POWERGRID",
-      "company": "Power Grid Corporation of India Limited",
-      "sector": "Power",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Laser Power & Infra Bags ₹72.76 Crore Power Grid Transmission Order | Whalesbook Corporate News",
-      "url": "https://www.whalesbook.com/corporate-news/English/industrial-goodsservices/Laser-Power-and-Infra-Bags-indian-rupee7276-Crore-Power-Grid-Transmission-Order/6ac38b6d61666c732ba48f09",
-      "source": "whalesbook.com",
-      "date": "2026-10-05T21:34:44.373Z",
-      "topic": "Orders",
-      "keyword": "Order",
-      "importance": "medium",
-      "mood": "positive",
-      "takeaway": "Laser Power & Infra wins ₹72.76 crore transmission order from Power Grid.",
-      "sources_count": 3,
-      "enriched": true
-    },
-    {
-      "id": "n101f55affca1",
-      "ticker": "OIL",
-      "company": "Oil India Limited",
-      "sector": "Oil Gas & Consumable Fuels",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Simplex Infrastructures Gets ₹255.52 Crore Oil India Contract",
-      "url": "https://hdfcsky.com/news/simplex-infrastructures-gets-rs-255-52-crore-oil-india-contract",
-      "source": "hdfcsky.com",
-      "date": "2026-10-05T21:34:42.550Z",
-      "topic": "Orders",
-      "keyword": "Order",
-      "importance": "medium",
-      "mood": "positive",
-      "takeaway": "Simplex Infrastructures secures ₹255.52 crore contract from Oil India.",
-      "sources_count": 4,
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n1b21a76a72b3",
@@ -318,26 +877,6 @@
       "enriched": true
     },
     {
-      "id": "n00ca03b355e5",
-      "ticker": "GATEWAY",
-      "company": "Gateway Distriparks Limited",
-      "sector": "Services",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Q1 2027 Gateway Distriparks Ltd Earnings Call Transcript",
-      "url": "https://www.gurufocus.com/news/9018790/q1-2027-gateway-distriparks-ltd-earnings-call-transcript",
-      "source": "gurufocus.com",
-      "date": "2026-10-05T21:34:09.074Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "medium",
-      "mood": "neutral",
-      "takeaway": "Gateway Distriparks Q1 2027 earnings call transcript available for review.",
-      "sources_count": 2,
-      "enriched": true
-    },
-    {
       "id": "n6e75ac6f6cf1",
       "ticker": "ESABINDIA",
       "company": "Esab India Limited",
@@ -414,25 +953,6 @@
       "enriched": true
     },
     {
-      "id": "n0beeffb672e4",
-      "ticker": "BIOCON",
-      "company": "Biocon Limited",
-      "sector": "Healthcare",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Biocon Limited (NSE: BIOCON) Receives UK MHRA Approval for Insulin Fill-Finish Facility | Kalkine India",
-      "url": "https://www.kalkine.co.in/article/healthcare/biocon-limited-nse-biocon-expands-insulin-manufacturing-capabilities-with-uk-mhra-clearance-for-malaysia-facility",
-      "source": "kalkine.co.in",
-      "date": "2026-10-05T21:33:51.702Z",
-      "topic": "Approvals&IP",
-      "keyword": "Approval",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Biocon receives UK MHRA approval for insulin fill-finish facility.",
-      "enriched": true
-    },
-    {
       "id": "n4a845d4485a0",
       "ticker": "BAJAJ-AUTO",
       "company": "Bajaj Auto Limited",
@@ -506,26 +1026,6 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Aurobindo Pharma receives FDA approval for epilepsy treatment drug.",
-      "enriched": true
-    },
-    {
-      "id": "n4cd4a2be70b6",
-      "ticker": "ACC",
-      "company": "ACC Limited",
-      "sector": "Construction Materials",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Ambuja Cements aur ACC Limited ka merger hua pakka! Shareholders ne di **99.98%** ki manzoori | Whalesbook Corporate News",
-      "url": "https://www.whalesbook.com/corporate-news/Hinglish/industrial-goodsservices/Ambuja-Cements-Shareholders-Approve-Amalgamation-with-ACC-Limited-via-Special-Resolution/6abd143780ecbb8a5f19e88a",
-      "source": "whalesbook.com",
-      "date": "2026-10-05T21:33:41.407Z",
-      "topic": "Deals",
-      "keyword": "Merger",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Ambuja Cements-ACC merger approved by shareholders with 99.98% vote.",
-      "sources_count": 3,
       "enriched": true
     },
     {
@@ -931,26 +1431,6 @@
       "enriched": true
     },
     {
-      "id": "nf62fd92fa8e5",
-      "ticker": "MAHABANK",
-      "company": "Bank of Maharashtra",
-      "sector": "Financial Services",
-      "scope": [
-        "portfolio",
-        "watchlist"
-      ],
-      "title": "Bank of Maharashtra’s Ex-Branch Manager Sentenced to 7 Years in ₹3.61 Crore Loan Fraud",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX3NOVmN4N1Q2dGo1dk5HSGlnWVVfQlpoUV9BZExsczA5bGUwTHlFUV8taXlHbnZlamdtd1ZHS25oOVc1ZVFCbXNIZG1qX0ZFNE14NXQ2U2ljSHp6UzNmTzhPQUhqRVRlcnNwMTZNYkpGcW5kUzNXdC1SdU96S0ZvOWNCQ0R6SDhsd2trbS1uZHBEcC1ZWGxjLVFUN1N2U21fWGpJQVRFUlNnaWU3eTNoLS1NNmVVQ3RUc0RoMS0zcWhOeEww?oc=5",
-      "source": "Moneylife",
-      "date": "2026-10-05T15:56:11.000Z",
-      "topic": "Trouble",
-      "keyword": "Fraud",
-      "importance": "medium",
-      "mood": "negative",
-      "takeaway": "Ex-branch manager sentenced to 7 years for ₹3.61 crore loan fraud.",
-      "enriched": true
-    },
-    {
       "id": "n500f3d56993c",
       "ticker": "ACMESOLAR",
       "company": "Acme Solar Holdings Limited",
@@ -1144,26 +1624,6 @@
       "enriched": true
     },
     {
-      "id": "n77e47232bb2e",
-      "ticker": "SAMHI",
-      "company": "Samhi Hotels Limited",
-      "sector": "Consumer Services",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Samhi Hotels Posts 12% Profit Rise in Q1FY26, Approves ₹750 Cr Raise",
-      "url": "https://scanx.trade/stock-market-news/companies/samhi-hotels-q1-results-revenue-rises-to-3-05b-net-profit-up-yoy/47318319",
-      "source": "scanx.trade",
-      "date": "2026-10-05T09:20:25.809Z",
-      "topic": "Money",
-      "keyword": "Acquisition",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Samhi Hotels posts 12% profit rise in Q1FY26 and approves ₹750 crore fundraise.",
-      "enriched": true,
-      "sources_count": 2
-    },
-    {
       "id": "n3f6d5796f71d",
       "ticker": "RAJRATAN",
       "company": "Rajratan Global Wire Limited",
@@ -1333,26 +1793,6 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Bajaj Finance plans ₹17,500-crore fundraise via preferential issue; Q2 business update supports growth.",
-      "enriched": true
-    },
-    {
-      "id": "nb0542f34e78b",
-      "ticker": "AVANTIFEED",
-      "company": "Avanti Feeds Limited",
-      "sector": "Fast Moving Consumer Goods",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Avanti Feeds hosts Q1FY27 earnings call on August 27",
-      "url": "https://scanx.trade/stock-market-news/companies/avanti-feeds-hosts-q1fy27-earnings-call-august-27/48857994",
-      "source": "scanx.trade",
-      "date": "2026-10-05T09:19:20.617Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "low",
-      "mood": "neutral",
-      "takeaway": "Avanti Feeds to host Q1FY27 earnings call on August 27.",
-      "sources_count": 2,
       "enriched": true
     },
     {
@@ -1752,7 +2192,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "RateGain acquiring Sojern for $280 million to expand travel tech capabilities.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n121992f73578",
@@ -1771,7 +2212,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Aurobindo Pharma receives final USFDA approval for Perampanel tablets.",
-      "sources_count": 2,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -2496,7 +2937,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "RBI approves Anup Kumar Saha as Kotak Mahindra Bank MD & CEO.",
-      "sources_count": 5,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -3099,7 +3540,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Aurobindo Pharma acquires A1 Biochem Labs LLC to build integrated CRDMO platform.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -3605,7 +4046,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Shilpa Medicare receives SEC approval for OERIS Extended-Release Injection.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "ne35d9c781f41",
@@ -5414,7 +5856,7 @@
       "importance": "high",
       "mood": "negative",
       "takeaway": "Bombay High Court restored de-registration and promoter change for Turf View project.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -5627,6 +6069,25 @@
       "enriched": true
     },
     {
+      "id": "n197cebc8581e",
+      "ticker": "AWL",
+      "company": "AWL Agri Business Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "AWL Agri Business Q4 Results: Board approves financials for quarter ended June 30",
+      "url": "https://scanx.trade/stock-market-news/companies/awl-agri-business-q4-results-board-approves-financials-for-quarter-ended-june-30/46989856",
+      "source": "scanx.trade",
+      "date": "2026-10-02T08:44:42.622Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "AWL Agri Business board approved Q4 financials for quarter ended June 30.",
+      "enriched": true
+    },
+    {
       "id": "na21097be812b",
       "ticker": "AWL",
       "company": "AWL Agri Business Limited",
@@ -5662,25 +6123,6 @@
       "importance": "medium",
       "mood": "negative",
       "takeaway": "Sunflower oil failed Vitamin D test; FSSAI action against AWL Agri Business.",
-      "enriched": true
-    },
-    {
-      "id": "n197cebc8581e",
-      "ticker": "AWL",
-      "company": "AWL Agri Business Limited",
-      "sector": "Fast Moving Consumer Goods",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "AWL Agri Business Q4 Results: Board approves financials for quarter ended June 30",
-      "url": "https://scanx.trade/stock-market-news/companies/awl-agri-business-q4-results-board-approves-financials-for-quarter-ended-june-30/46989856",
-      "source": "scanx.trade",
-      "date": "2026-10-02T08:44:42.622Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "medium",
-      "mood": "neutral",
-      "takeaway": "AWL Agri Business board approved Q4 financials for quarter ended June 30.",
       "enriched": true
     },
     {
@@ -6098,7 +6540,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Bajaj Finance approves Rs 11,700 crore QIP and Rs 5,800 crore warrant issuance to Bajaj Finserv.",
-      "sources_count": 3,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -6221,6 +6663,25 @@
       "mood": "positive",
       "takeaway": "Anupam Rasayan acquires Bliss GVS Pharma for ₹1,750 crore to scale up pharma operations.",
       "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n1b79b1b8d8e1",
+      "ticker": "RAINBOW",
+      "company": "Rainbow Childrens Medicare Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Rainbow Childrens Medicare Q2 2026 Earnings: Double-Digit Revenue Growth Meets Muted Market Response - Operating Income Trends",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbFhuZ2Z4MnZuRkxMVmVWWDdWU0VKcEtRV2xERVNsR2tDWG4zRGVuMVh4TkdhazlQZlNfSmg2UTlORTlNYUtYREFLV0hIblFGWkFyWlhCcVFkU3M0cXhjbE5hMi1UUFIwWlZoT1d5TGdMc1JYMi1aemJVMWF1UEY1RHFObm5ibGVDVVdldThGS0xIelJhM0JMc0YtbjNaZHZyQVBSR2xVWDVtQTl6bWI1MXRic0piaDRfOV91bF9VUnlEWlM3NmpTUndfSEdSVTdUZllCMThzV3E?oc=5",
+      "source": "siam.in",
+      "date": "2026-10-02T08:41:03.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Rainbow Childrens Medicare posted double-digit revenue growth in Q2 2026.",
       "enriched": true
     },
     {
@@ -6605,25 +7066,6 @@
       "enriched": true
     },
     {
-      "id": "n7eb316d97547",
-      "ticker": "DALBHARAT",
-      "company": "Dalmia Bharat Limited",
-      "sector": "Construction Materials",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "DALMIA BHARAT SUGAR AND INDUSTRIES LIMITED vs DALMIA BHARAT REFRACTORIES LIMITED (2024) at NCLT-Chennai Bench | CaseDocker Case Lookup",
-      "url": "https://www.casedocker.com/landing/cases/nclt-chennai-bench/dalmia-bharat-sugar-and-industries-limited-vs-dalmia-bharat-refractories-limited-a808ec3fae9c",
-      "source": "casedocker.com",
-      "date": "2026-10-01T19:40:26.874Z",
-      "topic": "Trouble",
-      "keyword": "Merger",
-      "importance": "medium",
-      "mood": "negative",
-      "takeaway": "NCLT case filed between Dalmia Bharat Sugar and Dalmia Bharat Refractories; legal dispute ongoing.",
-      "enriched": true
-    },
-    {
       "id": "n9dfa5955d9e9",
       "ticker": "DALBHARAT",
       "company": "Dalmia Bharat Limited",
@@ -6640,6 +7082,25 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Dalmia Bharat reported Q1 FY27 results; check earnings release for operational performance.",
+      "enriched": true
+    },
+    {
+      "id": "n7eb316d97547",
+      "ticker": "DALBHARAT",
+      "company": "Dalmia Bharat Limited",
+      "sector": "Construction Materials",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "DALMIA BHARAT SUGAR AND INDUSTRIES LIMITED vs DALMIA BHARAT REFRACTORIES LIMITED (2024) at NCLT-Chennai Bench | CaseDocker Case Lookup",
+      "url": "https://www.casedocker.com/landing/cases/nclt-chennai-bench/dalmia-bharat-sugar-and-industries-limited-vs-dalmia-bharat-refractories-limited-a808ec3fae9c",
+      "source": "casedocker.com",
+      "date": "2026-10-01T19:40:26.874Z",
+      "topic": "Trouble",
+      "keyword": "Merger",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "NCLT case filed between Dalmia Bharat Sugar and Dalmia Bharat Refractories; legal dispute ongoing.",
       "enriched": true
     },
     {
@@ -7160,6 +7621,26 @@
       "enriched": true
     },
     {
+      "id": "na7b23c5156b8",
+      "ticker": "BAJFINANCE",
+      "company": "Bajaj Finance Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Bajaj Finance announces capital raising of Rs. 17,500 crore via QIP and preferential issue",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd0NjRnQ5VHdxZU9Fc3dNYU4zSmRuREpEQUxXcWl2N0hJbWhiOFptMnJOZGlTVTlMdFFfUmI3UTRZVW9MaWtxY19MVUdUMmY1aE9CY0ZLdXNpRkM2ejZjQUhLTDloWi1nd2JET0tSLUhObHk0SjhnMS1NUzMxc1ZranBXeUR4TUJSNmtka3BZd3VxOHZ5NlhJTVNUbi16eXpNM0RjTzNBeUNhbVljekFCNjU1czlQZ2FnVDJXWm0xMGFESjJ6?oc=5",
+      "source": "Business Upturn",
+      "date": "2026-10-01T18:14:17.000Z",
+      "topic": "Money",
+      "keyword": "Preferential Issue",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Bajaj Finance raising Rs. 17,500 crore via QIP and preferential issue.",
+      "enriched": true
+    },
+    {
       "id": "n6c20c9ab3006",
       "ticker": "BAJAJFINSV",
       "company": "Bajaj Finserv Limited",
@@ -7234,7 +7715,7 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Gravita India's subsidiary Rashtriya Metal Industries approves ₹94.81 crore rights issue.",
-      "sources_count": 5,
+      "sources_count": 6,
       "enriched": true
     },
     {
@@ -7737,7 +8218,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Arisinfra to acquire remaining stake in Buildmex, raising ownership to 92% for Rs 60 crore.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -8414,7 +8895,7 @@
       "mood": "neutral",
       "takeaway": "Time Technoplast plans to merge TPL Plastech, consolidating operations.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "n9c48bb94ba29",
@@ -9004,7 +9485,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Tips Music approved ₹44.5 cr open-market buyback at ₹750/share.",
-      "sources_count": 4,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -9205,6 +9686,26 @@
       "importance": "low",
       "mood": "neutral",
       "takeaway": "CEAT Limited scheduled Q2 FY27 earnings call for October 15 at 4 pm.",
+      "enriched": true
+    },
+    {
+      "id": "ned237d74ad4a",
+      "ticker": "THERMAX",
+      "company": "Thermax Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Thermax Q2 2026 Earnings: EPS of ₹63.94 and 3.65% Revenue Growth Lift Stock 3.08% - Earnings Outlook Update",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSGVqVDZtaVc1cEVsS3FoUzNLanlzN1BPZGQyUTZmNGd3UUZhYW1ScEZoWEVxNVo5b1Rqc0l3ZUtEY2tyQmZ1WTI1MjJnZnYwM3lncWg5QzVBTHVBYms2a1NDMzh0X29tWkFmSHluVlNYTTRGLW1vS1hIS25xaTZLZWdhZHNXNjRsTDZtc3YyRzE2NVFLQVRQemt2U1FQaFpIQVJ5R050M3J5bTdxTnNZNlRlLWRoNFBK?oc=5",
+      "source": "siam.in",
+      "date": "2026-09-30T14:42:32.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Thermax Q2 2026: EPS ₹63.94, revenue growth 3.65%.",
       "enriched": true
     },
     {
@@ -11696,7 +12197,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "ITC completes 100% acquisition of Yoga Bar for Rs 645 crore, consolidating ownership of the nutrition brand.",
-      "sources_count": 3,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -12781,7 +13282,7 @@
       "mood": "positive",
       "takeaway": "Ambuja Cements merger with ACC progressing through NCLT with defined swap ratios.",
       "enriched": true,
-      "sources_count": 5
+      "sources_count": 4
     },
     {
       "id": "ned01ab51df9c",
@@ -16596,7 +17097,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Happiest Minds merging with ITC Infotech to expand deal-winning capability.",
-      "sources_count": 5,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -16773,26 +17274,6 @@
       "enriched": true
     },
     {
-      "id": "n51ba528bd103",
-      "ticker": "BIOCON",
-      "company": "Biocon Limited",
-      "sector": "Healthcare",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Biocon Share Price in Focus After MHRA Approval for Insulin Unit in Malaysia",
-      "url": "https://www.angelone.in/news/stocks/biocon-share-price-in-focus-after-mhra-approval-for-insulin-unit-in-malaysia",
-      "source": "angelone.in",
-      "date": "2026-09-25T18:47:04.756Z",
-      "topic": "Approvals&IP",
-      "keyword": "Approval",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Biocon Malaysia wins UK MHRA approval for insulin fill-finish unit, enabling regulatory market entry.",
-      "sources_count": 2,
-      "enriched": true
-    },
-    {
       "id": "nf4b5400f2d26",
       "ticker": "BIOCON",
       "company": "Biocon Limited",
@@ -16803,6 +17284,26 @@
       "title": "Biocon Malaysia gets UK MHRA approval for new drug product fill-finish unit for insulins - The HinduBusinessLine",
       "url": "https://www.thehindubusinessline.com/companies/biocon-malaysia-gets-uk-mhra-approval-for-new-drug-product-fill-finish-unit-for-insulins/article71507863.ece",
       "source": "thehindubusinessline.com",
+      "date": "2026-09-25T18:47:04.756Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Biocon Malaysia wins UK MHRA approval for insulin fill-finish unit, enabling regulatory market entry.",
+      "sources_count": 5,
+      "enriched": true
+    },
+    {
+      "id": "n51ba528bd103",
+      "ticker": "BIOCON",
+      "company": "Biocon Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Biocon Share Price in Focus After MHRA Approval for Insulin Unit in Malaysia",
+      "url": "https://www.angelone.in/news/stocks/biocon-share-price-in-focus-after-mhra-approval-for-insulin-unit-in-malaysia",
+      "source": "angelone.in",
       "date": "2026-09-25T18:47:04.756Z",
       "topic": "Approvals&IP",
       "keyword": "Approval",
@@ -16829,25 +17330,6 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Biocon Malaysia wins UK MHRA approval for insulin fill-finish unit, enabling regulatory market entry.",
-      "enriched": true
-    },
-    {
-      "id": "n72aef22251f5",
-      "ticker": "BIOCON",
-      "company": "Biocon Limited",
-      "sector": "Healthcare",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Biocon Malaysia arm gets UK regulator approval for Semglee fill finish unit - CNBC TV18",
-      "url": "https://www.cnbctv18.com/market/biocon-share-price-malaysia-arm-insulin-glargine-semglee-uk-regulator-mhra-approval-19998305.htm",
-      "source": "cnbctv18.com",
-      "date": "2026-09-25T18:47:04.756Z",
-      "topic": "Approvals&IP",
-      "keyword": "Approval",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Biocon's Malaysia unit wins UK regulatory approval for Semglee fill-finish manufacturing facility.",
       "enriched": true
     },
     {
@@ -19208,25 +19690,6 @@
       "enriched": true
     },
     {
-      "id": "n3dfd1b366e21",
-      "ticker": "ADANIPOWER",
-      "company": "Adani Power Limited",
-      "sector": "Power",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Adani to invest Tk60,000cr in 3,200 MW power plant in Assam",
-      "url": "https://www.daily-sun.com/world/899211/adani-to-invest-tk60-000cr-in-3-200-mw-power-plant-in-assam",
-      "source": "daily-sun.com",
-      "date": "2026-09-24T07:43:14.693Z",
-      "topic": "Growth",
-      "keyword": "Order",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Adani Power to invest ₹60,000 crore in 3,200 MW power plant in Assam.",
-      "enriched": true
-    },
-    {
       "id": "n298e0f0ffcd1",
       "ticker": "ADANIPOWER",
       "company": "Adani Power Limited",
@@ -19244,7 +19707,26 @@
       "mood": "positive",
       "takeaway": "Adani Power gets NCLT approval to merge with Vidarbha Industries.",
       "enriched": true,
-      "sources_count": 2
+      "sources_count": 3
+    },
+    {
+      "id": "n3dfd1b366e21",
+      "ticker": "ADANIPOWER",
+      "company": "Adani Power Limited",
+      "sector": "Power",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Adani to invest Tk60,000cr in 3,200 MW power plant in Assam",
+      "url": "https://www.daily-sun.com/world/899211/adani-to-invest-tk60-000cr-in-3-200-mw-power-plant-in-assam",
+      "source": "daily-sun.com",
+      "date": "2026-09-24T07:43:14.693Z",
+      "topic": "Growth",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Adani Power to invest ₹60,000 crore in 3,200 MW power plant in Assam.",
+      "enriched": true
     },
     {
       "id": "n0eb9ee564a66",
@@ -20453,6 +20935,26 @@
       "enriched": true
     },
     {
+      "id": "nd35c735b3c18",
+      "ticker": "GRWRHITECH",
+      "company": "Garware Hi-Tech Films Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Garware Hi-Tech Films (NSE: GARFIBRES) PPF Capacity Expansion and Lubrizol Partnership Update",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOLTFDZWR1TktVS1FlWFlUSl8wdk56bHVaV2tCajFNa0k5Q21rZExfNU9tYXN3YzBjcWdRQ2h6SWZubmNmeFN5TkRWaFg0VnZHTFNwZmpWYldSekxWc1daaHRMY051WFpSbktCeDVSR1VhWFA4TW9QOXpyclljME9JZDZQX1R0ZGZjRTY0WVRoNlp3aXRlQi12V0lBZW5XM3VzSXVlNUJRQWxjSkhyTDZPYS1TUnZNeUN0QkpDWDJ5OFBnTnBIdVA2aHRtS2tBTVpUOVhzUWdHYVJPcUZBbWc?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-09-23T13:12:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Garware Hi-Tech Films expanding PPF capacity and partnering with Lubrizol.",
+      "enriched": true
+    },
+    {
       "id": "ncd1f001f7b59",
       "ticker": "BSE",
       "company": "BSE Limited",
@@ -21103,6 +21605,26 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Jeena Sikho Lifecare gets BSE approval to list employee stock options.",
+      "enriched": true
+    },
+    {
+      "id": "n49cc7cd24871",
+      "ticker": "CONCOR",
+      "company": "Container Corporation of India Limited",
+      "sector": "Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "CONCOR and BMCT strengthen strategic partnership to advance Rail-Based Container Logistics",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUnVSS3hkS1NDMTNhalFWclV5cElaNlEtZ1I3ZVAzZjI2WmpqaU4xVnljNE04OGJVLXhPMTQ5ZW9lUzZiOUVtcEctdHpoLW1ibVpYYUVXWXFxaGxIUFRBb21ZTk1MV25kVWVUUnlkcG9UazJyRU5PcWU2QURoNFNFRnBLOTF1dnBVUVdSeE9IUHJQX0ZLbDJlVGs0SWoxRVhjQXpoMXp1bUNkdnhEVUltaXlKZENUWVlZdjd3VnpUU01fUkJXRnRKMlNySQ?oc=5",
+      "source": "India Shipping News",
+      "date": "2026-09-23T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "CONCOR and BMCT strengthen strategic partnership for rail-based container logistics.",
       "enriched": true
     },
     {
@@ -21844,6 +22366,25 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "One Global Services acquisition update and healthcare expansion plans announced.",
+      "enriched": true
+    },
+    {
+      "id": "n80df21a3cf9c",
+      "ticker": "BSE",
+      "company": "BSE Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Stellant Securities (India) Limited (BSE: 531760) Trading Approval Update for Preferential Shares",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZXRBMUdEeGFOZW5ubTI3ZU5VR2UtWmtRckxsTDVNbUJsT0lqOVRhdU1GQVI0V2pLT1VSMnJIVFVFVDQ3NzhhWnNwOVBNTzR2Y2NzanBMNmJhWVloNVRvSEZrWjYxVjdFcnpMc0FWVF80WnVRVjFQdEJuWGd2WU1fOGhHd3VoYXozSWR2bUFQb0JoXzFIMXpGS1lqVC1aWnFoRF9zUnFvZm8tY3dOWGlRSHlpUS1YTy1BNnEwRXNPQjBGTnJZejZaQkFGMDNUOEpUMkJWMHNDOVY1N2hH?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-09-22T12:52:00.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "low",
+      "mood": "positive",
+      "takeaway": "Stellant Securities received trading approval for preferential shares on BSE.",
       "enriched": true
     },
     {
@@ -25441,7 +25982,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "HEG's Replus Engitech arm wins ₹218 crore battery order from Indus Towers.",
-      "sources_count": 4,
+      "sources_count": 5,
       "enriched": true
     },
     {
@@ -25620,7 +26161,7 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Emami announces Rs 282 crore share buyback at 29% premium to market price.",
-      "sources_count": 5,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -25885,7 +26426,7 @@
       "importance": "high",
       "mood": "neutral",
       "takeaway": "Bharat Forge launches ₹2,000 crore QIP at ₹1,851 per share floor price.",
-      "sources_count": 5,
+      "sources_count": 6,
       "enriched": true
     },
     {
@@ -28326,6 +28867,26 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Texmaco Rail & Engineering holds investor meeting and updates on order book.",
+      "enriched": true
+    },
+    {
+      "id": "n26e699ae9c0b",
+      "ticker": "BHARATFORG",
+      "company": "Bharat Forge Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Bharat Forge (NSE:BHARATFORG) QIP Issue and Capital Raising Update",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMGVmTXVjTXZWYkdVR2V1QTNhQmZOWTNFbWZpOENEUnhVbjZHWjlEcUZYSTlPaXNyd0RNU1dFTXZ5NUd1a3ozRXl6OTJHZENxR2RMaWdHajlvX3VOcXFsQ3pNQkNGUTBXMlZEejhtMkFfR2x3Y1EyckhGeU5HODV1b0hUM2d5bTFiSzV1N19aV2lwQ3g5dl9oQm5nYWs0WFQwajlz?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-09-18T11:04:00.000Z",
+      "topic": "Money",
+      "keyword": "QIP",
+      "importance": "high",
+      "mood": "neutral",
+      "takeaway": "Bharat Forge raising capital via QIP to fund growth and strengthen balance sheet.",
       "enriched": true
     },
     {
@@ -31287,6 +31848,142 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Texmaco Rail partners with BVV to expand global railway business.",
+      "enriched": true
+    },
+    {
+      "id": "nbec1f63268e1",
+      "ticker": "SHRIRAMFIN",
+      "company": "Shriram Finance Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "CCI approval: MUFG to acquire 20% stake in Shriram Finance in USD 4.4 billion deal",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVERBdGpUTTR2TkdTbnBvRU81QW5XeVpiRzdDUWZmTmZwcGJYUzZjajVZbVI1d0hyUEV6NmhJalZuZW15OHo0ZUh5QXhWUDk2N0FLNUJHQTFROU5JMmZxZUZTUDRiVU5yMWZMWk9tSHpJNHlIUVlUS0ZxVlNxYm1UQU9jM0JCME84MjRRZDU5RTJCa0hjQWZWdUl0czRUUXFJc3BMc2plS2hfRkJtY1diTkxkbE8?oc=5",
+      "source": "goodreturns.in",
+      "date": "2026-09-16T18:12:53.000Z",
+      "topic": "Deals",
+      "keyword": "Approval",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "MUFG to acquire 20% stake in Shriram Finance for $4.4 billion; CCI approval secured.",
+      "enriched": true
+    },
+    {
+      "id": "nf264f1daa5e5",
+      "ticker": "KALAMANDIR",
+      "company": "Sai Silks (Kalamandir) Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Sai Silks accepts resignation of Company Secretary effective September 16",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaFl0YUQ5Y1hXcEliWm9Jc1g3anktYkNWTFZqMFIwbGZkR0JZbmxPa1BlREYwVGhqcUtvcklEQTVna0NnVURlakdIa1FWSGJ2b1Ruc0FBYy1nMld5N0JMbkRtUnZpTEcwd3ZTLWV3OVNBMVZZWEt4OC1adjMzdXA5cWgtbmU0cU9oNnRpRnRWYXZJbTRJNl9QS0ZoakhULXp4MXlkbHVycTVZTzFKRTZ2SmhoZ2FwU0l0ZWZONE9QT0FsQWJPMnc?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-09-16T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Sai Silks Company Secretary resigned effective September 16.",
+      "enriched": true
+    },
+    {
+      "id": "n6bb941aec168",
+      "ticker": "VBL",
+      "company": "Varun Beverages Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Varun Beverages Q1 2026 Earnings: EPS of ₹8.98 as Revenue Grows 7.15% YoY - Earnings Whisper Number",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTXhpZDRYejlXUkF6X1FSMkQyRTV0NkNLaG4zSGNLamlET0UwUGo0VlBBeE1RRXNLa1lzWGQ4NC1wRUNfbWZMYmJmMnZrNlVrM0ZyWTFrMUdvSS00NTZpVlZSbVc4SDdyeTA1R3FnWDlGdUI1S0JCTngwRHcwU184ZUdfSmtXZ1M0clhXbHBuUVdlTXRwYlYxc25jbzNaZEtxRVdzaVdQbVF4aERoMk5V?oc=5",
+      "source": "siam.in",
+      "date": "2026-09-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Varun Beverages Q1 2026: EPS ₹8.98, revenue grew 7.15% YoY.",
+      "enriched": true
+    },
+    {
+      "id": "n51d2b4ee7f99",
+      "ticker": "HINDZINC",
+      "company": "Hindustan Zinc Limited",
+      "sector": "Metals & Mining",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Hindustan Zinc seeks shareholder approval for Amarendu Prakash as CEO",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZlU1clVXUGQzRFZ6cUZvMzY0Unc3VlFMQ3RfdjhWUzE2OEp2eVNIcElWSjdFT2ZETm5GR1liTFBhQXJRb0VKcGNfSEZUWnpneUNBRHAtY25jNHpnVnpZbDc3NEI3UE40b2k1emVmaWFua3Z6UmU0bWFDQW40VDU1S1NzSXFNZ1ZyTEpBWjVkdExNZFZqRUZ3ekwxSDlvcGhyVGE1cnRtYktuMmRfbEtXME5MZFdvTUh5UGFN?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-09-16T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Approval",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Hindustan Zinc seeks shareholder approval for Amarendu Prakash as CEO.",
+      "enriched": true
+    },
+    {
+      "id": "n22e54068f654",
+      "ticker": "SHARDUL",
+      "company": "Shardul Securities Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Shardul Securities Q2 2026 Earnings: Per-Share Loss of ₹5.62 as Revenue Comparison Swings Sharply Negative - EBITDA Margin Trends",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNT296UTBZaDhUTl9MYWJiNkdNNXRMZS0wa25mVDhmLUczM0piQy12RFoycG92YTFCX01JYWN6Q21MYlRUR2xKUl9jV1kycThYR2x0aklVYnlZbS1mYlNweklkMGRodU9hNTBxN3lDcndqWjZkLTBENmNTRzZkYXdhNXFHX0E1SjlSMm5qRmtLVUtqdTVFcjRyTFJEeVVpQ2REbXVvNzVxWVhyZWF4NDJTTFJJLWdlLTRzZ1AzcTRlWUpjN2hRSFczbi1EYUVTRVpKZllXdkdZaWtBaGVjeG8w?oc=5",
+      "source": "siam.in",
+      "date": "2026-09-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Shardul Securities Q2 2026: Loss per share ₹5.62, revenue declined sharply.",
+      "enriched": true
+    },
+    {
+      "id": "n8bdf67533071",
+      "ticker": "GLOBAL",
+      "company": "Optical Fibre",
+      "sector": "Telecom",
+      "scope": [
+        "universe"
+      ],
+      "title": "HFCL boosts capex to ₹1,800 crore for optical fibre production",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQakFGTmJLLTI5bzZlMklBSm9ISFppalJic3dxUVRMeUM2dEV1emt6U0MtTzdhZXpfeE14bWlnMGpncmg4c0NXb2hzLVFnT201VVZQclp5NWFQT1gxR1hHUE5DVnFyLWctWXBfQ0FBQTV1M0xfaExEWmpZREhMRFhRa0xCeTA0VEoybnRwN1FKM2RPWU9XekFjOUZLenhBbVVteVVJRmdzalFFNURXdklxUDZ1Tk1kVHo1WERvNHFkSUVkcHplYkY2dzY1Zks2MFFzdk1obdIB2gFBVV95cUxQSm5hbElTT2U4UnJNVExhbW5Wd1E0S1JxQUptd2plUGtDX2Mzelp0VVlGaVVLRDU1RzlKLWxsX0d3VTFqMm85TlNMeUowUWtOLVNORHRFaG1adFZrQS1FT2psUEVTREJCY3Jzelg5NllrWFRFcE9Bbkc1NmYwM2stM1dXMlNwR2lXdmZidkxFbVZZUFktT2NlOGRoZHVFdGd3aUdYdEYyRGlEQWtUc2s2ZW51R01jTVVoWGZubXlqakV5dTR1N0lVS05qVmJuV1pJQjQ4Uk9zMkJSZw?oc=5",
+      "source": "ET Telecom",
+      "date": "2026-09-15T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capex",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "HFCL increases capex to ₹1,800 crore to expand optical fibre production capacity.",
+      "enriched": true
+    },
+    {
+      "id": "n3c82ab5519cc",
+      "ticker": "DELHIVERY",
+      "company": "Delhivery Limited",
+      "sector": "Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Delhivery accepts COO Ajith Pai Mangalore's resignation effective Sep 15, 2026",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRUlTYUM3T1JCVjJ1TzNGejdGazJCMHRQNXJmUFBtRUZqT2pubDZqWWNpUW5lU1JuOWY3U3UzZy0weG1iM20wemQ3Y3RCeEUwOHVhbjJnTS1GT0hQaU84U0dTSmY0eVhRSW9aNEFZYmx4OV85bHlTYkFOOEh1clpKZV9IQWhFUjhfVTR5LWI3ZjhOWkV6Z2s2eUYzVlZnUEdwR3duNGF2M3Zxa19wUnJNd0NKVk1NNF9QWkxKdDRyQjFBN25VTXdnci00RDZGMVU?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-09-15T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Chief Operating Officer Ajith Pai Mangalore resigns from Delhivery, effective September 15, 2026.",
       "enriched": true
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:32:39.994Z",
+  "generated_at": "2026-10-06T19:37:05.271Z",
   "top5": [
     "PRIVISCL",
     "TFCILTD",
@@ -12,13 +12,13 @@
       "company": "Privi Speciality Chemicals Limited",
       "ticker": "PRIVISCL",
       "sector": "Chemicals",
-      "weightPct": 37.16
+      "weightPct": 37.31
     },
     {
       "company": "TruAlt Bioenergy Limited",
       "ticker": "TRUALT",
       "sector": "Fast Moving Consumer Goods",
-      "weightPct": 2.54
+      "weightPct": 2.51
     },
     {
       "company": "Bliss GVS Pharma Limited",
@@ -29,55 +29,61 @@
       "company": "SG Mart Limited",
       "ticker": "SGMART",
       "sector": "Metals & Mining",
-      "weightPct": 1.24
-    },
-    {
-      "company": "LG Electronics India Limited",
-      "ticker": "LGEINDIA",
-      "sector": "Consumer Durables",
       "weightPct": 1.23
-    },
-    {
-      "company": "Coal India Limited",
-      "ticker": "COALINDIA",
-      "sector": "Oil Gas & Consumable Fuels",
-      "weightPct": 1.39
     },
     {
       "company": "Wonderla Holidays Limited",
       "ticker": "WONDERLA",
       "sector": "Consumer Services",
-      "weightPct": 0.59
+      "weightPct": 0.6
+    },
+    {
+      "company": "LG Electronics India Limited",
+      "ticker": "LGEINDIA",
+      "sector": "Consumer Durables",
+      "weightPct": 1.21
     },
     {
       "company": "Jio Financial Services Limited",
       "ticker": "JIOFIN",
       "sector": "Financial Services",
-      "weightPct": 1.2
+      "weightPct": 1.21
+    },
+    {
+      "company": "Coal India Limited",
+      "ticker": "COALINDIA",
+      "sector": "Oil Gas & Consumable Fuels",
+      "weightPct": 1.32
     },
     {
       "company": "Antelopus Selan Energy Limited",
       "ticker": "ANTELOPUS",
       "sector": "Oil Gas & Consumable Fuels",
-      "weightPct": 0.89
+      "weightPct": 0.87
     },
     {
       "company": "Jamna Auto Industries Limited",
       "ticker": "JAMNAAUTO",
       "sector": "Automobile and Auto Components",
-      "weightPct": 0.96
+      "weightPct": 1.02
     },
     {
       "company": "Dynamatic Technologies Limited",
       "ticker": "DYNAMATECH",
       "sector": "Capital Goods",
-      "weightPct": 0.68
+      "weightPct": 0.67
     },
     {
       "company": "Jash Engineering Limited",
       "ticker": "JASH",
       "sector": "Capital Goods",
-      "weightPct": 1.5
+      "weightPct": 1.47
+    },
+    {
+      "company": "PG Electroplast Limited",
+      "ticker": "PGEL",
+      "sector": "Consumer Durables",
+      "weightPct": 0.9
     },
     {
       "company": "Hindalco Industries Limited",
@@ -86,34 +92,28 @@
       "weightPct": 0.76
     },
     {
-      "company": "Thermax Limited",
-      "ticker": "THERMAX",
-      "sector": "Capital Goods",
-      "weightPct": 0.68
-    },
-    {
-      "company": "PG Electroplast Limited",
-      "ticker": "PGEL",
-      "sector": "Consumer Durables",
-      "weightPct": 0.85
-    },
-    {
       "company": "DCB Bank Limited",
       "ticker": "DCBBANK",
       "sector": "Financial Services",
       "weightPct": 0.69
     },
     {
+      "company": "Thermax Limited",
+      "ticker": "THERMAX",
+      "sector": "Capital Goods",
+      "weightPct": 0.67
+    },
+    {
       "company": "Siemens Energy India Limited",
       "ticker": "ENRIN",
       "sector": "Capital Goods",
-      "weightPct": 0.42
+      "weightPct": 0.41
     },
     {
       "company": "Gujarat Mineral Development Corporation Limited",
       "ticker": "GMDCLTD",
       "sector": "Metals & Mining",
-      "weightPct": 0.7
+      "weightPct": 0.69
     },
     {
       "company": "NMDC Limited",
@@ -134,12 +134,6 @@
       "weightPct": 0.39
     },
     {
-      "company": "Jayaswal Neco Industries Limited",
-      "ticker": "JAYNECOIND",
-      "sector": "Capital Goods",
-      "weightPct": 0.29
-    },
-    {
       "company": "Jubilant Foodworks Limited",
       "ticker": "JUBLFOOD",
       "sector": "Consumer Services",
@@ -155,13 +149,13 @@
       "company": "Bajaj Finance Limited",
       "ticker": "BAJFINANCE",
       "sector": "Financial Services",
-      "weightPct": 0.67
+      "weightPct": 0.65
     },
     {
       "company": "VA Tech Wabag Limited",
       "ticker": "WABAG",
       "sector": "Utilities",
-      "weightPct": 0.7
+      "weightPct": 0.69
     },
     {
       "company": "Hester Biosciences Limited",
@@ -179,25 +173,25 @@
       "company": "ETERNAL LIMITED",
       "ticker": "ETERNAL",
       "sector": "Consumer Services",
-      "weightPct": 1.04
-    },
-    {
-      "company": "Tata Steel Limited",
-      "ticker": "TATASTEEL",
-      "sector": "Metals & Mining",
-      "weightPct": 0.47
+      "weightPct": 1.05
     },
     {
       "company": "ABB India Limited",
       "ticker": "ABB",
       "sector": "Capital Goods",
-      "weightPct": 0.83
+      "weightPct": 0.85
+    },
+    {
+      "company": "Tata Steel Limited",
+      "ticker": "TATASTEEL",
+      "sector": "Metals & Mining",
+      "weightPct": 0.46
     },
     {
       "company": "Reliance Industries Limited",
       "ticker": "RELIANCE",
       "sector": "Oil Gas & Consumable Fuels",
-      "weightPct": 0.58
+      "weightPct": 0.59
     },
     {
       "company": "Vedanta Aluminium Metal Limited",
@@ -218,16 +212,22 @@
       "weightPct": 0.79
     },
     {
+      "company": "Bharat Forge Limited",
+      "ticker": "BHARATFORG",
+      "sector": "Automobile and Auto Components",
+      "weightPct": 0.28
+    },
+    {
       "company": "Bharat Petroleum Corporation Limited",
       "ticker": "BPCL",
       "sector": "Oil Gas & Consumable Fuels",
       "weightPct": 0.74
     },
     {
-      "company": "Bharat Forge Limited",
-      "ticker": "BHARATFORG",
-      "sector": "Automobile and Auto Components",
-      "weightPct": 0.28
+      "company": "Acme Solar Holdings Limited",
+      "ticker": "ACMESOLAR",
+      "sector": "Power",
+      "weightPct": 0.69
     },
     {
       "company": "Tips Music Limited",
@@ -236,16 +236,10 @@
       "weightPct": 0.06
     },
     {
-      "company": "Acme Solar Holdings Limited",
-      "ticker": "ACMESOLAR",
-      "sector": "Power",
-      "weightPct": 0.67
-    },
-    {
       "company": "Tata Motors Passenger Vehicles Limited",
       "ticker": "TMPV",
       "sector": "Automobile and Auto Components",
-      "weightPct": 0.13
+      "weightPct": 0.12
     },
     {
       "company": "Fedbank Financial Services Limited",
@@ -259,10 +253,16 @@
       "weightPct": 0.6
     },
     {
+      "company": "Trent Limited",
+      "ticker": "TRENT",
+      "sector": "Consumer Services",
+      "weightPct": 0.59
+    },
+    {
       "company": "Abbott India Limited",
       "ticker": "ABBOTINDIA",
       "sector": "Healthcare",
-      "weightPct": 0.58
+      "weightPct": 0.57
     },
     {
       "company": "EID Parry India Limited",
@@ -271,10 +271,10 @@
       "weightPct": 0.56
     },
     {
-      "company": "Sobha Limited",
-      "ticker": "SOBHA",
-      "sector": "Realty",
-      "weightPct": 0.56
+      "company": "Vedanta Limited",
+      "ticker": "VEDL",
+      "sector": "Metals & Mining",
+      "weightPct": 0.2
     },
     {
       "company": "Indian Energy Exchange Limited",
@@ -283,21 +283,15 @@
       "weightPct": 0.55
     },
     {
+      "company": "Sobha Limited",
+      "ticker": "SOBHA",
+      "sector": "Realty",
+      "weightPct": 0.55
+    },
+    {
       "company": "The Indian Hotels Company Limited",
       "ticker": "INDHOTEL",
       "sector": "Consumer Services"
-    },
-    {
-      "company": "Vedanta Limited",
-      "ticker": "VEDL",
-      "sector": "Metals & Mining",
-      "weightPct": 0.19
-    },
-    {
-      "company": "Trent Limited",
-      "ticker": "TRENT",
-      "sector": "Consumer Services",
-      "weightPct": 0.53
     },
     {
       "company": "Arman Financial Services Limited",
@@ -316,15 +310,15 @@
       "weightPct": 0.12
     },
     {
-      "company": "Aegis Logistics Limited",
-      "ticker": "AEGISLOG",
-      "sector": "Oil Gas & Consumable Fuels"
-    },
-    {
       "company": "Neogen Chemicals Limited",
       "ticker": "NEOGEN",
       "sector": "Chemicals",
-      "weightPct": 0.43
+      "weightPct": 0.45
+    },
+    {
+      "company": "Aegis Logistics Limited",
+      "ticker": "AEGISLOG",
+      "sector": "Oil Gas & Consumable Fuels"
     },
     {
       "company": "State Bank of India",
@@ -338,15 +332,21 @@
       "sector": ""
     },
     {
+      "company": "Arihant Foundations & Housing Limited",
+      "ticker": "ARIHANT",
+      "sector": "Realty",
+      "weightPct": 0.36
+    },
+    {
       "company": "Shardul Securities Limited",
       "ticker": "SHARDUL",
       "sector": "Financial Services"
     },
     {
-      "company": "Arihant Foundations & Housing Limited",
-      "ticker": "ARIHANT",
-      "sector": "Realty",
-      "weightPct": 0.34
+      "company": "Jayaswal Neco Industries Limited",
+      "ticker": "JAYNECOIND",
+      "sector": "Capital Goods",
+      "weightPct": 0.29
     },
     {
       "company": "Delta Corp Limited",
@@ -395,6 +395,11 @@
       "weightPct": 0.12
     },
     {
+      "company": "IndusInd Bank Limited",
+      "ticker": "INDUSINDBK",
+      "sector": "Financial Services"
+    },
+    {
       "company": "Quick Heal Technologies Limited",
       "ticker": "QUICKHEAL",
       "sector": "Information Technology"
@@ -405,26 +410,20 @@
       "sector": "Financial Services"
     },
     {
-      "company": "Integrity Infrabuild Developers Limited",
-      "ticker": "INTEGRITY",
-      "sector": "Construction"
-    },
-    {
       "company": "Aarti Pharmalabs Limited",
       "ticker": "AARTIPHARM",
       "sector": "Healthcare",
       "weightPct": 0.09
     },
     {
+      "company": "Integrity Infrabuild Developers Limited",
+      "ticker": "INTEGRITY",
+      "sector": "Construction"
+    },
+    {
       "company": "HLE Glascoat Limited",
       "ticker": "HLEGLAS",
       "sector": "Capital Goods"
-    },
-    {
-      "company": "Sansera Engineering Limited",
-      "ticker": "SANSERA",
-      "sector": "Automobile and Auto Components",
-      "weightPct": 0.07
     },
     {
       "company": "Aeroflex Industries Limited",
@@ -433,9 +432,15 @@
       "weightPct": 0.07
     },
     {
-      "company": "Cartrade Tech Limited",
-      "ticker": "CARTRADE",
-      "sector": "Consumer Services",
+      "company": "Sansera Engineering Limited",
+      "ticker": "SANSERA",
+      "sector": "Automobile and Auto Components",
+      "weightPct": 0.07
+    },
+    {
+      "company": "Capillary Technologies India Limited",
+      "ticker": "CAPILLARY",
+      "sector": "Information Technology",
       "weightPct": 0.07
     },
     {
@@ -445,9 +450,9 @@
       "weightPct": 0.07
     },
     {
-      "company": "Capillary Technologies India Limited",
-      "ticker": "CAPILLARY",
-      "sector": "Information Technology",
+      "company": "Cartrade Tech Limited",
+      "ticker": "CARTRADE",
+      "sector": "Consumer Services",
       "weightPct": 0.06
     },
     {
@@ -493,16 +498,16 @@
       "weightPct": 0.05
     },
     {
+      "company": "ICICI Bank Limited",
+      "ticker": "ICICIBANK",
+      "sector": "Financial Services",
+      "weightPct": 0.59
+    },
+    {
       "company": "Centum Electronics Limited",
       "ticker": "CENTUM",
       "sector": "Capital Goods",
       "weightPct": 0.05
-    },
-    {
-      "company": "ICICI Bank Limited",
-      "ticker": "ICICIBANK",
-      "sector": "Financial Services",
-      "weightPct": 0.6
     },
     {
       "company": "APL Apollo Tubes Limited",
@@ -527,15 +532,15 @@
       "sector": "Construction Materials"
     },
     {
-      "company": "Vedanta Iron and Steel Limited",
-      "ticker": "VISL",
-      "sector": "Metals & Mining"
-    },
-    {
       "company": "Omnitech Engineering Limited",
       "ticker": "OMNI",
       "sector": "Capital Goods",
       "weightPct": 0.04
+    },
+    {
+      "company": "Vedanta Iron and Steel Limited",
+      "ticker": "VISL",
+      "sector": "Metals & Mining"
     },
     {
       "company": "Delhivery Limited",
@@ -550,15 +555,15 @@
       "weightPct": 0.04
     },
     {
-      "company": "Apollo Hospitals Enterprise Limited",
-      "ticker": "APOLLOHOSP",
-      "sector": "Healthcare",
-      "weightPct": 0.04
-    },
-    {
       "company": "Garware Hi-Tech Films Limited",
       "ticker": "GRWRHITECH",
       "sector": "Capital Goods",
+      "weightPct": 0.04
+    },
+    {
+      "company": "Apollo Hospitals Enterprise Limited",
+      "ticker": "APOLLOHOSP",
+      "sector": "Healthcare",
       "weightPct": 0.04
     },
     {
@@ -574,15 +579,15 @@
       "weightPct": 0.04
     },
     {
-      "company": "Mahindra & Mahindra Limited",
-      "ticker": "M&M",
-      "sector": "Automobile and Auto Components",
-      "weightPct": 0.04
-    },
-    {
       "company": "Ethos Limited",
       "ticker": "ETHOSLTD",
       "sector": "Consumer Durables",
+      "weightPct": 0.03
+    },
+    {
+      "company": "Mahindra & Mahindra Limited",
+      "ticker": "M&M",
+      "sector": "Automobile and Auto Components",
       "weightPct": 0.03
     },
     {
@@ -630,26 +635,20 @@
       "sector": "Chemicals"
     },
     {
+      "company": "Gujarat State Fertilizers & Chemicals Limited",
+      "ticker": "GSFC",
+      "sector": "Chemicals"
+    },
+    {
       "company": "LIC Housing Finance Limited",
       "ticker": "LICHSGFIN",
       "sector": "Financial Services",
       "weightPct": 0.02
     },
     {
-      "company": "Gujarat State Fertilizers & Chemicals Limited",
-      "ticker": "GSFC",
-      "sector": "Chemicals"
-    },
-    {
       "company": "Polycab India Limited",
       "ticker": "POLYCAB",
       "sector": "Capital Goods",
-      "weightPct": 0.02
-    },
-    {
-      "company": "HDFC Asset Management Company Limited",
-      "ticker": "HDFCAMC",
-      "sector": "Financial Services",
       "weightPct": 0.02
     },
     {
@@ -659,10 +658,16 @@
       "weightPct": 0.02
     },
     {
+      "company": "HDFC Asset Management Company Limited",
+      "ticker": "HDFCAMC",
+      "sector": "Financial Services",
+      "weightPct": 0.02
+    },
+    {
       "company": "Jeena Sikho Lifecare Limited",
       "ticker": "JSLL",
       "sector": "Consumer Services",
-      "weightPct": 0.02
+      "weightPct": 0.01
     },
     {
       "company": "Aeroflex Enterprises Limited",
@@ -708,58 +713,28 @@
       "sector": "Financial Services"
     },
     {
-      "company": "EIH Limited",
-      "ticker": "EIHOTEL",
-      "sector": "Consumer Services"
-    },
-    {
-      "company": "Emami Limited",
-      "ticker": "EMAMILTD",
-      "sector": "Fast Moving Consumer Goods"
-    },
-    {
-      "company": "IndusInd Bank Limited",
-      "ticker": "INDUSINDBK",
-      "sector": "Financial Services"
-    },
-    {
-      "company": "Indian Railway Catering And Tourism Corporation Limited",
-      "ticker": "IRCTC",
-      "sector": "Consumer Services"
-    },
-    {
-      "company": "SJVN Limited",
-      "ticker": "SJVN",
-      "sector": "Power"
-    },
-    {
-      "company": "Yes Bank Limited",
-      "ticker": "YESBANK",
-      "sector": "Financial Services"
-    },
-    {
       "company": "Tourism Finance Corporation of India Limited",
       "ticker": "TFCILTD",
       "sector": "Financial Services",
-      "weightPct": 7.67
+      "weightPct": 7.61
     },
     {
       "company": "Mahindra Holidays & Resorts India Limited",
       "ticker": "MHRIL",
       "sector": "Consumer Services",
-      "weightPct": 1.5
+      "weightPct": 1.49
     },
     {
       "company": "Elantas Beck India Limited",
       "ticker": "ELANTAS",
       "sector": "Chemicals",
-      "weightPct": 0.83
+      "weightPct": 0.86
     },
     {
       "company": "Deepak Fertilizers and Petrochemicals Corporation Limited",
       "ticker": "DEEPAKFERT",
       "sector": "Chemicals",
-      "weightPct": 0.61
+      "weightPct": 0.64
     }
   ],
   "watchlist_exited": [
@@ -1044,9 +1019,19 @@
       "sector": "Automobile and Auto Components"
     },
     {
+      "company": "EIH Limited",
+      "ticker": "EIHOTEL",
+      "sector": "Consumer Services"
+    },
+    {
       "company": "Elecon Engineering Company Limited",
       "ticker": "ELECON",
       "sector": "Capital Goods"
+    },
+    {
+      "company": "Emami Limited",
+      "ticker": "EMAMILTD",
+      "sector": "Fast Moving Consumer Goods"
     },
     {
       "company": "Equitas Small Finance Bank Limited",
@@ -1297,6 +1282,11 @@
       "company": "IRB Infrastructure Developers Limited",
       "ticker": "IRB",
       "sector": "Construction"
+    },
+    {
+      "company": "Indian Railway Catering And Tourism Corporation Limited",
+      "ticker": "IRCTC",
+      "sector": "Consumer Services"
     },
     {
       "company": "Indian Railway Finance Corporation Limited",
@@ -1624,6 +1614,11 @@
       "sector": "Consumer Services"
     },
     {
+      "company": "SJVN Limited",
+      "ticker": "SJVN",
+      "sector": "Power"
+    },
+    {
       "company": "The South Indian Bank Limited",
       "ticker": "SOUTHBANK",
       "sector": "Financial Services"
@@ -1812,6 +1807,11 @@
       "company": "Yatharth Hospital & Trauma Care Services Limited",
       "ticker": "YATHARTH",
       "sector": "Healthcare"
+    },
+    {
+      "company": "Yes Bank Limited",
+      "ticker": "YESBANK",
+      "sector": "Financial Services"
     },
     {
       "company": "Zee Entertainment Enterprises Limited",

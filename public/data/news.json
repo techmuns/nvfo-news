@@ -1,13 +1,210 @@
 {
-  "generated_at": "2026-11-10T10:15:43.553Z",
-  "source": "google-news+munshot+claude",
+  "generated_at": "2026-11-10T20:57:54.943Z",
+  "source": "google-news+claude",
   "counts": {
-    "portfolio": 412,
-    "watchlist": 1518,
-    "universe": 9,
-    "total": 1527
+    "portfolio": 461,
+    "watchlist": 1677,
+    "universe": 10,
+    "total": 1687
   },
   "items": [
+    {
+      "id": "n6d1ff7da1796",
+      "ticker": "CANBK",
+      "company": "Canara Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Chargesheet filed in Canara Bank loan fraud case",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX01seF9BcGdlQlVVRTJHRWs5M242dzZ5WmFlanE3Ulhvdi1aN1dicmlNT1VtVGE3TUp4Z2RIbWtTMVVHTUtHamJJTnl5RXV3OENDaTJVRjFFVEFJSEVhaGcwSERuQ0tWZGstSENHSVN6TmI3VmQzWTdkTlpLUHprRGRvVFBoTWlHc2JjcFhscnrSAZQBQVVfeXFMTWxuRGR4UC13V213eTlpRFJmdlNFT0lyUkxTcnViajAya01HSmhhaWJkMGYzbGFMMGFaMEpEYTFqYlNPbFNOUkVJeC1WdWN3NTBHY2JXeFNHMzFicFg1eVU4VE1KVzdOTkZLOTBBaVluSEhpaFZwYzdNVkIyYmg1Ui1icGxUVWRDdEN3VUliUWdUaEVGSA?oc=5",
+      "source": "The Tribune",
+      "date": "2026-11-10T19:43:10.000Z",
+      "topic": "Trouble",
+      "keyword": "Fraud",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Chargesheet filed against Canara Bank in loan fraud case; legal/governance risk.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n748084f3efbe",
+      "ticker": "AEGISLOG",
+      "company": "Aegis Logistics Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aegis Logistics posts strong H1 FY27 and Tristar acquisition",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcUZIRlhOc1RGc21HUjA3MXA5aEtmX3c0UDc1RDF0bEtrQ192LXNVOERqLUZqZXlLV0hJeGN5bk4zSDAtZjBLdkprYnhocDlJdTI5ZTBjdjlCLUZnWF9Md1daMGRjbWljdEVjX1VoWUtzcTA2LTV6ck53MWoyeXBya1g1b1I0bEhxX05qZmZGZ2txbXZlM3pPR2JJR3hiOEFFTld2bGVPOXp2aUIxTk56ag?oc=5",
+      "source": "InvestyWise",
+      "date": "2026-11-10T17:26:01.000Z",
+      "topic": "Deals",
+      "keyword": "Acquisition",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Aegis Logistics acquires Tristar; expands business footprint and capabilities.",
+      "enriched": true
+    },
+    {
+      "id": "nf2da64bf49e4",
+      "ticker": "AEGISLOG",
+      "company": "Aegis Logistics Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aegis Logistics (NSE:AEGISLOG) Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORERxcDg1WS1XaGNpc1Q5M2k3Wl9qODI4QTZ0N3lQRl80SHFfV1pfRUpybWI5aTFQdVBjRmZYRUFveXVBVUc2UDVya1N2UzRNMjBoNlBGempVZXdHVWpOSnBwdVFXMTJVSHFYU3dWX2ZOR2k2cHBWSDA0Q1dmVzZlU3pSaTRyU3pBbjZ0ZDhwVjV3dTVKYU9DWWVCeVdkejkydXhIa3k2Wi1Ldkx0dWozdHc2ZjgyOXVf?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-10T17:19:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Aegis Logistics Q2 FY27 earnings call highlights; financial performance update.",
+      "enriched": true
+    },
+    {
+      "id": "nb16116f88895",
+      "ticker": "CANBK",
+      "company": "Canara Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Delhi Police Arrest 2 Jamtara Cyber Fraud Kingpins After 5 Years In ₹27.10 Lakh Fake Canara Bank Website",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQREk5NGVHWFgtUUJfeHBVUXNqd0FvTHdyR2pBYlJCZnJwMkx4QVozWGx5S1B0U1JzVmF4Zk5DeGZISUFRSDBibGdDQXYxM0V2ZDM3TnJoUWloQUM1Q3ZzNFFOV2hwd1BfU0hLTFdWUHc5YWVyWGtiaVB5UDZwbnJzSG9INlhQZ0dKSlBqLUlqZzNTWEF0UG1vSkEwUE5GOU1la0tidW9yZndIM3NhbUxqV3pMRjVCcTlxVXJiMTBzNFJlcktRV2VGZHU3THUwZkxKdVhMSW0zU2lzTWh4bWfSAeMBQVVfeXFMTVU4YVFJNS1UQUl6YWMyeUN2VnB3QVZDbTVBLUF1aXRJb25VV0t1elBkRl91Q2JneGxXWVRiMjFBbVRFSFdYWVMxOXRPdzF0MzNUUlNyeDJmQTNBUU5wTEJFRW85RHp6NGRHSHV2SXJqYWJIQncwYjduRVlfeTYxaG50dUpJdDUyaS1XT0R2aWc3cEwtWVdObVpFRWxEV2c0bXhrU2lRZnZXd0hLMURCa3dwaF9DblJiWVFCSDNGNzF0UmdJRmJ4SU4yUFVZQ1hLSnZPZG9UMUhsa0xILW1KcWdCMEU?oc=5",
+      "source": "Free Press Journal",
+      "date": "2026-11-10T13:03:37.000Z",
+      "topic": "Trouble",
+      "keyword": "Fraud",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Cyber fraudsters arrested for fake Canara Bank website; reputational and security concern.",
+      "enriched": true
+    },
+    {
+      "id": "n5ddf5dc66081",
+      "ticker": "EMAMILTD",
+      "company": "Emami Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Emami Limited Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdFF6Ul9JWTVUM0JDNHk5eG5hcU9lWVJVOXpmdnZ1LW0tYjczWmxWTnNrVF8yd1NWdnAxZTF3MG9mZHh1bkJZb0RLZkJWWmhKakhPN0I0aWpBcVNtaHdwMTRzUEV3dzNkZGtieDI5WnlqeDh6LUdHNXhnY285aDFPUEItNlYwRE1vNzlNa2xKQkVxNUN6dGNBbjRDZENRUWdOWEg2cXJYc1FISndheWhMZnIxb0JqSUVsQUQ5aU83cENzM28?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-10T12:36:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Emami Limited Q2 FY27 earnings call highlights; financial performance update.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n92a1a8bee462",
+      "ticker": "COSMOFIRST",
+      "company": "COSMO FIRST LIMITED",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Cosmo First Q2 FY27 Earnings Call: Key Highlights for Investors",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONmdSSWs5Y3dtT1VhcnFVYUxJLVBYNTdqN0xJa1loem5qVkZXUThCN2tPLVE3N1V0VkdHeE9hbWJGRHdBTlVTQmRBdmJHcXlKdEVQVExvQUJCMHFjcGQxOGNva0lBRFhvVnAxdDZJSmM1c1I1YnpQNlpTQnZFazJqV1VMWlZBOThzdUwwWmtDVTlDQU8xVXMteGdrY2FVZTZQUWxhb1NPUE40eGtTTEtuaVVZOGk4aW9PaklmbXJ2Y0lFbDA?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-10T12:25:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Cosmo First Q2 FY27 earnings call highlights; financial performance update.",
+      "enriched": true
+    },
+    {
+      "id": "n65cca4f6000b",
+      "ticker": "WEBELSOLAR",
+      "company": "Websol Energy System Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Websol Energy Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObTBmYmRyTWRXLWZlTmhqLUNfU2RrTzZhZ21FX0E4ZmtxeE9aOURVOHpqbFhsOGpFVmZ0NXdMVC1fZFM2RUY5WkFuUFVuakVxbHBFaG5KUGtVZGFvRjN3QW1URERQYUpPQWZ6ZVp4YW1QZjdJaEZLWFY3SnkxS2g1cFBRWjRlUFlQbF9XY3BmRnItVFRzUnVhTXNFUDhGcmRBMDdpTE1kN0c4VFVhUkpDUHpVazltN3hFU0dMRkxMSXhaS3VDekE?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-10T12:05:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Websol Energy Q2 FY27 earnings call highlights; financial performance update.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
+      "id": "n3741c7d95450",
+      "ticker": "APLLTD",
+      "company": "Alembic Pharmaceuticals Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Alembic Pharmaceuticals APLLTD Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcFlRbnlrVkx0dzc1cU5UcXlJWUoydi1oMVN3UEhCakpxa3JhOENUdC1EQVVYQlhac3RrbG80UkdDMElJT0tyOUwyNERlRWhPWHNaaGNJaXpjWGR6TFRkc0dBX1BWRmc3MlZvOUgzLVQ5LWVjaDk5V0o0ODBhNEhJd2RXcktoX1NfQ1FjTXBnQ2IxbURSOVprXzBMWmNQemZkUk1HUVNZTmQzOU9RNlBNbXNXQlhxUHNwZkdMUjRMdFhua2tHTjQxN1dPM3lodw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-10T11:04:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Alembic Pharmaceuticals Q2 FY27 earnings call highlights; financial performance update.",
+      "enriched": true
+    },
+    {
+      "id": "nbbf924a199ec",
+      "ticker": "BAJAJFINSV",
+      "company": "Bajaj Finserv Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Bajaj Finserv Q2 FY2027 Earnings Call Transcript Released",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa0RhcFVhTFFrWTdMbFBzbGNtRjBfSWpjLXJPZVZWUTVvUEVzWWtBM3dWdG1CMU14ZjhsS1hEOWhQc2k3T3M2VnhXYWpqOEJHWG5UOUdiM0R1TDdwbFlYb3pkRXp2LXBlZjQ4SXFkNjd0Z010X1NZMWVtNE9ubnhGcjdoQnJmQjRZR0dYeFNndk9KY0dlR3hKbEh2TkM0UDFYT3ZPMXA4dGkxNlo4bkJ6Ml9hVFRfQjdlTzBGZ25tRlBLYWlC?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-10T10:47:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Bajaj Finserv Q2 FY27 earnings call transcript released; financial performance update.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
+      "id": "n79f2948f2fa2",
+      "ticker": "CENTUM",
+      "company": "Centum Electronics Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Centum Electronics seeks shareholder approval for ₹1,000 crore borrowing limit",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTEVpX3lDSlJPMGI4dmFkQWxxaVFFMnZNOHhFMWFBMEdzR2drcDE2YjN0N0FOb0YxQnVkNzg5Q3dTQnY2Q0txX0hvZVF3OVpTbGhrajhrQk9kaXhPMWZqYnF4TTRlWVo5cFM2YUcwU0lqRWJyRmh5NXdJcmJhOWtROThxa1paYWtmMlFPeEJCVmZEejBqSGVQR1BHSW9ueE13TnN0TExibVlialk4TFRCNQ?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-11-10T10:15:24.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Centum Electronics seeks shareholder approval for ₹1,000 crore borrowing limit.",
+      "enriched": true
+    },
     {
       "id": "n3bba3a36fef5",
       "ticker": "SHOPERSTOP",
@@ -63,7 +260,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Q2 2027 earnings call transcript for Hindustan Oil Exploration Company.",
-      "sources_count": 5,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -83,7 +280,7 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Jyothy Labs raises buyback price to Rs 240/share and reduces repurchase target to 61.25 lakh shares.",
-      "sources_count": 2,
+      "sources_count": 7,
       "enriched": true
     },
     {
@@ -260,7 +457,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Welspun secured ₹5,500 crore US data centre pipeline order.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 3
     },
     {
       "id": "n3836df8ded33",
@@ -510,7 +708,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Q2 2027 earnings call transcript published; review for financial performance details.",
-      "sources_count": 5,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -650,25 +848,6 @@
       "enriched": true
     },
     {
-      "id": "n0ca185fc2c0c",
-      "ticker": "INDOCO",
-      "company": "Indoco Remedies Limited",
-      "sector": "Healthcare",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Indoco Remedies' AnaCipher Gets Brazil ANVISA Approval for Clinical, Bioanalytical Facilities",
-      "url": "https://medicaldialogues.in/news/industry/pharma/indoco-remedies-anacipher-gets-brazil-anvisa-approval-for-clinical-bioanalytical-facilities-182209",
-      "source": "medicaldialogues.in",
-      "date": "2026-11-10T10:10:05.547Z",
-      "topic": "Approvals&IP",
-      "keyword": "Approval",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Indoco's AnaCipher gets Brazil ANVISA approval for clinical and bioanalytical facilities.",
-      "enriched": true
-    },
-    {
       "id": "n051ae0fe13bf",
       "ticker": "HUDCO",
       "company": "Housing & Urban Development Corporation Limited",
@@ -708,6 +887,26 @@
       "enriched": true
     },
     {
+      "id": "n24a8cdc5e947",
+      "ticker": "HLEGLAS",
+      "company": "HLE Glascoat Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "HLE Glascoat says Kinam won US$42-48 million order in North America | Market News & Analysis",
+      "url": "https://www.multibagg.ai/market-pulse/articles/hle-glascoat-kinam-energy-order-announcement-cmwae2fxt00082imh6s0pzb1k",
+      "source": "multibagg.ai",
+      "date": "2026-11-10T10:09:58.690Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "HLE Glascoat subsidiary Kinam secures $42-48 million order in North America.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
       "id": "n07d7d1dd8811",
       "ticker": "HLEGLAS",
       "company": "HLE Glascoat Limited",
@@ -727,26 +926,6 @@
       "enriched": true
     },
     {
-      "id": "n24a8cdc5e947",
-      "ticker": "HLEGLAS",
-      "company": "HLE Glascoat Limited",
-      "sector": "Capital Goods",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "HLE Glascoat says Kinam won US$42-48 million order in North America | Market News & Analysis",
-      "url": "https://www.multibagg.ai/market-pulse/articles/hle-glascoat-kinam-energy-order-announcement-cmwae2fxt00082imh6s0pzb1k",
-      "source": "multibagg.ai",
-      "date": "2026-11-10T10:09:58.690Z",
-      "topic": "Orders",
-      "keyword": "Order",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "HLE Glascoat subsidiary Kinam secures $42-48 million order in North America.",
-      "sources_count": 2,
-      "enriched": true
-    },
-    {
       "id": "nb9dbabf44878",
       "ticker": "GSFC",
       "company": "Gujarat State Fertilizers & Chemicals Limited",
@@ -763,7 +942,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Q2 2027 earnings call transcript available for review.",
-      "sources_count": 4,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -978,7 +1157,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "BLS International reported Q2 2027 earnings in earnings call.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -1076,7 +1255,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Amara Raja Q2 2027 earnings call transcript released for investor review.",
-      "sources_count": 5,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -1196,7 +1375,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Q2 2027 earnings call transcript released; review for financial performance details.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -1507,22 +1686,22 @@
       "enriched": true
     },
     {
-      "id": "n9032f187f411",
-      "ticker": "OIL",
-      "company": "Oil India Limited",
-      "sector": "Oil Gas & Consumable Fuels",
+      "id": "n4783b5012808",
+      "ticker": "NBCC",
+      "company": "NBCC (India) Limited",
+      "sector": "Construction",
       "scope": [
         "watchlist"
       ],
-      "title": "Assam: Death toll in Tengakhat OIL ITF fire rises to five, another victim succumbs in Dibrugarh hospital",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNlRucGJBRlFCQml2cFJuYi1qS2xhVm52ZV84QVQybDEzalVoMV9XR3BKdGNJckpIZUlpRGNEMmNzM1NrcEtpY2ZXOFdjSlJRQXRfZnBvTWs0TGhyV3dzM193bXRweUpwMHNEM0o4LWI4Wmt2ZXFSMl92d0Vyb1loaG4tV091eXlDQ0NjMmJBV0xzTUhjMzJfcWVldVlrb0hyVGhuelJkMTd1d2ZFZ1JpbnVwY1BTYW1tRk9XdXhDbnlWTnBCT2hVZzJLR3NCVC1UYTE2LUpmZ2plc3BuRERGVTRNX0Q2WTJJbDY4OFhidVV3RDTSAfgBQVVfeXFMTWZIakI3Q0pQQzgyMHAxY05qZUk0WnptQmIyR0ZSTzN0THBjZVlTMGpmRWZCOXhOS0YwbDQyV0NIMVhtcllPamtRRXRWdDBJelBCYUlmdy10Y3JNWllDR3JYRzJLYS03b3A5aHhWUVBEOUlaUHhzMVZUWTNlcUlMZlZ4YXNlWUk1Z1VMMzlqMFBEcFhuS0drU1JJekdfZTMzM0RIWVFQaEFTYkpkZ0M5c1F1R3llUGYyWGZqaFRwUkJSMTBVbE9VUy1JWUd4MTRiZ1dlelNrWFo4cGk3VzllQTFyOG40aFdFbFAyaVlvZ3Q2azhFUDJDVmc?oc=5",
-      "source": "India Today NE",
-      "date": "2026-11-10T09:34:01.000Z",
-      "topic": "Trouble",
-      "keyword": "Fire",
+      "title": "NBCC India reports 31% PAT growth in Q2 FY27 with 1.26 lakh crore order book",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSk9hWkNJSGs1TS1KamRfZFRJUW0xSlliTjVDMDgtMF9VcEQ1UnV6RmVCVlVfSVQxV3k2LUJVdVlkUXp2RDFoQVpQWk1WMTlMclpqMmNLV2xXaGtHbS05dWtkaE5mMklhYzhERzVfQ2t3RnFlWTBKZ0FXd1pVMU9RNDRuOEVJTXhsN1kwdHlXOFBlOXZDU3c?oc=5",
+      "source": "InvestyWise",
+      "date": "2026-11-10T09:54:45.000Z",
+      "topic": "Money",
+      "keyword": "Order",
       "importance": "high",
-      "mood": "negative",
-      "takeaway": "Oil India fire at Tengakhat ITF kills five workers; major safety incident.",
+      "mood": "positive",
+      "takeaway": "NBCC reports 31% profit growth in Q2 with strong 1.26 lakh crore order book.",
       "enriched": true
     },
     {
@@ -1543,7 +1722,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Jash Engineering's orderbook crosses ₹1,000 crore on new subsidiary order.",
-      "sources_count": 2,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -1583,7 +1762,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "RateGain Travel Technologies Q2 FY27 earnings call transcript filed.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -1897,7 +2076,7 @@
       "importance": "high",
       "mood": "negative",
       "takeaway": "Spandana Sphoorty suffered ₹7.80 crore cyber fraud incident.",
-      "sources_count": 3,
+      "sources_count": 5,
       "enriched": true
     },
     {
@@ -2130,7 +2309,8 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "KSB wins Rs 850 million order from ONGC.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 3
     },
     {
       "id": "n73ac4980dc19",
@@ -2247,7 +2427,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "HLE Glascoat's order book reached record Rs 1,087 crore in Q2.",
-      "sources_count": 2,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -2500,7 +2680,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "BHEL won a synchronous condenser order from Power Grid worth up to ₹900 crore.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "na5e421fb6be8",
@@ -2741,7 +2922,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "L&T wins Rs 1,000–2,500 crore order to build 10 stations for Noida Metro Aqua Line.",
-      "sources_count": 5,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -2782,7 +2963,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Coal India Q2 2026 results and dividend announcement scheduled; earnings preview available.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n9fe7088ddc3a",
@@ -2802,6 +2984,26 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Coal India plans to list subsidiary MCL via $1 billion IPO this month, unlocking value from core asset.",
+      "enriched": true
+    },
+    {
+      "id": "nede442a8e63b",
+      "ticker": "HLEGLAS",
+      "company": "HLE Glascoat Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "HLE Glascoat HLEGLAS Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNUFrMkZkYjg2RTBJZV9VV1BvOG9zb0NRSmplNVhLaTJLSUhXUFNtbVFpVGtXd25za1pTSmFVOFZzUG5OQTluX1loUllKelZWM2xVSUYyb2hGWjZUU0RKc1NkOENQaDRSUUpycG5PTklaYU4xSzRrV2MxbmpZSXQzMVdkUld3MEFPY1A4NEVQMWk4d2VZV0ZoWTZKdkNSM3lnRXZpUzc5UGVmYjFXVXBVdkpvc0wwZTBSWDczNG9hWXc?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-09T11:50:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "HLE Glascoat reports Q2 FY27 earnings; details from earnings call.",
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -3147,7 +3349,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Shalby reported Q2 FY27 earnings; details available in earnings call transcript.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n5e34e7dcb5b0",
@@ -3340,7 +3543,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Nuvoco Vistas Q2 FY27 earnings call highlights released; key financial performance discussed.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n3f0d0d367a04",
@@ -4571,7 +4775,8 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Gravita India beat Q2 2026 earnings estimates on EPS and revenue.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n73c86f1dc85d",
@@ -4806,7 +5011,8 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Neogen Chemicals targeting regulatory approval for Pakhajan facility by March 2027.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "ned708e2aec4b",
@@ -4925,7 +5131,7 @@
       "importance": "high",
       "mood": "negative",
       "takeaway": "Fire at Oil India facility kills four; four staff suspended over incident.",
-      "sources_count": 4,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -5317,7 +5523,8 @@
       "importance": "high",
       "mood": "negative",
       "takeaway": "PNB customers lost ₹35 crore in a fraud; major governance and security failure.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n4cdd9fff4c0a",
@@ -5880,7 +6087,8 @@
       "importance": "low",
       "mood": "negative",
       "takeaway": "Neogen Chemicals ordered to pay Rs 34.60 lakh cost by GPCB.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n9008f0240592",
@@ -6018,26 +6226,6 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Dalmia Bharat completes JAL acquisition, boosting cement capacity to 54.7 million tonnes per annum.",
-      "enriched": true
-    },
-    {
-      "id": "nf90d62f615b8",
-      "ticker": "POLYCAB",
-      "company": "Polycab India Limited",
-      "sector": "Capital Goods",
-      "scope": [
-        "portfolio",
-        "watchlist"
-      ],
-      "title": "Polycab India: NCLAT reserves order on Asier Metals appeal after Oct 15 hearing",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTDVUN0ZsVmc5ajVuWVBYa0JIenJRalJEcWVzaURQUVJPT0NWTUw2Y1JQQ04wbFRidVhreXR4a1Fmc1kwYm81bmllclZQQk13M25uajdIU3dGN2paV3dhbEx0WVk0SDMxLV80aC15S1otVFliQVJzX1FXa1dKRm1uVnNzTjktbXpqd24xTlh4QUJMa2NlbDVBX0JHY0cxQVZWcTFBZ2VXQUdfVDg5d3pwaGM4M0JEMTNlaEhUamtCQkQ?oc=5",
-      "source": "scanx.trade",
-      "date": "2026-11-08T07:06:41.000Z",
-      "topic": "Trouble",
-      "keyword": "Order",
-      "importance": "medium",
-      "mood": "neutral",
-      "takeaway": "NCLAT reserves order on Asier Metals appeal against Polycab India after hearing.",
       "enriched": true
     },
     {
@@ -6231,7 +6419,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Orient Electric Q2 FY27 earnings call highlights released.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n5ff4b9023455",
@@ -8090,7 +8279,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Tata Projects wins order from GSFC to build acid complex in Gujarat.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n1d69f0279c8b",
@@ -8128,25 +8318,6 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Equitas SFB appointed interim MD & CEO following leadership change.",
-      "enriched": true
-    },
-    {
-      "id": "n687b444240be",
-      "ticker": "EMAMILTD",
-      "company": "Emami Limited",
-      "sector": "Fast Moving Consumer Goods",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Q2 2027 Emami Ltd Earnings Call Transcript",
-      "url": "https://gurufocus.com/news/9182744/q2-2027-emami-ltd-earnings-call-transcript",
-      "source": "gurufocus.com",
-      "date": "2026-11-07T09:00:30.387Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "medium",
-      "mood": "neutral",
-      "takeaway": "Emami released Q2 2027 earnings call transcript.",
       "enriched": true
     },
     {
@@ -8913,6 +9084,25 @@
       "enriched": true
     },
     {
+      "id": "n3a96ed9cfeae",
+      "ticker": "SURYAROSNI",
+      "company": "Surya Roshni Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Surya Roshni posts record Q2 FY 2027 revenue",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT0xWdW03TTZPeUNkM05iazdqOWs5d2pCWjdzVnppd2ZlMEZNTUFTR1RIN2dEQzJ2Sl9PZE1jdlFwck1HVDJxbjA1Y1hJNGdGNUxpWWJ5cUdfNFh6Q3JlQUVoeTBIZTVoVlVvUFBKQXl5eGp6MGhkTnpMdjlXY2JOOWFDTG9BbUMzc3JUaFoyYTBabXJ5UFJsV0pEbV9mQUZxY0ZHNVNkeWhyYnplUjJXLVdFX1R4bUtMbURfTVExVVdmejA?oc=5",
+      "source": "Investing.com",
+      "date": "2026-11-07T01:38:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Surya Roshni posted record Q2 FY27 revenue, signaling strong operational performance.",
+      "enriched": true
+    },
+    {
       "id": "n5dbafa1ee114",
       "ticker": "LICHSGFIN",
       "company": "LIC Housing Finance Limited",
@@ -9201,26 +9391,6 @@
       "sources_count": 2
     },
     {
-      "id": "n5795d357513a",
-      "ticker": "VAIBHAVGBL",
-      "company": "Vaibhav Global Limited",
-      "sector": "Consumer Durables",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Vaibhav Global Limited reports Q2 FY27 earnings call transcript | InvestyWise",
-      "url": "https://www.investywise.com/vaibhav-global-limited-submission-of-conference-call-transcript/",
-      "source": "investywise.com",
-      "date": "2026-11-06T20:31:43.497Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "medium",
-      "mood": "neutral",
-      "takeaway": "Vaibhav Global reported Q2 FY27 earnings.",
-      "sources_count": 2,
-      "enriched": true
-    },
-    {
       "id": "n616e0513c496",
       "ticker": "TITAN",
       "company": "Titan Company Limited",
@@ -9467,7 +9637,8 @@
       "importance": "high",
       "mood": "negative",
       "takeaway": "PNB customers in Greater Noida allege ₹35 crore fraud; several employees suspended.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 3
     },
     {
       "id": "n85143dc7f710",
@@ -9910,7 +10081,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Elecon Engineering reported Q2 FY27 earnings.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "na8ac46c1f5ba",
@@ -10679,6 +10851,25 @@
       "enriched": true
     },
     {
+      "id": "n0677877ff78b",
+      "ticker": "HINDOILEXP",
+      "company": "Hindustan Oil Exploration Company Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "HINDOILEXP Q2 FY27 Earnings: Key Highlights for Investors",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTktXcDlpUG5adHdpTWloc2xycW5mSVhRVDRnNXRJaFY4TDJYbkNYOGpHN3hUa3NpQndUd3dNajIyeHpGWW13enBZeHFBNkZ0ZzhzcllKZjFLX3ZhWHRBNTFhemJhNENEcC0yczhIMjdZZEZPaTRDQjJROFRoRDIzTXcwdG9uRWF6OTIzYjgwSWRtS3RocWRibzVQdlNlS214LS1RLU1TZ29FbHBQUDFrcFJyMnh3OTJsVHM0SG5jV0N5SVp2NDZQVldxQnBOS01obTY0?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-06T13:41:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Hindustan Oil Exploration reported Q2 FY27 earnings results.",
+      "enriched": true
+    },
+    {
       "id": "ne9e9054dc6a3",
       "ticker": "JUBLFOOD",
       "company": "Jubilant Foodworks Limited",
@@ -10718,6 +10909,25 @@
       "enriched": true
     },
     {
+      "id": "n21d2315efb06",
+      "ticker": "WELENT",
+      "company": "Welspun Enterprises Limited",
+      "sector": "Construction",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Welspun Enterprises NSE:WELENT Q2 FY27 Earnings Call Recording",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPczZYQlZhb3A3NUsxWVk1bHJvOE8zUmlhZldERjZpdjA0VU85QlZuMm5pR0dWUktxWWxvUV9sR0lTX011dUJtMVQtemNWd19wc3ltSW53LVpyVEttdl9keklnUW5kS0paNVA3M0lXbnJpZm5CMU9OdVRYdUJVeVpKd2d0bjhGQUZZWXZLcnliT3hnd285ekFtREpOcC05RHphTWVKbElITEFzRTVHdjJGd29RamtkcjktTkZoQXg0b2dPNnNBYTZB?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-06T12:08:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Welspun Enterprises disclosed Q2 FY27 earnings.",
+      "enriched": true
+    },
+    {
       "id": "n38065df9c4b4",
       "ticker": "SIRCA",
       "company": "Sirca Paints India Limited",
@@ -10734,6 +10944,26 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Sirca Paints discloses how it is using funds from its preferential share issue.",
+      "enriched": true
+    },
+    {
+      "id": "n08a2168aad90",
+      "ticker": "GOKEX",
+      "company": "Gokaldas Exports Limited",
+      "sector": "Textiles",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Gokaldas Exports GOKEX Q2 FY27 Earnings Call Recording",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdUE4MGpWa1VoRVJiVmV0RFd3eHk0alBEN1E0RGlEWkhaanF3VGVSa0F6NTFOaE5BQS1pekZqNGRUMWNHUl9BaDZNTmNlcFFNSDhhU0l4b0s4TXVMUFZkRTZKVUp2aGNVNjBidVowU2NMdm9xNXNkV1lab1lBT3BvVVU5Y2VFbXAtZEs1NEtoRkpOaU4xVHVGVldkTkxXbVJIRnpBWE91Sm0yU2FLYWctRDd1dHUyMjRQOVl6YjNpeU0xRXZ4?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-06T11:35:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Gokaldas Exports reported Q2 FY27 earnings.",
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -11582,7 +11812,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Calcutta HC grants interim injunction in NOCIL's patent suit, protecting intellectual property.",
-      "sources_count": 3,
+      "sources_count": 4,
       "enriched": true
     },
     {
@@ -12083,7 +12313,7 @@
       "mood": "negative",
       "takeaway": "Worker died in accident at Suryapet plant; facility shut down.",
       "enriched": true,
-      "sources_count": 2
+      "sources_count": 3
     },
     {
       "id": "n5e0541598910",
@@ -12913,6 +13143,25 @@
       "enriched": true
     },
     {
+      "id": "n4aeb21663b6f",
+      "ticker": "GLENMARK",
+      "company": "Glenmark Pharmaceuticals Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Glenmark Pharmaceuticals Q2 FY27 Earnings Call Audio Now Available",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQXJwd205X2FSX0FsblQyVTN2WjhlSi1tN2hIUUZLV0hnMWZlWnZMYkNMN0lKaGhqSUZyNWpBVUhPZTJrVmNacXNZSF9CazJVTkxhbFJQbE9vV0l0QnczeGRLMGg3alMzOVhQUGoyNUJwOXpGejVPZ1BOQmtTQXZudDR0WkZYSF9FWE5XbDNGYko2a3dEZTdnRkNqWTFocl9pQ0otTHN0b0ZYX045OGFFaUo3WkQ4d0diZGJ3ajNBNnpfdGh0SUZvaQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-06T06:55:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Glenmark Pharmaceuticals released Q2 FY27 earnings.",
+      "enriched": true
+    },
+    {
       "id": "nf9406405c399",
       "ticker": "CEATLTD",
       "company": "CEAT Limited",
@@ -13007,6 +13256,25 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Hindalco to announce Q2 results today along with other major companies.",
+      "enriched": true
+    },
+    {
+      "id": "nb01506c0614f",
+      "ticker": "COHANCE",
+      "company": "Cohance Lifesciences Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Cohance Lifesciences faces operational halt at Suryapet plant due to TGPCB closure order",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMUJLNWNjdE5PcDJacnV6bkFqQkc2RUN1Z2g2Ri1wekpVcGYyaWFsQ1ROOERmcHNYV2wtT0VHdWZGZjJEVGhfeEtyR1Uwb0ZTQXlxSWJ1YUpGU1RJQXZreTI5UWxaVnpNeS1ZU2hBTU5mUk9CR0lnaTNlUVVSMWxaOTFEbURCSTdFVGtIY2t2bkUtTHFLT1VfQkdkSGtzSTlrd1g1QlRzLUlFcFI2akNwZTNiR2dhUUFPdkZISUxoSk9lbEk?oc=5",
+      "source": "Business Upturn",
+      "date": "2026-11-06T03:03:35.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Cohance Lifesciences' Suryapet plant shut down by TGPCB regulatory order.",
       "enriched": true
     },
     {
@@ -13199,7 +13467,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Jyothy Labs approved ₹147 crore tender buyback at ₹215 per share.",
-      "sources_count": 2,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -15183,7 +15451,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "CreditAccess Grameen reported Q2 FY27 earnings.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "nc23731eb3991",
@@ -15844,7 +16113,7 @@
       "mood": "positive",
       "takeaway": "Power Mech Projects secures ₹327.35 crore order from Vedanta Aluminium.",
       "enriched": true,
-      "sources_count": 2
+      "sources_count": 3
     },
     {
       "id": "ne3a534e3cdc5",
@@ -15864,7 +16133,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Nelcast Q2 2027 earnings call transcript available.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n0018f0a8456b",
@@ -15905,7 +16175,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Apollo Hospitals Q2 2027 earnings call transcript available for review.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -16191,7 +16461,7 @@
       "mood": "positive",
       "takeaway": "Aegis Logistics acquires 90% stake in Tristar Holdings for $809 million, expanding logistics footprint.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "n5206f290e80a",
@@ -16231,7 +16501,7 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Jash Engineering's order book reaches ₹955 crore, driven by overseas contracts.",
-      "sources_count": 4,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -16553,7 +16823,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "L&T posts record orders in Q2 2026.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n38f70fd63cde",
@@ -16573,7 +16844,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "L&T posts Q2 2026 earnings results.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n6b0350a85c44",
@@ -16893,26 +17165,6 @@
       "enriched": true
     },
     {
-      "id": "nd721de9926e3",
-      "ticker": "WEBELSOLAR",
-      "company": "Websol Energy System Limited",
-      "sector": "Capital Goods",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Websol Energy System Q2 FY27 Earnings Call Audio Link Filed",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZU1DT09fM2hTX3ZDRVNEZE80c1JXckdJRkZiVVFORGt1T1oyWDZmTE0xUGltV3dKT2ZLdFlNbWJEMllFNWU1Wkl3amNoQmItMnIyVHhoRmdYTFk3RFQyZFNmb3BiV0xYY1o1eWVjdHNmOE5ndFhPVFo2Wm5vNWpabk5IdFh3SWNPOHRBQ2xROXBzb19OamxUaFo1MlhUaVVLTHo4NmpYeks3V2l3RXJpc3U2YnNzZGdORXFmb05fYW1jUkhlc3pqNUJn?oc=5",
-      "source": "Kalkine India",
-      "date": "2026-11-05T12:20:00.000Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "medium",
-      "mood": "neutral",
-      "takeaway": "Websol Energy System Q2 FY27 earnings call audio filed.",
-      "sources_count": 3,
-      "enriched": true
-    },
-    {
       "id": "n16b59ca83475",
       "ticker": "BHARATFORG",
       "company": "Bharat Forge Limited",
@@ -16930,6 +17182,25 @@
       "importance": "low",
       "mood": "neutral",
       "takeaway": "Bharat Forge reports on how it deployed QIP proceeds in the September 2026 quarter.",
+      "enriched": true
+    },
+    {
+      "id": "n89a49ac75bb3",
+      "ticker": "GMMPFAUDLR",
+      "company": "GMM Pfaudler Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "GMM Pfaudler Q2 FY27 Earnings Call Audio Now Available",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeG1EMW12YTZianN4eWJZWWJ2Z2c2R3U4aE5YZndYYmFqWEw3UUpWU2RRNkdxYmNOV1JDc1FSUnk2UVMyTXltaUx3R2VEZ1JFUGV1SDFNQldRc1lQLTJvd0UxWGFiU3lTczFKVGZrbjc3Q0pfSlpfWXo1YmcwWnhsbkhlQnYxbWFGTTBnTW9zVDZTcjZjcG1nRDlFZlZZQ1E2WW4xV0ExUmVkYXByRS1Pcnc5RlhHUQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-11-05T11:35:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "GMM Pfaudler reported Q2 FY27 earnings; details available in earnings call.",
       "enriched": true
     },
     {
@@ -17649,25 +17920,6 @@
       "enriched": true
     },
     {
-      "id": "ncdbdb419d8bb",
-      "ticker": "APLLTD",
-      "company": "Alembic Pharmaceuticals Limited",
-      "sector": "Healthcare",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Generic Venetoclax Gains Final FDA Approval in CLL/SLL and Newly Diagnosed AML | OncLive",
-      "url": "https://www.onclive.com/view/generic-venetoclax-gains-final-fda-approval-in-cll-sll-and-newly-diagnosed-aml",
-      "source": "onclive.com",
-      "date": "2026-11-04T20:54:47.984Z",
-      "topic": "Approvals&IP",
-      "keyword": "Approval",
-      "importance": "high",
-      "mood": "positive",
-      "takeaway": "Alembic's generic Venetoclax wins final FDA approval for blood cancer treatment.",
-      "enriched": true
-    },
-    {
       "id": "n76aeee92f2e3",
       "ticker": "APLLTD",
       "company": "Alembic Pharmaceuticals Limited",
@@ -17684,6 +17936,25 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Alembic reports strong Q2 earnings, stock hits 20% upper circuit limit.",
+      "enriched": true
+    },
+    {
+      "id": "ncdbdb419d8bb",
+      "ticker": "APLLTD",
+      "company": "Alembic Pharmaceuticals Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Generic Venetoclax Gains Final FDA Approval in CLL/SLL and Newly Diagnosed AML | OncLive",
+      "url": "https://www.onclive.com/view/generic-venetoclax-gains-final-fda-approval-in-cll-sll-and-newly-diagnosed-aml",
+      "source": "onclive.com",
+      "date": "2026-11-04T20:54:47.984Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Alembic's generic Venetoclax wins final FDA approval for blood cancer treatment.",
       "enriched": true
     },
     {
@@ -17916,7 +18187,7 @@
       "mood": "positive",
       "takeaway": "Time Technoplast wins Rs 87.53 crore order.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "n80d6df94e6fd",
@@ -17955,7 +18226,7 @@
       "mood": "positive",
       "takeaway": "Sterling and Wilson Renewable Q2 2026 profit improved year-on-year.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "nfeb4352f5903",
@@ -18700,7 +18971,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Cupid gains retail distribution across 425+ V2 Retail stores for wellness products.",
-      "sources_count": 8,
+      "sources_count": 5,
       "enriched": true
     },
     {
@@ -19471,7 +19742,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "VA Tech Wabag bags Rs 1,000 crore order from Reliance Industries.",
-      "sources_count": 2,
+      "sources_count": 5,
       "enriched": true
     },
     {
@@ -19924,26 +20195,6 @@
       "enriched": true
     },
     {
-      "id": "n8c116dbb1dcf",
-      "ticker": "VBL",
-      "company": "Varun Beverages Limited",
-      "sector": "Fast Moving Consumer Goods",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Varun Beverages (NSE:VBL) Q3 CY2026 Earnings Call Key Highlights",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc29qci01V2FfR1ZNQURfWG5ZVVF6RUc2NGVudllKMkh2dUhDaGV0TzNMOUpBWkJsTDhIUUp5bzFNdDZXZ0FPOWdXQWp1UFZBT0NUeVNXS180ZVJQVUpDN0FjNzI0VV9nSnVURWtxNUc3cjduSnJfVXh3LVM1U1hxak5zbDR4cEFRdzhFWGJFUlBETUFJYS12OHhSNkZid0lBeThocmZpczc0N0lEQVlvRG4ycVBOZ3JNOV91UndIOXIyZw?oc=5",
-      "source": "Kalkine India",
-      "date": "2026-11-04T10:35:00.000Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "low",
-      "mood": "neutral",
-      "takeaway": "Varun Beverages Q3 CY2026 earnings call highlights released.",
-      "sources_count": 2,
-      "enriched": true
-    },
-    {
       "id": "n2bf23b9b2f9e",
       "ticker": "AVANTIFEED",
       "company": "Avanti Feeds Limited",
@@ -20286,7 +20537,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "UltraTech Cement beat revenue expectations in Q2 2026.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n0fb74f2aff95",
@@ -21057,7 +21309,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "IIFL Capital Services completes ₹19,999.99 crore preferential share issue.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 5
     },
     {
       "id": "n9d8ce5ccaa08",
@@ -22697,7 +22950,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Wonderla Holidays posts strong Q2 FY26 growth in earnings call.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -22796,6 +23049,25 @@
       "takeaway": "Kotak Mahindra Bank won CCI approval for Deutsche India acquisition.",
       "enriched": true,
       "sources_count": 2
+    },
+    {
+      "id": "nf502dfda95ee",
+      "ticker": "SANGHVIMOV",
+      "company": "Sanghvi Movers Limited",
+      "sector": "Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Sanghvi Movers (NSE:SANGHVIMOV) Releases Q2 FY27 Earnings Call Recording: Key Insights",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOHUzZkNBUXIzV0UzajhBUjdSVXpFVVlVeDFBWVRXakVaWnFDNDRXSWNMRXNEdjhCbXpBdExqTFNUVEEyUDZYTFZQaTJTM013UTVUX1BwSlhjXzZqRzVkRDVQa05EellKQ3c4R1p1ZWl1YXYxaUozbkxQTFQ4M3cwNzJnX0FfakpaRzlwNGtkUGJvcWQxZC1NeEdFaW45TXBaSG5Cc0RydkJ5TlJMektwdE5iN2ctUUtJb3NmYTlLbURSYm5pUnpmSg?oc=5",
+      "source": "Kalkine Media",
+      "date": "2026-11-03T17:07:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Sanghvi Movers released Q2 FY27 earnings call recording with key insights.",
+      "enriched": true
     },
     {
       "id": "n179735a0a676",
@@ -22973,26 +23245,6 @@
       "enriched": true
     },
     {
-      "id": "nf8b0d15b584b",
-      "ticker": "BAJAJFINSV",
-      "company": "Bajaj Finserv Limited",
-      "sector": "Financial Services",
-      "scope": [
-        "watchlist"
-      ],
-      "title": "Earnings call transcript: Bajaj Finserv posts strong Q2 2026 growth as profit rises By Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVzRqaWNwaEVzRHpIS2xCVGVfYXJvUWlKQTJ2bjlfWTVQbWN4NFFTQUZqQk1vZ2dOUkVlVGlRWjFTSGNTM0c1Sk9ZZ3ZPT2RON1dEUlVjSDcxUWJFT09FLVB2Mmlyei1tb3NwMUNBQ3NJZnAwMnVKSnpIYmlvTTFFcl83V1VLU1hSVGFYdDNDR0JOQ2xnT1NGMENHbWpBNzVvTkFyRlh0UWVwamNhT1hQLXRoYmwtZTg4Z3JWMHRBTTJFdjNmZWNLOGNmem5fUXNOemVOa1dYaUJBd0E?oc=5",
-      "source": "Investing.com India",
-      "date": "2026-11-03T13:06:09.000Z",
-      "topic": "Money",
-      "keyword": "Earnings",
-      "importance": "medium",
-      "mood": "positive",
-      "takeaway": "Bajaj Finserv posted strong Q2 FY27 profit growth.",
-      "enriched": true,
-      "sources_count": 2
-    },
-    {
       "id": "ndddad920d320",
       "ticker": "RATNAVEER",
       "company": "Ratnaveer Precision Engineering Limited",
@@ -23067,6 +23319,26 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Equitas Small Finance Bank reported Q2 FY27 earnings; financial performance and outlook discussed.",
+      "enriched": true
+    },
+    {
+      "id": "n658c8b78c429",
+      "ticker": "BEL",
+      "company": "Bharat Electronics Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Bharat Electronics beats Q2 2026 estimates on strong sales",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOF96cDhLb0YyLVpMMno0S0VLT19aQXZTWEViOWdGbFlwbFZUUkh6bzRiOUFVUDhwNTd5QzNwampXd0h3THc4b01zQzZFYzhfaV9wRkEzeHNmbUpHb1YwT3RvVHFkbjJTRVowMUtBZnNyTmpBUE5QOGgxRUJPa1dIandfQWtVZW5ndWlkTy10YlJ3eHhyUFZnUGllOFVYUVNIckdTZDBOM0Z0LUtHdEg0eXNfcmZscW9DWjM0YjFUelF3aWh2NEFpUVpDdjFVTl9FcXJnSlp3?oc=5",
+      "source": "Investing.com",
+      "date": "2026-11-03T12:02:01.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Bharat Electronics beat Q2 2026 earnings estimates on strong sales.",
       "enriched": true
     },
     {
@@ -23454,7 +23726,8 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "NOCIL reported Q2 2027 earnings in earnings call.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n869272686616",
@@ -23492,7 +23765,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Kotak Mahindra Bank Q2 FY27 earnings call transcript published.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -23975,7 +24248,7 @@
       "mood": "neutral",
       "takeaway": "Aurum PropTech reported Q2 FY27 earnings; details on operational performance and profitability.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "n998db74acfb7",
@@ -24871,7 +25144,7 @@
       "importance": "high",
       "mood": "negative",
       "takeaway": "Sumitomo Chemical India missed Q2 2026 profit expectations in earnings call.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -25220,7 +25493,7 @@
       "mood": "positive",
       "takeaway": "REC received RBI approval to proceed with merger with PFC.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "n9afd72fcd0b8",
@@ -27337,6 +27610,25 @@
       "enriched": true
     },
     {
+      "id": "n01f6020624ed",
+      "ticker": "SPANDANA",
+      "company": "Spandana Sphoorty Financial Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Spandana Sphoorty Financial Receives Trading Approval for Shares",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEFBZ2ZfOTBjdHRHLUxSM0RkUDdXcXZYLUhBdTRFa0NDekRIQTJtT0NyRlFiZEhuWHRMVWlac01iZEh1ck5vQ3lRX1FabkdnWlUtM3dBMG1ucHR3WFRGY1hxak5LMWpZZ0NmSEU1alNrQllRRXpYSkwyRFJhNlAwTTdZQlZzQm1EQlZZamg2YWtGR3BqNlRtTkVLX3llUUx1ZmRGTlFGb00?oc=5",
+      "source": "Multibagg AI",
+      "date": "2026-11-02T05:31:43.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "low",
+      "mood": "positive",
+      "takeaway": "Spandana Sphoorty Financial receives trading approval for shares.",
+      "enriched": true
+    },
+    {
       "id": "n9abc1f315a66",
       "ticker": "RAYMONDLSL",
       "company": "Raymond Lifestyle Limited",
@@ -27353,6 +27645,25 @@
       "importance": "medium",
       "mood": "positive",
       "takeaway": "Raymond accelerating Andhra Pradesh capacity expansion to meet rising demand.",
+      "enriched": true
+    },
+    {
+      "id": "n8cc161df70b6",
+      "ticker": "AFFLE",
+      "company": "Affle 3i Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Affle bets on global adtech expansion with proposed Perion acquisition",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVy13bzBITldkbTVTRnpCOXRjeXJqVUdWdGhpbFdYVWdGNU4zTmZIeGs1c3pHQnZ5dktoY3NTN0UxNW84NTRpdkJudHlrUzVVWFFPdzRRREVld1BDNldfUk8ya01XV0hPRXY4X0s0bFJScnlEVkJ0S1dCa0ZSeDJ6dTh0U0Z4R2c5X2FwOG1mTWxYNTFnRm5WUnM0N1hiVjV5OFRtYzBNU0Y?oc=5",
+      "source": "Adgully",
+      "date": "2026-11-02T03:36:22.000Z",
+      "topic": "Deals",
+      "keyword": "Acquisition",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Affle proposes to acquire Perion to expand global adtech presence.",
       "enriched": true
     },
     {
@@ -27682,7 +27993,7 @@
       "mood": "positive",
       "takeaway": "Shaily Engineering Plastics posted record Q2 revenue, signaling strong operational performance.",
       "enriched": true,
-      "sources_count": 3
+      "sources_count": 2
     },
     {
       "id": "neb61718bdd04",
@@ -28440,7 +28751,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "MTAR Technologies Q2 FY27 earnings show record revenue surge.",
-      "sources_count": 3,
+      "sources_count": 5,
       "enriched": true
     },
     {
@@ -28724,7 +29035,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Affle acquires Perion for $420M, expanding digital advertising capabilities.",
-      "sources_count": 3,
+      "sources_count": 2,
       "enriched": true
     },
     {
@@ -29529,7 +29840,7 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "CONCOR wins ₹485.93 crore order for 24 wagon rakes from Braithwaite & Co.",
-      "sources_count": 2,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -29550,7 +29861,8 @@
       "importance": "high",
       "mood": "positive",
       "takeaway": "Neogen Chemicals Q2 profit jumps; plans ₹45 crore capacity expansion.",
-      "enriched": true
+      "enriched": true,
+      "sources_count": 2
     },
     {
       "id": "n7992993ec2e5",
@@ -29671,7 +29983,7 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "Hindalco Q2 FY27 earnings call scheduled for November 6.",
-      "sources_count": 2,
+      "sources_count": 3,
       "enriched": true
     },
     {
@@ -29806,6 +30118,2829 @@
       "importance": "medium",
       "mood": "neutral",
       "takeaway": "DLF Q2 earnings call scheduled for Aug 4.",
+      "enriched": true
+    },
+    {
+      "id": "n147927b9ea8e",
+      "ticker": "JSWSTEEL",
+      "company": "JSW Steel Limited",
+      "sector": "Metals & Mining",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "JSW Steel Limited Wins NCLT Approval for Piombino Merger",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX0VrTXVVRC1ad1ZHUnN2Ym1CeHA3NXdvaTJRcWdfcVdBRHNMRkczUGRRb2xNTFN0V09Bc2pGY3pQaHNvOGZTTWQ5WlNWUnZkTDRlRm5CZ29Zb0tPR2F0V0lFeDJuMWo1cXpVM0ZPcFlwNUdWWkF0azBpcGZMQk5oRGNYMlMwRjQ4YkRZbHl2VUZYbHJxQnhrNHFiSmpqVnI2SDFJcENUenBPd0E?oc=5",
+      "source": "Multibagg AI",
+      "date": "2026-10-31T21:07:36.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "JSW Steel gets NCLT approval for Piombino merger, clearing major acquisition hurdle.",
+      "enriched": true
+    },
+    {
+      "id": "nbcbb9d4cf2c0",
+      "ticker": "NEOGEN",
+      "company": "Neogen Chemicals Limited",
+      "sector": "Chemicals",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Neogen’s first-half capex payment reached Rs 419.64 crore",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWnJTLVNCRlBFdzFYaXZrYnQwcGFIZHRsLVNTdGNMaUhtakVHRDhHT3dqNThZajFUVHNUNVRjZFFiS0Uxdl9vTm9lV3lDcGY4cjJlOEFmaFlWN0Z3WXkwdGZ1aEJyUHFZd05iaHR6TWZGT21OazFvT0x2eV9VMlF1cUd6bFNsMXo1XzVIRnZOLXVYN25semdEQTF0bzVjLXJWbGJhLUgwTGFzblprOXllWGpwb3YtMnZf?oc=5",
+      "source": "Multibagg AI",
+      "date": "2026-10-31T15:11:42.000Z",
+      "topic": "Growth",
+      "keyword": "Capex",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Neogen spent Rs 419.64 crore on capex in first half, tracking expansion plans.",
+      "enriched": true
+    },
+    {
+      "id": "n82738e3bd526",
+      "ticker": "INDOCO",
+      "company": "Indoco Remedies Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Indoco Remedies’ CRO AnaCipher Receives ANVISA Approval for Facilities in Brazil",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeGFxOEdCT3FlekY1NVhpc0I3XzUxcHcxWFRzNUhNRlBSUU1WZzBUTXVGV1ppVzh4RXlDS1UyV1ZiYlZPd0xTd3R6dHFRTk5uU1FnU05yNWxTc1FUNUFPdm1vTUNmR1lxdy1GeV90cEpjOEFLajhYUDRKTDZCcElUNWNEcEl1Vm81RjNtdnB4eUxMdm5Xd2czN1l1b1hTbUlOUkhyWHV2aHVlMXZ1MEFGU091QQ?oc=5",
+      "source": "Machine Maker",
+      "date": "2026-10-31T12:06:35.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Indoco's CRO AnaCipher wins ANVISA approval for Brazil facilities, enabling operations.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
+      "id": "n9c7fed4f34ee",
+      "ticker": "MEDANTA",
+      "company": "Global Health Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Global Health accepts Dr. Pankaj Dhamija's resignation as Hospital Director",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa1lrYjVENVhLZ3NkQmhFR3NqZDFYTkppcldYQ0JVcmtCcjRRNFU1aDFWdFpEVmVBN2kzemdKQlV5OWpiTk1uVWk5U3dqYk5YQlZtazRrUDVzcHBNQmxyYU5jTlRqU0pYNlY3NUNJRXFMMENxc3Fod3hNRklwX0dWeGVqSTc2VWlqVXRoRWh4aGxVNjV1X3Zac3N1TDNEUmxOa1QxaU5Ra0xvOFdzdHFJTENLU2NhYnVuNmUw?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-31T12:03:53.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Global Health's Hospital Director Dr. Pankaj Dhamija resigns.",
+      "enriched": true
+    },
+    {
+      "id": "na3bde925ad19",
+      "ticker": "TMCV",
+      "company": "Tata Motors Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Tata Motors appoints Deloitte Haskins & Sells as statutory auditors after resignation of B S R & Co.",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR0Y4c2xZZzlkNmthZ29OYnR5akM5eG95RHpLWE5BdkRfZEZnRmtHcmhzb0xaOE9kU1IzeXRmVzZld3o3aVpST2RkZDhhTFVTX0N5Y3M4eWVVcEdXR3dZSWUxQjhMd204TnZFeC1nOVQ1OGdxT2VvYjlxMmlrTnlMZVN3OGp1UkNud2xUY2ZPUWZCdXFTQmlGMTdmUEVtVjliSU5feUNrcGNlRXlmVjQ1NTRzU0ZSMG5KbVNKbXlCclEycWxMU0Vac3VELS0?oc=5",
+      "source": "Business Upturn",
+      "date": "2026-10-31T09:05:28.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Tata Motors replaces auditor after BSR & Co resignation; appoints Deloitte Haskins & Sells.",
+      "enriched": true
+    },
+    {
+      "id": "n27539b9b48b0",
+      "ticker": "SHYAMMETL",
+      "company": "Shyam Metalics and Energy Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shyam Metalics Board Meeting on 31 October 2026: Key Approvals on Q2 Results, Alom Solar Acquisition, and Phutamura Coal Block Capex",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQM182UnZfaGFZaENDaEZ5QlhjNmdlVWNHcEZDUlNzelhUV29LbHNiYUdLaEphLUgwQ1RPbVNiQ2duU0ZFWWFrVV9SXzlCcDlqX2xOYXVWNjZCanJ1UDZFMEFPNXNaWWpZUWN3WjFsTFU5SkYwMFMxWUwtNXRLNVROdUNlcW9UbEJZT1lWUTQtdkgwOFYtX0pxLUFxQ2VRWmFPTmJnMWVCS25wcW9fZF9ScnFSYWZXM2VFTzVjZWQwUDV2akhHM1hrN3BEd2JUMU9qYnFkbzVRdXd1T0pYYlFUVW1oSnVPbTdaYjY5V1otVk81S056aGtWdjVmaEVoZTJQMHdMdFE3bw?oc=5",
+      "source": "Kalkine Media",
+      "date": "2026-10-31T07:34:00.000Z",
+      "topic": "Deals",
+      "keyword": "Acquisition",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Shyam Metalics board to approve Alom Solar acquisition and Phutamura coal block capex.",
+      "enriched": true
+    },
+    {
+      "id": "n3dc1dfdc9e0a",
+      "ticker": "MEDANTA",
+      "company": "Global Health Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Global Health announces resignation of Gurugram Unit Director",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdnlrXzAtMndjV3NuTVZMNWFaTWJnVVo0ak5xaDlfQnJ1OThMVGNwdENhY28yN3E5ZGFYQm9WNExGNkN2TXh0QkVxN0hmNzdSZGdETURfYnQ3akhFY2paRDBUQjViSEl6aTdSUUpVN0Eyekh0LUJoQmNjWEhwWnZ5eDR3cHprNGRXRFd5dDhuLXpvSUpWT3dldlZYMEQzN2s?oc=5",
+      "source": "Business Upturn",
+      "date": "2026-10-31T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Global Health's Gurugram Unit Director resigns.",
+      "enriched": true
+    },
+    {
+      "id": "n2504c4457daa",
+      "ticker": "SBCL",
+      "company": "Shivalik Bimetal Controls Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shivalik Bimetal Controls accepts CFO Rajeev Ranjan's resignation effective Oct 31, 2026",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRkdCZnpwczJWbWtWOElpd1BzaGw0YUVjS3hreGVZeVVraVI5aXFza2RPRTlfeTlEUGRlVndyS1JUQVg0WC1KTVBHTU5hS05wcWRMT1FxSjRhX2xrMFBPbXRDMzF6a1QwSl96eS1Vd0tfVV9MbHpWSHhYS1EzcGxfR3h1RHo1ZnpsX0JpVHpVaVp4TXdPd0p4VGNhN0s0ckNfWURQdy1RRjBEWWUtMlFNQXhSZVlMNGZpQ2NkdE10UllfX3pha3E4RnZLWjdZSVhDYjBpaTVqNndLSzQz?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-31T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Shivalik Bimetal Controls CFO Rajeev Ranjan resigns effective October 31, 2026.",
+      "enriched": true
+    },
+    {
+      "id": "n81e134431b41",
+      "ticker": "NAUKRI",
+      "company": "Info Edge (India) Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Info Edge NAUKRI Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkxlbUNCQmVZcDdySzFGUnhTMTNaM1NDUzlVN1I1QTNhaDdDb2ZCMWJFeklNZWRvaWotSGhieU85aHJXZGx2QW1keVVGV3daQUdxa0lIeXVwZUVKTVpYWGJfb1JmMVhXbVRmZ05qTjIzZi12SU1seG8tVDEtSW5EMFd3cDZTbjVSMFNkSl9fUmlJQ1hITnpHWnNnUER3QlB4Uy13clFNWUpabzJUN1JsUU8wWEs1RW1kaTR1cHlCOA?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-30T14:30:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Info Edge reports Q2 FY27 earnings; Naukri segment performance discussed.",
+      "enriched": true
+    },
+    {
+      "id": "ncfe0b48e4c09",
+      "ticker": "PAYTM",
+      "company": "One 97 Communications Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Paytm Q2 FY27 Earnings Call: Key Management Takeaways",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSjA0dnRFeDNSdWZKNk9YLXJnQ3BVbmdpZjJGbnFVcjhFb29ZTVJtMU50UVhzRXB3bEViNlVtYXlqQ1B4czN2aEg2SU1Hb1BFT21qOVFrQXJQRUdnTzQ5LVQ2RFFaXzd2bmRGSk90ZmNQNHhFcE1EbnlRZVQyQmpqQVZsbktoZlQtUmNXMElIeDg3cUcyLTFOQWVqU2Y5VTZMN3ktRkM3dloxYm9EX3NwMms0dmxJVlUtMkR5NTYycGo1bVhEV0E?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-30T14:07:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Paytm reports Q2 FY27 earnings with management commentary.",
+      "enriched": true
+    },
+    {
+      "id": "n7c60d46dd69d",
+      "ticker": "ADVENZYMES",
+      "company": "Advanced Enzyme Technologies Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Advanced Enzyme Technologies (NSE:ADVENZYMES) Completes Open-Market Buyback, Deploying Rs 69.7 Crore",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU19fMGJPdjFlZGlPMDkyWDlMdlRRb2Z3Rl85b0QtdElLVjZWUkpRdXpockpqMkhldmduaHF5a1Y5WGV1U3RuYm53WTlQcFJ0UkM5ZmMtNnV2ZGlsYTlhMlZiV0QzZGJIclE5aG9RcGsyc1VSalJ4em1xd0ZXRkZJb2FlYjRTc2dzZTJDZXc4TWdjRWhCdllTWF9xYnR4SUVBNWxQX1YzeTFNRmRmRmRfa1hNMF9Da3N3c1pyeWNxdlZhRmxhQ1R6dENBeUEyUTZvQ1RNVFNmb0NFUQ?oc=5",
+      "source": "Kalkine Media",
+      "date": "2026-10-30T13:54:00.000Z",
+      "topic": "Money",
+      "keyword": "Buyback",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Advanced Enzyme Technologies completes ₹69.7 crore open-market buyback.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nbb3c1837ab55",
+      "ticker": "DEEPAKNTR",
+      "company": "Deepak Nitrite Limited",
+      "sector": "Chemicals",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Deepak Nitrite (NSE:DEEPAKNTR): What Did the Q2 and H1 FY27 Earnings Call Cover?",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRTFqa2hkVXlxbklHQnVYcTJUaGFhQnZUcno4aWZoSnNKRG4zTFdnWkgtazlMV3BLTU1BbGpxOU1tN3JuQVc2cHM4Y2Z6Z2VVTGxOejQ4bHhfWk9zODUxLXdvRFdFZkVfbTNNWUxiUlFWU005YXRpTl9HYWlLdDNVQ3pLeTZSRXpPN3FHeGZwMGo5c0gwWkcxMW1PLVRqTC00TmI1YkdyWGtIWTB3NW5JSmUtVFMtbTM5M3NpYzZHakM?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-30T13:16:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Deepak Nitrite reported Q2 and H1 FY27 earnings; details from management call.",
+      "enriched": true
+    },
+    {
+      "id": "n7398b65fc50b",
+      "ticker": "SJVN",
+      "company": "SJVN Limited",
+      "sector": "Power",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "SJVN BOARD APPROVES MERGER OF THERMAL SUBSIDIARY STPL",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjgzbFZHMExRZ052VVpJRlVlX0o4V3J2ekdOWVdoWVJrck84UThLb2FxUnItWlpGbEtGMnlUQkFULUtwb045alJzeGpDYkNxQVNvYnRXWG43eWRFSzJQWW1xUlJMaDNOcHBZak5yMEY0ZmYtdmk3eWR5WXZ2WHFOZjNILWFBSm50TGhpYXE5QVk2QXl2MTZhV0JTaTM?oc=5",
+      "source": "IndianMandarins",
+      "date": "2026-10-30T11:07:30.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "SJVN board approved merger of thermal subsidiary STPL into parent company.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n4774db5b4dc3",
+      "ticker": "SUBEXLTD",
+      "company": "Subex Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Subex Secures AI Contract With Major African Telecom For Fraud Investigation",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS19IX0VFLVRTeThZbHRnN1F5UHNwczdtZTEtR0dGSlBlRURCX3JhN0lBYTZKYjNJVGhzZ0JxcGdibjF2clNDS1BoR3NVNTRWRmY0Q1BYeXhjZFNnSGkwYTJkUVc5Y0xCTzUyNEZlSVhCQnpWRFRTaTJiTFJ6UnB3Um5PLU50T3UxdGJ0Tkg5ZHBxMlQ2RzFaVVAzbll6RFVNTndhUQ?oc=5",
+      "source": "Sahi",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Investigation",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Subex secured AI contract with major African telecom for fraud investigation services.",
+      "enriched": true
+    },
+    {
+      "id": "n972451ebed5b",
+      "ticker": "VBL",
+      "company": "Varun Beverages Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Dividend Alert: Varun Beverages announces cash reward for shareholders along with Q2 earnings | Key details",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdldNRUh0OHZQUFAtY0YyQ3FTakVKT0NDNGV1QnNfeC11dGdEUUtsLWVyR2hpX3lmOVpWc0tJZFJ2eXdPQXFjcmRTb1h4bU8wb0dRMEY0TTZRaTNtVjRwYjJpSTdEdTZjcll1V2dSMjJMLXRKTFpDRzlzUFB6anJmcWFJUEtSNUYzQU15UnRjTUhSWTdhTm1lZ0EzRUpGTDVTdkxYNFd1OFJBMmV5Q254U2VEZVM5SkhDUHh0bHdUYWYxVm5XcVV0UkFNckVlM2RkNGFkTmV3WUxPc1VkUXVjaW5EQQ?oc=5",
+      "source": "Zee Business",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Varun Beverages announced dividend alongside Q2 earnings results.",
+      "enriched": true
+    },
+    {
+      "id": "n6f7c27e5ef93",
+      "ticker": "POLYCAB",
+      "company": "Polycab India Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "NCLAT allows Polycab India appeal, sets aside insolvency order",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLWlRUVlCYzhlak9ldlNCM1hmZTNRNmVyZlBnaHNrWjdvMWlMN3ZndUx2cXNYN1VLUkxNVTZ2VVlfQkI1RnNpRnE2aG14ZnRRMGd1cWVabTczTlVXY1lmMjhKV01QSFRsNkZ5eGFVZjBjX0FsQjhFbVdjUmxGQ3VzSnozcy1IWnY5UHV0RWtHblZWU19mdWwzVnZOSk5XUlJTaHhIbmU2LUJLRHQ5WG1mTFF1Uy1iTU1CTEZV?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "NCLAT allowed Polycab's appeal and set aside insolvency order against the company.",
+      "enriched": true
+    },
+    {
+      "id": "n300d37f7a601",
+      "ticker": "GAIL",
+      "company": "GAIL (India) Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "GAIL (India) approves GAIL Gas IPO roadmap for up to 25% equity dilution alongside strong quarterly earnings growth",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXQyQ3BIWmd3ODU4Mzl5U3J3aUVCdkhxdTVVWElJbjF2TVBPQklGLU9Mc0lFcGY0LWdfTGoxQWlIZ2dDanEyTTRxUzB5MzExOXVKRGpGNWw1THpIZ0ZzSW5ISTJMamVpRTl0ZWpINUlJeXhzVERRcVZNQWlqbzBROGJSMXdPMW52OVo5QmJtejI3VndWQVdmRkZDdlIzRTF1LTlxNVZHVmM3ak9NRDBVRE12VndCNEx1TERvb0k1Zk5XaElkM0FLU2Q4OWlxSFlzSkxwSDdPWC1mSDI2aEV5dW4ydEg4VldfTFBWZTQzWS0?oc=5",
+      "source": "Trade Brains",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "GAIL approved IPO roadmap for GAIL Gas with up to 25% equity dilution; strong quarterly growth.",
+      "enriched": true
+    },
+    {
+      "id": "n40c6585f2d98",
+      "ticker": "SUZLON",
+      "company": "Suzlon Energy Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Suzlon Energy Q2 FY27 Results: Revenue Up 26%, Order Book Crosses 6 GW",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZDNBb2VfSTkxS3VEdTlFU2tLd2xFZE1iSFVMbkZhc1BBWVhKMEM0NjM4QVU0bm9qUGNhaWNnUTg1bGJLWWM1VUs1c0JIeU9lQVJvN0xkRE0yVmtvVzg2dUZ0VEJzVFlicDAyLWlYWno4VVZadGRrbkNRb0J0VVhkUW1BckdXX0FSeG01LTV0UlFfMktDR1M0eg?oc=5",
+      "source": "SMEStreet",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Suzlon Q2 revenue up 26%; order book crossed 6 GW milestone.",
+      "enriched": true
+    },
+    {
+      "id": "n2f2dfd607746",
+      "ticker": "BHARTIARTL",
+      "company": "Bharti Airtel Limited",
+      "sector": "Telecommunication",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Bharti Airtel receives ₹54.06 lakh TRAI order for TCCCPR non-compliance",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQelN4U0hxaXU3ekR2cS1RbXNJS0RoYi12a1lUak0yd2xQYkcweG9xQVNxbXc1bUhxZFVaNmV6OE95dmZBQlNNdkE0OTVQcFJtTzN5ekNMUjRGWGpiVkdaSjFsZEJmYUpQWGtTN2hwRDJDcUluTWJHYjBGbnRZZWJIMTVCSG5DVE1mQ0IwUTdWd2lwaG9SLVF4VjBYcTEtOV9xWjNRU3poR2NmMUo5SzFlMG5VUzdlOTVKWEY2YWtTMHI?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "low",
+      "mood": "negative",
+      "takeaway": "TRAI imposed ₹54.06 lakh penalty on Bharti Airtel for non-compliance.",
+      "enriched": true
+    },
+    {
+      "id": "n0a3a3953c60e",
+      "ticker": "COLPAL",
+      "company": "Colgate Palmolive (India) Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Colgate-Palmolive (India) seeks shareholder approval for Manish Anandani as MD & CEO",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORXdBMkdJUFFTZkZnbGluX1Y0ejNNYlhBUHBRaFRjaDJSUG55emNiQi1FOUlhd2xCamo0N0VrRzZkdmNwRTM3eVFJdV9HSGlDdTVFMUNlRzBQZGM5Tl8wdlZTSzdiX1ZUU1hHRXhIV042OXEwYV80d2RDbC1yUmVVa3JoeEpBQlB0THR4WVc2OGZRZmd0Q09Lb3NONEt0dVN1WDFQbFVpLTNwT2s1RjVDUGJ4MXNBamdVVnZjTWFaZWtQVW04?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-30T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Approval",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Colgate-Palmolive seeking shareholder approval for Manish Anandani as MD & CEO.",
+      "enriched": true
+    },
+    {
+      "id": "n286b55de719f",
+      "ticker": "MTARTECH",
+      "company": "Mtar Technologies Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "MTAR Technologies secures Rs.504 crore order for Kaiga 5 & 6 projects",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNDk3VkxXODJEdWJHVExrbW9sVlNPRHBJai1idTB5YkFKeWxnTnBpZmk0ajhPQTE5aWxNYkEzTEFxN2dwWkZQU2hZTkRXWmlvcEFSTmY1WnVsU1VlWlhVZVZvZ1N5Yzl2a01fR3hCblFXNEJORDRVM3VqeXVPVHVQbWdwSXZJelFGRmloRmVUTnZWWnFIZ0NsU2JvSTFwT09COUpva1VmYw?oc=5",
+      "source": "Business Upturn",
+      "date": "2026-10-29T20:13:58.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "MTAR Technologies wins Rs 504 crore order for nuclear reactor projects.",
+      "enriched": true
+    },
+    {
+      "id": "n6dce7df32e0f",
+      "ticker": "MARUTI",
+      "company": "Maruti Suzuki India Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "OPmobility strengthens its presence in India with a sixth plant, its second in partnership with Maruti Suzuki India Limited and Suzuki Motor Corporation",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxORnpQcUlUaWZGbll4X2Q0aDRweVJ2NGdySk91bjVSTHpTYUQ1QjlySlFqdUdTaVl3ZmhaWTB0Y1p5eXdYaTdiSS1GRlR5VW9lS2xFclA5c2RnOUd6czUtd18xM0FMREJJR3BHdllNanIxajVxTUh0WDNXalliWmJFeV82bnVxMVNtV0ZzTTFNc0hYLTc0OXhJM3NLM2k5T3RTNFpsSHkybHd1Y3BKZWlIUnpSbFhEMUNhalhPVlFKQUlkRDZLdmJKVHBGU05NTHNXM3otQkpzUHlFdGI4OTJqRFIwb25nVjZxd09zdlJiU0tOSTlZVmNKTV9USW5nR29fdHJSUmdGTTZ0clJ2ZjlR?oc=5",
+      "source": "OPmobility",
+      "date": "2026-10-29T17:00:44.000Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "OPmobility opens second plant in India with Maruti Suzuki and Suzuki Motor.",
+      "enriched": true
+    },
+    {
+      "id": "n54f25673b0cc",
+      "ticker": "MASTEK",
+      "company": "Mastek Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Mastek Q2: 53 New AI Deals and ₹2,743 Crore Order Book, but Can Its 11x PE Valuation Deliver a Re-Rating?",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOT0pEbXh5aHBiek1WU3JKQmVfQ2JmRzR3aDlJd1dGWVpBMzZGaFlfbGcxcTZDZjFMbmphejRQTW91cThNRmFfY29IeE44Zl9UZTV2RFpyQWxaVWF1dlFpVnNNYXJKTzN1aEdyUVFRY1BNckU2QmVENjRjZnh6akVYXzVKRGhpYi1sblhnQkwxMXh2MTNOZEVyaUN2X0NWQTkySUVjQXR0WnZYNVJLNmREanFCUmVhRTV5R2phbWo1NjJhQUZFOXBrdW1YV1BLWFR1UXNrazU5d0pQTmgzWDlXeQ?oc=5",
+      "source": "Trade Brains",
+      "date": "2026-10-29T15:30:37.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Mastek adds 53 AI deals; order book reaches Rs 2,743 crore.",
+      "enriched": true
+    },
+    {
+      "id": "n0f606817038f",
+      "ticker": "UTIAMC",
+      "company": "UTI Asset Management Company Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "India Post, UTI Mutual Fund extend partnership for doorstep KYC verification across India",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZWxzbzZYSG8wZEczLUxuZUN2eFpGNmxhcGozZjN6YWdheDF0dHM1b0Z2VFFfM3VOckZWUmlZYlVGbUhBZWczT1RBeXN4MkFabVZmQ2NoS1ZfRGExQThBNTlOMjE2Z3FCcjY2MnYzdkkxZnhyWDFUMUR5TVAwMzhBSjJOVWdkN1NKb0NCRFRaYkJwWDZqVnBwbUdfZnFmYlZNLWJoYTJvc3dkU3Z3bXVneVk0TXBaODNnMy1VUEdENE1MM1RDZGRMMzhaX3I?oc=5",
+      "source": "www.indiagazette.com",
+      "date": "2026-10-29T14:34:00.000Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "low",
+      "mood": "positive",
+      "takeaway": "India Post and UTI Mutual Fund extend partnership for doorstep KYC services.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n3227bd07687a",
+      "ticker": "APARINDS",
+      "company": "Apar Industries Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Apar Industries: QIP Proceeds Utilization Update for Sept 2026",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYmdvSmJwVmctVnBQT1Z4endnZ0tWWmdKV2RkZ1pSUnZ5eG56cjdQcmpWQjFoREx2Z3RnQVFXZlRiRDR0a2V2anA1dEUzaEpBMFRsUzdXY3ZiR3FMazlfMkFYOGlncGYza0JSaVBxakhjN1BIblVMZzRad1ZGOFdoY3VsR3pxNlRLRzZrUzZB?oc=5",
+      "source": "InvestyWise",
+      "date": "2026-10-29T13:11:54.000Z",
+      "topic": "Money",
+      "keyword": "QIP",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Apar Industries updates use of QIP proceeds from September 2026.",
+      "enriched": true
+    },
+    {
+      "id": "nce1295fc027c",
+      "ticker": "BPCL",
+      "company": "Bharat Petroleum Corporation Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Eco Wave Power Announces Major Milestone in Collaboration with Fortune 500 Energy Giant Bharat Petroleum as First Purchase Order Is Issued for Wave Energy Project in India",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOXzVtNlpudHRTR2IzQ0JYYUxoYi1aUVFXSTZVb0ZTUjhoSXBrbzFfNjl2akRsVlptTXdRWmtSVVp0WjZVRVBmTWtCTDBYcU5HbnZaaTdGUEdGYTluX2dOUW1QeWtLMzhMQzhVOWh0VXlFXzF1V0V4T29tU3BMdVVvMTdlbWRXRmlMZmU3dTduQUo0cVpHR3oyVDIzal9hTkp5Z25tOUh3Q3k3clFMVG9IU1V0STRBNGRNY2hTUjVscVUtdHFCY2ZhV2tMdG9lY1FQV0xNbHpWdWtxTE40dHZFZ2FNbG00Z0haZG5ILVZEMm9Ub3FLM3c0Q2R4RENseDFYeEtHTFlYZURydDdaRk5GWGdxM3l3R19Vd21iQWNqN2JWUVVWaXJzSQ?oc=5",
+      "source": "Eco Wave Power",
+      "date": "2026-10-29T12:36:36.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Eco Wave Power receives first purchase order from BPCL for wave energy project.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n77474e38c13a",
+      "ticker": "VOGL",
+      "company": "Vedanta Oil and Gas Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Vedanta Oil and Gas posts higher profit in Q2 2026",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNzNVQTEyWnJsR1BKbld6ZjIwWGhqcjI5NWZCb1J1ZmdBdzhKUklPUWNuT3JNekw1Y1pLSERpMXBNbUZ0OUh0RUwxc3ZlNEZiZ0hOV0gxbDNfZWdkMUlGSFZ4Z3JLakwxYmFuM0hnWVM1VVJKR18wd3AtTkowbFVRV3I0ajYwQ1FMcWNxQzZXbUVwS0U3eUNxZWUxWng0QURuN3V5V21oQ3VhdlM4QnNlb3QtTHNib09LUHBMbU9CYUh1bEpZY0ozSE9fOV94Y2cxekE?oc=5",
+      "source": "Investing.com Canada",
+      "date": "2026-10-29T12:36:19.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Vedanta Oil and Gas reported higher profit in Q2 2026.",
+      "enriched": true
+    },
+    {
+      "id": "nf85bc395a1f1",
+      "ticker": "VAIBHAVGBL",
+      "company": "Vaibhav Global Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Vaibhav Global cuts FY 2027 outlook in Q2 2026",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZFFfeHlDOEZyZ296eER1UVBCU0hFclhIcE0tNXIxc0EwYXcxXzYtOUt6S1VXUjdELXVwOEFiSjBxclNvS2RZdFhuNEkzOEo5bVZlc1hoMU04VVBzYUpCLUpPU2tIcnowaXBleXFWbWdVZk5jWUVCclFsd3VSQmQybHl6ZUQ3b2xtbUloNTczdEtDMXhxYzlzLWpNNks2ODBEeVR3aGNtVHA3MkdJX0RZMlpQbHBLSmVjaEQxNW03QlZkVERocUE?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-29T12:30:07.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Vaibhav Global cut FY 2027 outlook in Q2 2026, signaling weaker demand ahead.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
+      "id": "nb53a725df5eb",
+      "ticker": "DELHIVERY",
+      "company": "Delhivery Limited",
+      "sector": "Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Delhivery NSE:DELHIVERY Subsidiary GST Demand Order UP",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTHUtb29hc2JhTTdJaXotVWoxZnU2SGZkSW9JRHJwWmhUZlVja3JJY2htaHZUN1Q4cUZXdkJseG52V0paelNxV2NXck9DUzdZSEtIeThITlpDd3ZCYXk4ekR6UHJ1QmVfdEhBcXZXS1cyNlJXM0NxQTI1Q1JhRHJYbkNDb2tTeGxtellfdDlSMHNycTFMNFE3YVk5NmdMSGc0VGZGSUFYeERuSEtJTEpCVzZXM2dobWM?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T12:23:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Delhivery's subsidiary received a GST demand order from authorities.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n37b462175df6",
+      "ticker": "CASTROLIND",
+      "company": "Castrol India Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Castrol India CASTROLIND 3Q FY2026 Earnings Call Transcript",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNkFQMFFwSVBobFhWTW1kUGpIN21DVW1YVzQyRUplWTNKZ2YyWlAwR2VEa0RJNXg3YlBETklTZzBucUVUTlhWaXN0ZC1yTTRHek5SQWg5czA2RVNqcWIxTGZrSEJoVkxiOXlfQTlzWGh4MUxjd2xJbS1uTzUzVWltemJtM1RqNVVYMjhlQTZSSVUwbHNQM2ZHNnVvZFZ3Qkt2VHdKT2Q3dVRJdzAwbUFDQjVZeG1QWDhyY3J1S2tjNWRlSXZmU0tZaEh3?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T11:55:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Castrol India reported Q3 FY2026 earnings.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n3fde0f8b23ed",
+      "ticker": "CGCL",
+      "company": "Capri Global Capital Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Capri Global Capital posts strong Q2 2026 growth",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ3pRWDhuczdDOGFCa1NLQUg1eUhjUl9qZ1VGSzBhSTBqb2IydGEyLTZOWXpVR2lld0ppY29CcjMzQ1dCZDNhby1Tc0FYSTlHVTVaazZOYkZBb05MLVU4RHVYam9kQkpTTmhkcWR3RUlmUzc2Ml8xdENNeF9DQXN4LTR4c0E4TmZhTEViNEpWejI4QXRXenNLLVJxTUpObWxwbS1aYnBzRk1UZ1pHMk9KX1B0c21ZTmc0cl94YzYteG5aM25yVm9fNHZVZlMyZGc?oc=5",
+      "source": "Investing.com UK",
+      "date": "2026-10-29T11:54:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Capri Global Capital posted strong Q2 2026 growth.",
+      "enriched": true
+    },
+    {
+      "id": "nca7cfdf1b1b5",
+      "ticker": "BLS",
+      "company": "BLS International Services Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "BLS International Services Q2FY27 Earnings Call on Nov 4",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEEyeXZEamhjaE1Db0prc1M2TmZlRjJubVRlRU5wMFA4QW5iMjEwYTdIREMzam0zb3hiRk1CeG94N1cyUURST2duYTRlWl9qVXhrc0YyY0p4R3ZNNVcxajB1MTd4SDNvMnZVcUNwdEZvLXlIRldtMUw4bGp2dGdfU084WW9TYWkxek1TekJJWm9oX1Q4TGN4NGNoQ0ZsbmNpQ2FvamZkTnhFZjFyWW9OdXN0TXpqc1JmNHkxVw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T11:23:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "BLS International Services held Q2 FY27 earnings call on Nov 4.",
+      "enriched": true
+    },
+    {
+      "id": "n46be58388e7e",
+      "ticker": "PIDILITIND",
+      "company": "Pidilite Industries Limited",
+      "sector": "Chemicals",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Pidilite Industries posts mixed Q2 2026 results",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOFFmSGNlLXVHb2FIbUtnMjd1Y1ZyNEh5UzRVb2ZSNTlOZUZjQUw5SzI5ZVNuWGw0TENtZnROM05ZRXhvamtTSE9ZQ0pFM0M3MjA2b3locldNN3RIekY5cVh5Um5zVXZyWXA1enhIUU9kb2ZNZ0FYUW93d1Z6QnY4eEhOQm1HbWZ0a3p6eEJsb2NZTkNnY1YtZlJhbkhSX25KWkhRcGVUdU10RUY2R2gwb3dfOU5DeVNxZExHUVJNQUpTclpTcW5F?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-29T11:19:06.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Pidilite Industries posted mixed Q2 2026 results.",
+      "enriched": true
+    },
+    {
+      "id": "n1c842d8faad6",
+      "ticker": "MTARTECH",
+      "company": "Mtar Technologies Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "MTAR Technologies NCLT Merger Order: Subsidiaries Amalgamated",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMFlvRkg4V2tBX1ZQR2V6WlpZMDNvcGFlT2xqOUFyMUg3dXg1cjJVNTRWRHYwUWNjal9TTmprbVZXLV84Rnp5WEJOQmYzcENwMVA4SHFBNEdrRlVoN1dyYjNaREJiYUpqU3dBU1RBdE1FR3dfcEdDSWUzWHFJVXJpV3l4WFJYMThLQmJMMkMxbDFjUk1UQm5jdXhmY3FuNktEYjk1WUo4MzFCY2pkdUN6Q2prcU5Ua042NzNjMEFQVWVoWUtJejRVNEhVckU?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T11:16:00.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "MTAR Technologies received NCLT approval to amalgamate subsidiaries.",
+      "enriched": true
+    },
+    {
+      "id": "nfc22451bf5d8",
+      "ticker": "NETWEB",
+      "company": "Netweb Technologies India Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Netweb Technologies NETWEB Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeFo4Ni13eWw4X0pHdk9nZmtJX0FzMDRiNV9KUDB6dEVhU0stT2s2WU1OenZBTkpoVTU2UUlHcHktNS1LbldMV1hIUGhZZHpyamJ2OGl6bkhYWXJNajU4YklOQjFEUVdmUXc0c0Z2eVRzOEl2bEYyVXdQYlNjLTQyNWZoZ1FxcTVfcFlveVAtTmEwWXI2eGllaUNuQXRpcnNfUUQ4WHVBbDhxSmZyNUFGRERGaFJSdnhGRzJraWVwN1M4b3Fzd3lPTU1UZHQ5Zlht?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T10:33:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Netweb Technologies held Q2 FY27 earnings call.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nc90ae50edff8",
+      "ticker": "YATHARTH",
+      "company": "Yatharth Hospital & Trauma Care Services Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Yatharth Hospital YATHARTH Q2FY27 Earnings Call Nov 4",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTnhTVW9vMUEyc2dVLWZTWWU1OWptTnZROEdsSDIzOElsa2hQZEZBQVRyenJGbUdGd1VuTnBlUjlTcjB2ek85TUkwWDJqcWhNdk1jaU1uSDA3YzlQaFVlam1RNFdCX2tveUhVb3UtbDc2NENVTEE3b19sSHZGcVNGN2hEMUVrZTVhc1Y1WEVzMXRHeTAzQlpFb3FzY3pHVmZTVkJfUmlWcFppQURSYllOeWxRcmtLT1E?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T10:19:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Yatharth Hospital held Q2 FY27 earnings call on Nov 4.",
+      "enriched": true
+    },
+    {
+      "id": "n549f547889b6",
+      "ticker": "SWIGGY",
+      "company": "Swiggy Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Swiggy NSE:SWIGGY Q2 FY27 Earnings Call Key Takeaways",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMHJEZE5rQmFmUUh4V215am8wd3c0T0NlTk1aVmJuakRQbjl2THBHRXFDWEZHY0VIaTJWaUNOM0RwclhwVjZYZjdqSGlkR1k3WHVLMjU3SmxXMjZteHhsMlBMZ21IQ1B5YXFDbnAwMmd5aGszOFZzcFUwc1J2ZXFEUU9OYzI4T2ctZlgxQWl4YnpZN0wtOEV5SFZqSjBFMTF5UXRyN2F2clBXVXN6MmluOEo4cw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T10:08:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Swiggy reported Q2 FY27 earnings; key operational and financial metrics disclosed.",
+      "enriched": true
+    },
+    {
+      "id": "n5779cc3dac28",
+      "ticker": "SCHNEIDER",
+      "company": "Schneider Electric Infrastructure Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Schneider Electric Infrastructure (NSE:SCHNEIDER): Why Did It Approve a Rs 211 Crore Capacity Expansion?",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUUVDRzdDT19RdHlkclFtcEJ2RzM2cGFHcmVlQURMaGVELWRXcUpHcUpMdkJWRkhSRnRkUmJwTnE5UWNCTGdqa1FOVkdRYmVSR3cxY05VRTBMQm15a1A5ak1nS1c5SzZCbC1sV0JWVTJNcTFkS2xyUFpUcG16X0p1MW4zaGVRUU1Dbjl4Tl9peHpDU19sVFdyZ09CV2x5a1Y1b0FSRjdLSjZ6WklBUzdKMGF6aFdNQ3lFaU53S2ZtV1BPLUdzLTNoM0FQZU02NktGTE5IWVE2OGZEeXBsQndsUQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T10:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Schneider Electric approved Rs 211 crore capacity expansion to boost production.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n0b7fface2455",
+      "ticker": "LAURUSLABS",
+      "company": "Laurus Labs Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Laurus Labs Q2 Results 2026: FY27 Earnings Preview",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWpaMkc4M0hBXy04WTlFUHFnQUxwbVdpR2QtVHZCVDlCMUdzeTU1TkVPTlpNbU1HN1hraElPWW9iajg2RG5IRGRqNm5paGlnTFRTcHB0NzNOQjN3UDZteWtlTl9sVFlCYUdKczFib0FfVXpTbW9ER3Fwd1gzQ0E1d1JZNzZldUVoV2xtT3Y4MTBhTUVHckRXdDlsalpMNHhnc0E?oc=5",
+      "source": "Multibagg AI",
+      "date": "2026-10-29T09:37:50.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Laurus Labs reported Q2 FY27 earnings results.",
+      "enriched": true
+    },
+    {
+      "id": "n1116ba3fe61a",
+      "ticker": "TEXRAIL",
+      "company": "Texmaco Rail & Engineering Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Texmaco Rail TEXRAIL BOXNS Wagon Order Expanded by Railways",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa2Fzd0U5VG5Ya1k2SEQwRFVVajRvdDBNRGRETE50T0kyalFzNjRiWHJhNXQ1cXVFakttODFQajB1YzRETkFJZHZSQzNFM0MxNlNUTHFsbzFzVGlWZW93S0lKam1paEgzcUNTZ2pVenJtTmxCTFRPQnFpMTdBNTYtNWJJbl9Ickc2d2xBaENxaklmXy1KTUpYR2xmcUVrSU1McU85TXlzUHpZczB4NGhyWWVVVEtrU3EzWnVNdldIS24xYTQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T08:08:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Indian Railways expanded wagon order to Texmaco Rail, boosting revenue pipeline.",
+      "enriched": true
+    },
+    {
+      "id": "n897c340a1cfa",
+      "ticker": "SHILPAMED",
+      "company": "Shilpa Medicare Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shilpa Medicare SHILPAMED Q2 FY27 Earnings Call Nov 2026",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM3ZBQWtPSkE3b0NZaXVaQjhNQm93OXJzeXRfUDNFRF9udVRNQ2xzc0lva1BQeTdxVHNDRld4MDF0VDlwcnI2ZGR5Vm12al92dEt1N2FJX282NTU1R2JlcS1SVkRmT1pTeDEtSzFVVi0xWmJFUDJmZ1lDQnFoQThQQWczTEY1dW1fZEUzWkxYeTk2bVpGeFRaVk0tU0pXVE5PLTlYUE5DRzNHR1E0cFNtN2ZMbzlaYTg?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T08:01:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Shilpa Medicare reported Q2 FY27 earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n202716e12464",
+      "ticker": "ROLEXRINGS",
+      "company": "Rolex Rings Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Rolex Rings Q2 FY27 Earnings Call: NSE:ROLEXRINGS Update",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNek1ka1J6MlVsRGI4XzVVR2N4dUE3VGJCUTZLZWM5cUl0T0ZiaW5xVktnUmh4NGtjVmREb2N3eXRLUVhLWnZLZmJFTHpBelVVQTJRb0VISDNNaVc3djNiVkxxdGYtTm15bVlBWUlMZUpZdG5KaWFkOUNBNjIwMG1CZVR3anFaVXR6cGxSOXRER1oyTm5TY05TVkdTYzNzRFdpbzh0b3NlaFJ6blZwbC02MjRHcjZFenJwSGtzMg?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T07:20:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Rolex Rings reported Q2 FY27 earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n5d7ff5753773",
+      "ticker": "TRUALT",
+      "company": "TruAlt Bioenergy Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "TruAlt Bioenergy TRUALT Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEhNRnlmV0VMdWhuOFlQU014QkpVWHpXYVJPRHFLRzRFWU85WWdkUndNUVduQkF0TUlVZmx6UWFpN1BZRlRBMTlaT1UwOWs2MTJvSEZTWllWZzdpTnF5cmhLR1BIR1hBc2tadFFmRlNtS0xUb2Z3S2lJbFV4TU1ZdlZ3OWhLNWt4SGdKQjV2NzlCcEs4RFlmOF9QdWUxcVFTSGNqQ2lPMlNrbEZQelV3ZFF3?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T07:04:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "TruAlt Bioenergy reported Q2 FY27 earnings highlights.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
+      "id": "n682ee9c6d479",
+      "ticker": "MTARTECH",
+      "company": "Mtar Technologies Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "MTAR Technologies Wins Rs 310 Crore Nuclear Order",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZEVVajd5UlhEaFBUQTFrY0JaZGlvX0N5QWJIbXFMOUdMOTRkWjVVU3FHemlpcEVvWVVtekJ1TWZ6VWxwV0dqU1ZNSUk3ME95cjljODhXZmFpWGZpeXpZVHY0Z3NFc045RWVBX3Z2THNTTTJBcW9JTGt5UThNb0JyR0QxMkYzMXhxelctcWR3ejBuUXpta3FSR0NwRVFFTFA1UENWcXdaUjBtWlNyYnAzMQ?oc=5",
+      "source": "Multibagg AI",
+      "date": "2026-10-29T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "MTAR Technologies won Rs 310 crore nuclear order, major revenue addition.",
+      "enriched": true
+    },
+    {
+      "id": "n4b1d3455d0ed",
+      "ticker": "RBA",
+      "company": "Restaurant Brands Asia Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Restaurant Brands Asia Confirms Full Utilization Of QIP Funds; Preferential Issue Progresses",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQTGdfRHpkWmdBbFdsRmdfY3p5d3c1RmtYcnV0RzlrRk5EcF9UTWlYTkd4Y0k5aXJXWXpjdG1Mc1JDV3lIVmhFWjUtZm1hMmROVkt5ay04Z3NBdl96ZFJqcXdQVlJBc1RUTl9vODFxb2JxY2tjSWQteEVnSVBNTm1yQW53ZzVwQy02MFU2am9SN29HT0dMcTluNmN2X21zUEl6ZmpoYTBtWlhnVE5aVC1jOUN0MXpPY3NWTi1NT0djRmNpdWlDbjR6cGFMTEtLXzh6cWtHWml4VmVJZlJRbkxMX1F6VThsUEw5NXI2amp3aW1rVFk3dldGdTdSMUNidzd3aTRnb2dnNktJcEYtRFdPOUJR?oc=5",
+      "source": "Whalesbook",
+      "date": "2026-10-29T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Preferential Issue",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Restaurant Brands Asia fully utilized QIP funds and progressing with preferential issue.",
+      "enriched": true
+    },
+    {
+      "id": "n4fe3cbaacf28",
+      "ticker": "POLYCAB",
+      "company": "Polycab India Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "NCLAT tribunal order pauses MSCI index removal for Polycab India, easing immediate market pressures",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQjJxMndicU14WWNnbzY0R2pZbWZNbUx3WUJaSzltWk96VGREZVNDQXZsUmgySzRJWEUxdVZuMHRWendoRHVrd3k0ajBWcVZRa3JwRElKVnh1eWU3VWE2bEhsaEwyc2hWeVlyM1VxUnczLVEzOUgzY3NLTDdGdVo3U1N3Y3lwMEc5dVhVbmg0ejlaNjNlTmR3UTRoNDNQLVRxU2hBeEpsWnNDSTk4WldRTUdQaGxVTnozbk5oV2N6Qy0xSWpFTHc1R0ZjZnhPOWF1MTlBS2k5QjdwS0x4eGc?oc=5",
+      "source": "Trade Brains",
+      "date": "2026-10-29T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "NCLAT tribunal order temporarily halts Polycab's removal from MSCI index.",
+      "enriched": true
+    },
+    {
+      "id": "nce24a8b1c3da",
+      "ticker": "SCHNEIDER",
+      "company": "Schneider Electric Infrastructure Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Schneider Electric Infrastructure Plans ₹211 Crore Capex",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSktELUlKTTNUX2FuVmVocTZkU1dtWW5kUXNnNlA3dENqOE9qdjAzZFRVaUlFSWtlU1FBV291UWltVm9sam5uMEVET1pPTFNnTHhuRDFnNWFMZk11NWw4TC1MWUs4ejI5cmhnTk1IYkJKSWdvdHFQX2Z0YWdjR1FzUGY0akpBYTlzejdUYUVGS00wMjB4LTNOd0o4akh5VnBLdTdEV0M1Mmg?oc=5",
+      "source": "HDFC Sky",
+      "date": "2026-10-29T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capex",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Schneider Electric Infrastructure to invest ₹211 crore in capacity expansion.",
+      "enriched": true
+    },
+    {
+      "id": "n2d08a8ea5b90",
+      "ticker": "SHADOWFAX",
+      "company": "Shadowfax Technologies Limited",
+      "sector": "Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Shadowfax posts record Q2 2027 revenue, margin gains By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3ZCd2RRbXRianNhUG5zTmVJUFFQNmpiSVhCYy1Db3A4LUN2RE5uMjVLR0lLcF81b1BXZThqZW5XYWJtVS1jYmtTbmZTVDZLTDVWdnkzb1hkSWZqaDNZbUMtd29VcjZrQ3VUNEI5QjRpNjBXWGZZekRZd2sxQzdWWGhfUEo5MDRZZ1pkVjZjekFtdzNVODJZZVBVMUVPaG51bGp2Z0VTQjZwM1REa0VlSXo2RV9TOWx4R2c2VlJkMllERWVYWnlFdmNLMk9ZTk8ycDJn?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-29T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Shadowfax posts record Q2 2027 revenue with improved margins.",
+      "enriched": true
+    },
+    {
+      "id": "na1e0b25059fd",
+      "ticker": "VEDPOWER",
+      "company": "Vedanta Power Limited",
+      "sector": "Power",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Vedanta Power posts first quarterly profit in Q2 FY 2027",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmdJSTRTN0dmblM1WmZjeTBzbVpTdlBTN3lPZk1MM0tFdjcwZnM4NUN4WVlvSEhSaXFXeWY4eFpGQk1PNVNiRWZNZFNBSG90LXZIeUpXM0U4TXg2bGhRMXRaNXZudDBlWllURUxabHhaazJEMEVDLV9RSHBjeEtYcmJNNi1lRzlSbzZQOFFOTE0zMEszQW1fSGxzTC03RUZIR1g3WVdUUWd4VEZ0OU56QXZreG12VHVWaVlsb1ZCMTM0NEwyeVF1UFVFaGlhd3plb3JZ?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-29T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Vedanta Power returns to profitability with first quarterly profit in Q2 FY2027.",
+      "enriched": true
+    },
+    {
+      "id": "n10f943733678",
+      "ticker": "AEROFLEX",
+      "company": "Aeroflex Industries Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Aeroflex Industries jumps on record Q2 2026 growth",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdGd4MlJGN3pULWJPMWVtNUlEbGFJMmNELTRYRDlZRUdQYjNqTlloWmRyYjJUQjlWZEQ3UVJ5bmdlZHVzeGdvaWVmV2U0OGFPbWRxZTQ2T3pFaHVrLUVvZlJ2VnptUGlNRURHZ2JsYXRtQlptR1lNaFMxUUVISmZrbFl4d0xBN3NTcFVTcXZIMDZTR3NLYUdEOERKSXdnT1dXX3RQOWlWWl9oZnBwVER1NnpLRVZMMUdTTjg3eHFtTWZ5Zm5TRm5pRVh3NA?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-29T06:42:44.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Aeroflex Industries reports record Q2 2026 growth.",
+      "enriched": true
+    },
+    {
+      "id": "n34d03d634fb5",
+      "ticker": "CGCL",
+      "company": "Capri Global Capital Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Capri Global Capital CGCL Q2 H1 FY27 Earnings Presentation",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdmViX1hxb1phRlczbms2b3hZa3BUY2JCTjRqdXo4SHVYTWJ1d2wzejdTNmVEb1NZRF93cEFzdjRsbVRTY2hxZXBIYWNCMHd4Z3htcjRMODdSSGh3UElyMFVvYnZJSk5GOGNCYlVtaTMyTUpzdHNpQmtDR1drRjQtcTVZa2V3akx6QjZKTHpTYVZZbFNTVXVlZ1QxOXRDZ3FiazVKbEdYWDlXcngtWmF1NXhjWGdLUUNNdFViX1JFdlQtQ1FSTWRsbGtvRVd0R1kwRW83YTlLUmN2dw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-29T06:25:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Capri Global Capital presents Q2 FY27 earnings.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nd292e42ffcc4",
+      "ticker": "CARTRADE",
+      "company": "Cartrade Tech Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "CarTrade Tech Q2 FY27 Earnings Call Outcome | NSE:CARTRADE",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS1FUMWNyaXJOSVBqa201ODJWel9TUmlxZTlJb3FwUFNGaXY4ZnBJY2V0QndqXzlNVnNEMnZtNXZqbEU3Z3NPUjZYSUdrcmMxczFuQ3hCbEFlQUZZQzVLd0FYV1ctTWN0OEhQRDFJUXh4dXRKcENhY0VHcUd5Mk5NdjlhbFE3VjREb3RmYVRKTlNVVUZ1UVdmVzJqNHRweFNsNlF6YVFnRXpmU01wTk5RY1F1WGJLYVk?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-28T13:03:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "CarTrade Tech holds Q2 FY27 earnings call.",
+      "enriched": true
+    },
+    {
+      "id": "n22e05bfeeade",
+      "ticker": "QUICKHEAL",
+      "company": "Quick Heal Technologies Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Quick Heal posts Q2 FY2027 profit as enterprise gains",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWFFxNU9SM1Z0VzRITEsyal81WmdLc2lvR0Q2MFAtNzVVY3J6bU5XZmQyUW8zbUdXdGtpR09MZm9Qclc4QmZadmJLeDVrTS1WQnFaajR4MThZbTZLX1p1RnhaaTlOa3hXT0UtX3hLQUZickE0Y3JIV1pnQlJ1S1hHWjVIb0xvRGlKcGxIWmZQM000elRYSzlRbVRIWGo0R1ZGRzVqWEFNWWNFV1RJeEtIVC1OdkZLQzJ3Y0ZDYWkyN2FzZnh0NWg4b08yVGtUcjg?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-28T11:18:53.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Quick Heal Technologies posts Q2 FY2027 profit with enterprise segment gains.",
+      "enriched": true
+    },
+    {
+      "id": "nf0fab1bfb721",
+      "ticker": "DALBHARAT",
+      "company": "Dalmia Bharat Limited",
+      "sector": "Construction Materials",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Dalmia Bharat Q2 FY27 Earnings Call: Key Takeaways",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbkhlTW1qTGI3cEJEdGhOTjZuSHBxMllNWHRLVFo1blFMeUxRSlUyaVFPMDJzbjBYMTNyWEk2YU5tX09iQUVQUUVVUGVKbHJ2Y0UteHlVdjBnLUs1d29fQjE2SUo3Um5FRzdUSFFSalgwcExtOFhMTzIyb1E0QmgxZlEta29MNUR2SENsV2FjQlIxSV84SUJhSGpJNzZEOWhqanI2aHZibGdyUlpNdHlKZnFUSkRITWRFeE1KMXZjM0RjZ3Fi?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-28T09:52:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Dalmia Bharat reported Q2 FY27 earnings; details available in earnings call.",
+      "enriched": true
+    },
+    {
+      "id": "n5e9774563430",
+      "ticker": "PGEL",
+      "company": "PG Electroplast Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "PG Electroplast PGEL Q2 FY27 Earnings Call Audio Available",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY3JlNFVtdWFnczZ4UE1OMl9pbjBJX3BwNHUzbTFBYnRPQmpXVmJFNV9fYThCZ0hnWmZ2RmFpRnR4S0huYUhUSzBMUFgySW0xb050STQyazB4bEQ0VWh5ZzBZNUZHNGZSWG5nSUppT3BaR0tOWW9EQy1hc2ZxXzdpcDNYRVBpYXZ2MUlRQzd3enp1OXpfS0lwbFZUNmVEcm9CZGNSZFRTdFVPV0tNQjlkeGt3X3hJY1lYdHpB?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-28T07:37:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "PG Electroplast released Q2 FY27 earnings call audio for investor review.",
+      "enriched": true
+    },
+    {
+      "id": "n8f31d3d3c1d2",
+      "ticker": "NAUKRI",
+      "company": "Info Edge (India) Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Info Edge posts stronger margins in Q2 2026",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdDhsOE1mRTVidTM0Y3hUVmVtUUs4WUF2aHVrQzNydVN2Zm5JajRQS2RuUGlkdjVCQk1VNC1HZ29BTDR3clFTSjQ5aU9qdTBWNjAzQkRYSVd3Rm9tZWdSMlVnQ2c5SFlPbXVfSjRBOWFJeVNycGJmMTdOM0tDdUZNTUpWcnJvQVB0M1Q1bHVFbXVuTnAtQWFwTmctd29uakVxR01uWDUzakUtVFQ3aE1mRzVJR3JodEg4M0NpSGFrY1J0QQ?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Info Edge posted stronger margins in Q2 2026, improving profitability.",
+      "enriched": true
+    },
+    {
+      "id": "ndacc380e7e19",
+      "ticker": "NEULANDLAB",
+      "company": "Neuland Laboratories Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Neuland Laboratories Q2 FY27 Earnings Call Date and Details",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVnRxWnVQeGgxWEhSZVBjalppSlVkZ1NHaHpndHMzb0xTa2NnTmJRcjlJTEtqNEp5em5xd2J4NlhCa25rTGlmX200aEM3TVdrMTRyX3hMWWtRRVB0YzkyOE50N0hRVHExYW9jLWdWZ3VwaWpXeEtlUG9NVUZVSmZXUUtZZ2FoRXhUTmVfTFFuN0tRamNjNXpsWWNzS2VVT1IyWjVmeGNFUXZ1eHF5ZUZ3MkI4TUJCR3JvNUNqUkxTNA?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Neuland Laboratories scheduled Q2 FY27 earnings call for investors.",
+      "enriched": true
+    },
+    {
+      "id": "n5c50ff4e3de7",
+      "ticker": "POLYCAB",
+      "company": "Polycab India Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Polycab India (NSE:POLYCAB) Updates on NCLAT Order in IBC Appeal",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMC1iUDhoMVpBOEYzdUI0NTVWMFZqX1V4UzN0dVh1cjhoUHZ5RzdLODFqRTJ2RXJXWF9Xdi1TRktmQVh5S2l1RXJndXBROC1kcjhpcHRmWHBETExQbndMdHBobzVpelNNeTQzSE0wXzQtQWpRSEZYVk5NeHc1c3RXNXpmVnBFcTZUUnBZSkJIbzVKZlZJNG9mdUxCa3R1S2ZqYjdkZXU4OUs1bVhMNnR3WDdIaktMeThhMnJOOEpzLVB0MVFvNEE?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Polycab India provided updates on NCLAT order in insolvency appeal.",
+      "enriched": true
+    },
+    {
+      "id": "n640962c1a11f",
+      "ticker": "SHYAMMETL",
+      "company": "Shyam Metalics and Energy Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shyam Metalics Q2FY27 Earnings Call Date and Details",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDh4Wk9HTnhrQXRwWU5ablpLLWd5WC1vaFQzLWs5MFFlWG5jTm93YlUyblpqR0ZBRW10M00wR1E1Z2hUeWtlQ3hpX2pOcE5jOVllelVjRnFjSFB3cDFXTGsxcVgxYjQ2RmtBTllrTWNrWFFoSWtjOEFYdnJwZDQ2TG1RM3JZRXVzdklJUjYwbVY3VEF4a3lGczRUMTFRRFRDM0VaOGgzeHczSzhP?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Shyam Metalics announced Q2 FY27 earnings call date and details.",
+      "enriched": true
+    },
+    {
+      "id": "n736bb5e93502",
+      "ticker": "GATEWAY",
+      "company": "Gateway Distriparks Limited",
+      "sector": "Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Gateway Distriparks Q2 2026 sees recovery, stock stays muted By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUjVZaVpUS2VzZnhRRWlYeG9reWVZZi11SE91VE1DdWlOdURuM1RXbDNaT3BheHF3c2NXOElPaXhBTFRZWklpcHQ2NmtvUTFSQ0lUaXJDZ0NoLV9tclphR2pKVVpHeHZDeDZFOWw4UkJ2SExJTTV1eE1MU2RTNzRybDdPVEh2eXA5Y3ZfOVhGd293bnRyVzkwcjJ0RUY2YkUwR2pyUERRcHhqVy1zeERVSW1OLXljUGZ3am9LZnNQcXhsOEtwMlFsUFBoZDJDalVwMDY1eVVyOUtyNmN0Ymc?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Gateway Distriparks showed recovery in Q2 2026 earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n1938d9ddf7bd",
+      "ticker": "AEROFLEX",
+      "company": "Aeroflex Industries Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aeroflex Enterprises approves merger of Hyd-Air with Aeroflex Industries",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbHk5OUxGY2Z4TXNxeXlfZEtTUnBGWjJtT2xYVUY4eHhoZndqaS1NYW0zOVFnRGVIZmR3RzZ1czV0cnpXMWVYXzNGcW1mMUI4c21ZckVsSktadzJYc0ZwUVl0bHFvUFB6a0QtWWJhQWRmWDM2LUtrQnZmREdNY3Y5Y3VUSk01S1gwYnladi0yekRPT1RFM2diOUczZmxyQUx5QWRBaGtiVU5DZzZMaXltZFN5RVM5TThOT1BCbnNB?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Aeroflex Industries approved merger of Hyd-Air subsidiary into parent company.",
+      "enriched": true
+    },
+    {
+      "id": "n35e7b915416d",
+      "ticker": "AEROENTER",
+      "company": "Aeroflex Enterprises Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aeroflex Enterprises wins MCA approval to expand business objects into data centres and hospitality sectors",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVV9zNy1WaG1teFlscngtRW44VjJpeXN6eElSYzZUVnFnd21vbEFFekFxckJCYTJXbXp1VHNmVjIycVVEbE1UdU92U2F0amh5eXFiRmhPZllpaF9ad05IY2ZZWjZXRkU3ZkhmVjg3UWFacFNudjFWaThSejNiV1BTV0VFYll6T2xNSkl3YzRTeGpUOFNjaFBRT05RY1pjeXQ4QTB6YTBwLWhpR1VQeVNhZ2tOY1VFeFZpY3RlT3JZSmwzT183UV9saFFCNjdTTVhyX0VlZ2JOOGRkMDItbmVpTGRYakVwZjJrb1E?oc=5",
+      "source": "Trade Brains",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Aeroflex Enterprises won MCA approval to expand into data centres and hospitality.",
+      "enriched": true
+    },
+    {
+      "id": "n0c064284500a",
+      "ticker": "HINDUNILVR",
+      "company": "Hindustan Unilever Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Hindustan Unilever posts strongest sales growth in 14 quarters in Q2 2026",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMDRZWXlRaTl2alpvb09QbU5wZW5oZlJOSS1kWTVkM0hMOUtNRHJJTTdaRWRKNjNLUjFhZGRFQVhGbWRmbG9qNTB6OE55MGlTa3RnU3RBMHZoLWlXT3ptLWNSSGhTRFVLQV9MV1lLc2FSZDRHSV9YakcyQWxMam41cUFPRjZONm1wSWJldlRhc0tzemIxZ2h5M1pobDRYRlVSRDMxU2VYYm5uanFqYWxCN0QxNkpSQ0wwZ0dFR1lzTmZYTTdubzF4WUlTMXRHZGVzMV9HX3E4VmdnQ3BSaGhSd0hmb1FJRDQ0Rnc?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-28T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "HUL posts strongest sales growth in 14 quarters, signaling robust demand recovery.",
+      "enriched": true
+    },
+    {
+      "id": "n0921d15db1ca",
+      "ticker": "ONESOURCE",
+      "company": "Onesource Specialty Pharma Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: OneSource Specialty Pharma jumps on strong Q2 2026",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWkZOMW44TEl1YURtLTFUaGxfZGtDNG1ReVVSRHlYbXJoYmxKblBidFFwMVpsZnhzdFAtaFE0dFJVbVFjQlRiNkt3ZkJzMWFDU0JObHVsLTBpbTNpY1hpU1NwMDl2TGM4SlE1Vzg0WWJkb0VtT0NQOUVGbXZwNTUtVGd4eWtQUnpXUVdrckpXN0xrVVRkUWZNeUJWc3JhMm1qSU1HOE15Qk01Ql9jVG5KZUJTbGZLWnlxYnRCMXpTQTFoY1RVVnRsOXBMNA?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-27T14:37:02.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "OneSource Specialty Pharma delivers strong Q2 results with revenue beat.",
+      "enriched": true
+    },
+    {
+      "id": "n0c4da7ecba1b",
+      "ticker": "UTIAMC",
+      "company": "UTI Asset Management Company Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: UTI AMC Q2 2026 beats revenue estimates",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0hXNF9ZaGpBVFZnRGdqcVhMWmZEZVJ1WjRtWmdLREJXc015NFhuSWdJMWNZTUM0NW9KeXJCYUVUOG5nSC1GQnVic1NnR2JtUU41X1NGazhhRzIxU0FmejB6dlMzLXZqVEQzcmFKOEQzNEtqV3JqOUh3LWFMRUJzTUZmaFNfVGZhdXZNbnlfUnJnSXlub3lzVXR3TjhCNWV3Sm05c0tHTEFSbHhCQ1NMQ1hsdkhrdXhrYXJONw?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-27T11:38:35.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "UTI AMC beats revenue estimates in Q2 2026.",
+      "enriched": true
+    },
+    {
+      "id": "n0b8bc36bbcf5",
+      "ticker": "RATEGAIN",
+      "company": "Rategain Travel Technologies Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "RateGain Appoints Timi Kwatra as Vice President & Global Head of Talent Acquisition",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcHBiZzE5U3RFVEEyaTRzT3BLRG9Tdmh1WS1nTXlRYktFYlBGcndNSUtIcEFNN0t2d3QyTzFCLVBoMzZ6bGE5V2lIVkx4YjBhYlNGTnVKR0FIbGRtTDNrbXF0NzI0WmRKRVU3NEx4cWxsb3ViUUtBSXpXdERtUkVuZE5lQWVaY2EzaW1hRVdvR2VTY21ocEg4blRDTmhqTHZ2ZDlr?oc=5",
+      "source": "https://hrtoday.in/",
+      "date": "2026-10-27T07:58:12.000Z",
+      "topic": "Trouble",
+      "keyword": "Acquisition",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "RateGain appoints Timi Kwatra as VP & Global Head of Talent Acquisition.",
+      "enriched": true
+    },
+    {
+      "id": "n2386c42ab6c2",
+      "ticker": "AWL",
+      "company": "AWL Agri Business Limited",
+      "sector": "Fast Moving Consumer Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: AWL Agri Business posts strong Q2 2026 growth",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRUFUQ3RscGVENG9QU2tPYXRUZUhwaUlLTE9XR1VOYWJhSnRZVkwyTGNGVTQ1LWZfMXphRThCSjJ1eXlYR3ZBLVRVeHhkeTFqdllVQk9QOTlFd2g1dlVCRDV2NGVBbEVPZUpZZWliTkFUYVJISEg5Y1QyallkUThVR0ExeTM4MVp1NFlNNlg5dThSeDBhTVJDZUZYdEY5TnYwX1FsTkxHOU9oVDJFeXZ4N0lLc0tLZVpDSXl5NmZnb2ZyVHJl?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-27T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "AWL Agri Business posts strong Q2 2026 growth.",
+      "enriched": true
+    },
+    {
+      "id": "n1d66f4b8d6f9",
+      "ticker": "COFORGE",
+      "company": "Coforge Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Coforge Limited Earnings Missed Analyst Estimates: Here's What Analysts Are Forecasting Now",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRkJHNkRKSmtQbzk4MzJDNURIeXJEcGlrbnBfSjRvLU0yQkpOWWFXWGdPejVMTjFaUU1GMUZLekdnS0tvWTNXRk5jWE1pdk95V0RGRmphUzJkbmQxZ3VQdWIxbjNtRXlrUHlMTGZubFJLdGMtLVBodkw0Y1c4ZzJwOVpTT1l5N0wwUlJmMi1Hc2tDNDJ4NWFzejVCejFuNjJ4NTRvbURTSkw4eEdIQWQ5RkFUSGFURktkY0ZfSWRtUTlNUDBjaXlOOEVTUG9tSDN40gHWAUFVX3lxTFBIM25CVENsVGZER1B1c3UxVEw3ZExSNTBIbzQ2VjYwNXRlNzlCQmpHbER0cGJSYmNwSmJEbndlNmhxRzdxUTE5V2F6TFI0LU1jSHhNYlNLbEZCYW9CT3JnSGcwTFYwb3FscjA2OU9GX2Q5cHNwR0kwZklQQ2o2ZWgtcHZTOG9JcmFCUHlGdDJtX1dqalJ0VVBtWG0tb05odi1jVnUwcEZsY25SYmd4UTFmSmNGNFotdnNwTXFYRXo5NmhDSHVsWHlROUc0b2tqMVl4UHJOdWc?oc=5",
+      "source": "Simply Wall St",
+      "date": "2026-10-27T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Coforge earnings missed analyst estimates; forecasts revised downward.",
+      "enriched": true
+    },
+    {
+      "id": "n1d4696a8ea97",
+      "ticker": "KIRLPNU",
+      "company": "Kirloskar Pneumatic Company Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Kirloskar Pneumatic H1 FY27 slides: order growth amid revenue decline",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNlN4VlI1eHlLbXh3eks2czVmRVNEZmsweEtjMHVNWTNCd2xMbzc1T1VsNEZyQmRGaThlSWVxRURMS0VTWEpvalV3MHhYdWlveWN3OV90eHZVbUdMai1ZeDdGSmVtWlNkOERvWTBhaUFmdk5UNXVGQ0FHZEpPNXZKMmM1Sm1OaHFCcmlSNmdnU1NVY3R5Vy1yd2k4eTY4WlVDOHRLbTlUQ0NMcnBBSzZ0RkUybzRtUVB0WDdCSUk4czZkNTg?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-27T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Kirloskar Pneumatic's revenue declined but order book grew in H1 FY27.",
+      "enriched": true
+    },
+    {
+      "id": "n2a9d35070052",
+      "ticker": "KIRLPNU",
+      "company": "Kirloskar Pneumatic Company Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Kirloskar Pneumatic’s PBT Dips To ₹85 Crore In H1 FY27, Order Book Expands To ₹2,040 Crore, New MoU",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUFpSRVN1SHBNQy1kTEczOFNPekNGT2U4TUZjOUk4SVNVUDNwSUszeUdmMFJmMm4yemROeHYzTWdyZ0ptRWV1cUhRTGkzUWJhdVBFUnd4c19HbUM0UzB1eW1QU0ptT3dEUFFzTVNwdHEzOG9wNDlFQ2F3YnlTXzVsNnkyZ3Vzd09yMENxUU9SMjh0NUZuanJEQUNxYW94bWxyY1gwQ1h5Nkg5ODZXZmNEa3JRQTdvMjhhQjU0MXZBc3BZY3NGV0V5bmwzUDZkQ3lNamlqdm9SQkrSAd4BQVVfeXFMTk13amtvYTVNc3dXcFc1U1VwZzNXUVExaUo5MzloSmFFNS1iTDUtZGZTaEFLRndJU01OWmIwVlZZN0k4VUFueER5SnpDWkV3LUFhamFjMWdNUGpXZ3FKRWhYVGpRT0k5dkxMampsTnZtbkZwMnRYRGg5aDhyREFzeTdEbDBDMDFOTVpVOW5YNTZ6LV9ac1JMTG01RjBRLUhrNGoxQy1sd19vLTF2NFh3Q2N2dFpRaERXSTY4QXVMVzJKNjBERVM1LTg1bmt2cVJOTTRsd3VPOVhGVnZnVzBR?oc=5",
+      "source": "Free Press Journal",
+      "date": "2026-10-27T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Kirloskar Pneumatic's profit fell but order book expanded to ₹2,040 crore with new MoU.",
+      "enriched": true
+    },
+    {
+      "id": "n87bc5963cbd6",
+      "ticker": "NAZARA",
+      "company": "Nazara Technologies Limited",
+      "sector": "Media Entertainment & Publication",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Nazara posts record Q2 FY 2027 revenue, shares edge up By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb3UzVW9idHl2T05PQ0xTbmM3ejF2YmFqdHQzTGVGYURSTzJ6ZGhqMnVCSkEzY05xMk9FcC12bnd6YzNRcHZsTUsxaV8zZVVLQWd3MFpkdG10MUZ3dmRiNTdLcE5LN2JuamhGeHhSUDlYUDAzYnJRTkZERTNyZXF0aWZDcEh3VGpramJvV1A2QU53U01nSTR6TTVGRm9yY01JQ0l6cjJuTVZmM3VKbTNmUXFZalNJNVRxemphMTN5NUJwR3F6cWZjem5oMEREb3Z6dnk0SmpR?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-27T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Nazara posted record Q2 FY27 revenue, showing strong business growth.",
+      "enriched": true
+    },
+    {
+      "id": "n8b0fcdba578e",
+      "ticker": "MARUTI",
+      "company": "Maruti Suzuki India Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Maruti Suzuki posts record sales in Q2 2027",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWHY4Rm13aVdjUDVVV0VqT3laTzNnUGJkbDVHOEh1bnY3U2VpbmQyVDVRNmgwR1FBYnM4Nm5QOUoyMFd0S1VyMU82NVNFYmdKOXBGd3ZmQlY3ZWxSLXRtSXBCV3gyNmlFbjBlQnA4SzlSbm16SkJodmpuX1hjX0xBMlBQYWJXTkJxVEN4NG1RWUNER1VfNWlCWWM3Y1NodmpCRU52TjhrOUUwYkJ1a3hTcXNqVldXSkVFdGdMamdJTU9QQQ?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-27T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Maruti Suzuki achieved record sales in Q2 2027, indicating robust demand.",
+      "enriched": true
+    },
+    {
+      "id": "n853192d9e9b2",
+      "ticker": "SANSERA",
+      "company": "Sansera Engineering Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Sansera Engineering: QIP Funds Utilization Verified",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSEtEbW03NUJ2eWd1NnNWdVZkYnB0OWhLWGoycE5EbHF6YVg5VnNqZzYwdEtLclJVY2NmU2ltMThYNTlYZUw0T1BtQ196bUFCX0Q4dUZwVjRrRmkxZ29hTl91bUwzX2VzTE1KOHZ6OUtUOVAtRk1nRDJYajhGLUR1aWdubEhudXNfdk1kRGNRY2NiTDJi?oc=5",
+      "source": "InvestyWise",
+      "date": "2026-10-27T06:26:54.000Z",
+      "topic": "Money",
+      "keyword": "QIP",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Sansera Engineering's QIP fund utilization has been verified.",
+      "enriched": true
+    },
+    {
+      "id": "nce936e6bf0fd",
+      "ticker": "QUICKHEAL",
+      "company": "Quick Heal Technologies Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Quick Heal Technologies QUICKHEAL Company Secretary Resignation",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWFV4UlJtS3QzZ0NxQ3h0OTBTV1RTMkU5dnNvNGlDZldKX2hKbXY4TWg3WjdfZ2xVVVIwdFg5Q0IybU9EMW9NMWtSUEhGM2xsQnp1S0tSWWJwRGZVbUtBS0dFbHBON2JFcjVpR2ZLRVdPejRLQnZNelZReHlzb21fSXR3VGlidlZ4MFI5bkVzVjF6VW1UTGl1UTVqYWg5NmwwUHBvN2o0eWxCUUhabWtLZnpFbF9wNV85V3luX0YxbjhIOFpsOU1pel9SQXB2Zw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-26T11:51:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Quick Heal Technologies' Company Secretary has resigned.",
+      "enriched": true
+    },
+    {
+      "id": "n14b623c681b4",
+      "ticker": "ROSSTECH",
+      "company": "Rossell Techsys Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Rossell Techsys (NSE:ROSSTECH): Why Did It File Clarifications for Its Preferential Issue?",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX0pzOWQ3SGExZldGVXNGcWhjY1JvOF9UODVLQ2pPVmZNQWJQRTR5STBZcUVxTkVCZ01tYzdweVpSWjdDWUZheU5RNkFETWdvdDJVVVZzTUpSc2VfQW80endJVUc2WExuU2E5cVNzMXBVTk5uelNGZmlWTnNmLTVmQ3I5WlJJX1ZzZWZSbV90S2VSQU82eGhlZXByaHkzcDdIX0s1RVBkSTdBdFlBNk5ULWtBY0VqUlk0WUZBazZTRmt3Smc1a2xieUpMQk5fQQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Preferential Issue",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Rossell Techsys filed clarifications regarding its preferential issue.",
+      "enriched": true
+    },
+    {
+      "id": "n643bd4827570",
+      "ticker": "MAHABANK",
+      "company": "Bank of Maharashtra",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Bank of Maharashtra posts strong Q2 2026 growth",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcHRPa3l6TS00OV80VjViMzVLVTJDMjRHRmtqM2RLTkI4NDVrTzBVTlVIQ3kzUWdNUDhqMGE1cnc2QVpJUGVuZk5aQ1BmQnNPc0ZqYmg1VjRGWWhCNkVtZE92ZUpfVG93MnlqQnhncDR6MW8zcHVRN3JKYzVmZWdwWXdaeVA2Uk43QjN0bTRGajdaUDZ0OVBqZHZRTEVEd2xLVXJjWEJMTXdpc2FvRTVBS0xjVm1Wek1QeEw3Y3BwWUtYdFRQRlg4?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Bank of Maharashtra posted strong Q2 2026 growth in earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n8204705d330e",
+      "ticker": "MASTEK",
+      "company": "Mastek Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Mastek misses Q2 2026 EPS as shares slide 6.8%",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeDdiS2dlenFSRjRrMzZpQmRqSUQxdGlGNjRGaW8ySG9Pbk1pQ2F2cmFySTJBU0pxa2hybmw4bnhXdHZITTl3NnRXOVI1TUoteVZlZlladU55bmtUaklYR2F0czQ3bFpqdWRlbGNqS1VoT09QUDRzZ0RwV2dSaXQ2aXRDejBnQUUzRzVzRG9PQWxueFdMOGNaTS1jT1F2cEw4ZGFXZmFQMEFMOEViQWlQNWItSWpKZW92ZHdKeHdXbkNYMlE?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Mastek missed Q2 2026 EPS expectations, signaling weaker profitability.",
+      "enriched": true
+    },
+    {
+      "id": "n055bb0f35222",
+      "ticker": "CASTROLIND",
+      "company": "Castrol India Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Castrol India Q3 2026 profit falls as margins narrow By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRmZia3FSWlZoVU5ic0oxMXA0TVBzZ1dWMUM2NVJsekZDRDgzS0NwQ0JjNHJiRW1zV0JEZkd0bktwRUlFQ0VPMHhEeWRjZWJOQkpwUXUwVE12Nm4xZmV0ekppWnZIY1Raa1RpcFFPMkJhSllMa1Y3TXphd09IQ3N6VUp4SkZIVE5MYXd0MXdySEtRTUlob25fVWFvREFQYUVPM1NMSXhmdzBBYV90TG83NV91TWNMX2VJUnV3X1ZYYzVjSGpXdGhCdWZJOG93eDhFNVZMZw?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Castrol India's Q3 2026 profit fell as margins compressed.",
+      "enriched": true
+    },
+    {
+      "id": "nccafc3322836",
+      "ticker": "DALBHARAT",
+      "company": "Dalmia Bharat Limited",
+      "sector": "Construction Materials",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Dalmia Bharat Q2 2026 profit under pressure as costs rise",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnlOdlIzUGUtUFVFS0lwM0EzNjA2TE1fTk9VdGlHVHlpMG9iY0FoeTBTanNNd2ZLUFdMTUpjM3M2ejAtbWF6cGl4OTI4UkhyMUpXZEVodS11Z0R5THZ5WXlueFMzcEtlOHhaVG43VnZOMWVqd3lwWXlHb2p2b0tvM0N1Z1UtLXJxZl84MjR5NEg3UnVwLTZsb0VzTVozdlJFYlVNcXV1cUdaQ0s5ZVhiTTBBNXRYc19VVklrSURRZmZBbmItRkdHeldoMmFGdWNKWEltcHAzaXFZcUU?oc=5",
+      "source": "Investing.com UK",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Dalmia Bharat Q2 profit pressured by rising costs despite revenue.",
+      "enriched": true
+    },
+    {
+      "id": "naeee29090758",
+      "ticker": "KAJARIACER",
+      "company": "Kajaria Ceramics Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Kajaria Ceramics posts Q2 2026 beat on sales, profit",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYS0xVjBELU92YS15OUZ1Z2lCcG5WRVdIUnFrbkFFeWFIUm1wY3FaVy1PSWdxSGY1RUFNRGpDOS1jblF2YWZRVG9sb19uUUFHRTFuZ1RjWFZWQXY0SUZFTmNPQ1NhSmpuaDlmWmF2cEFDMUxKODVNb2k2VzFnQlhZcFA2RjFZNllEZnpxcmR6TmNpZHFqZUpVdXplNEZSQUJpRll1TUx0YTRjWE93YTVEcXF4bC1DLVRWSG5XSWZEdjVtOXlHazd5bDRnMlM?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Kajaria Ceramics beat Q2 expectations on sales and profit growth.",
+      "enriched": true
+    },
+    {
+      "id": "ned9a96e317b3",
+      "ticker": "GRWRHITECH",
+      "company": "Garware Hi-Tech Films Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Garware Hi-Tech Films Q2 FY27 Earnings Call Highlights: Revenue Hits Rs 696 Crores, EBITDA Margin Upgraded",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNGZKRnVIc0VyRnZaVTZBQ2ZEaTRueC1WLWNFbG1OcmxkTk9RX1hmbGRaZGlxZUpUUTVWTHBIaktSMzVHdFpuMEs2b3dBMUFKWENrM0V6elQwaVQ5Qnd1UHg1QmdMSkVmSng2OWgwNTV3ZHRIZHYzOVZIYXNWLWRDQWhCdU55UThvUHREZ2RFM2xKZTJqSjZVQmo0M3dsMDRfTHNhT2lSWnZaOXIxTVdjT1RrWGlldE9GOVR0NG1hUDkzZWE5cVhSWUhuYWxsOXJaZEc4c0kwOXRpUUctTDZGWjAxVG5tdw?oc=5",
+      "source": "Kalkine Media",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Garware Hi-Tech Films Q2 revenue at ₹696 crores with improved EBITDA margin.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n851a5207da40",
+      "ticker": "ATHERENERG",
+      "company": "Ather Energy Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Ather Energy posts first positive PAT in Q2 2026",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRXNwS19BN2pNTFJENk5XNGp2WWlfVU1jeHZaTEJ0VWFOV2ZhT1RvdFlKenp5OXk4ZTllUG5wUURUakRFT1ZvT0RpNlZtT3VqeWJNNkcySm5fbWJ0YUUwRDd6NEpOck90d2VCSWZVWHNqODBBUnpjaXk4RlNRRGVrTmhNcUo0VGlxRE1yQ3VNWFZ3TmxYTnp0U2J6QW5RbnlpTVZJZEppd0lWMEtEd09ZYzdWaE1Ub0l1eVNHZ0RxRENJemw0Z2tUQg?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Ather Energy turns profitable with first positive PAT in Q2 2026.",
+      "enriched": true
+    },
+    {
+      "id": "n9e52b7509cb4",
+      "ticker": "ATHERENERG",
+      "company": "Ather Energy Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Ather Energy To Invest ₹122 Crore In Manufacturing Capacity Expansion",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM0Y3X0FZdFFIQzAza0JraUJpWkNLM2NjMFZnMzlmT0JfbkR3Z1ByNG5vM3NzNEJiOENWZ2hLeURUc1pHYnMyS3JoaVdkQ1JoLXdPcFQtdWoxSl9BT2Q0Q0FTc3BydGI4VWdIakk2Q1YxR05uU3ZuTThSNHRaZWhLVWhwUkJQZ19Qa0lNTlhYRHVZZnlyRW1oaUVsUXJOSlVSbVdOVkxPOEZVUndzV1HSAbYBQVVfeXFMTzh1S0FjZHBSTi04c0pxQ2gwN2Y0a2hKc09qdkhGVWg3OTRVXzZ6eVR6NUJsSFNNZk80dWlHT3g4amNKQ3hkeTh6R0ZXRkoyTlU3YUcxMG5EX1piZktJR09sT0lOYlREMHBfOGxkMEJ3MjR2WlQyOVY4ZnFmeUpKN0pORjJqMkR1aGtKSVlKbFVucjRyWHk5N1hGQmdUX3pqR19CSll3NlA4YnpGV0NhLW5FR1J3dmc?oc=5",
+      "source": "Autocar Professional",
+      "date": "2026-10-26T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Ather Energy to invest ₹122 crore in manufacturing capacity expansion.",
+      "enriched": true
+    },
+    {
+      "id": "n87a12c10986c",
+      "ticker": "LT",
+      "company": "Larsen & Toubro Limited",
+      "sector": "Construction",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "What Does Larsen & Toubro Limited (NSE:LT) Record Order Inflow Signal for Execution?",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVG9nT2FjNTRya2RqUmRiZURXUGNPdHYtbVhUNmVOd1dlMXFCLVgtSWhNbTJraFRFbmt4bjRZTXBXaEJkWXJNcVVGWkZYN1MwNU04b0Y1TXpRTVA5OWowQzZhNnNTSHdTNUdvc3ZNVml5c2ZfNjlwejBvdWFFNThoazlKYzhkelgycUI2R1NJNnZUY0hNbndJQkd5U1VCNkk2d01iY0QzMVR5bHNCeG9mRGRUbHNsZ0dFVzhyTXpIM2w4Zw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-24T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "L&T records strong order inflow signaling robust execution pipeline.",
+      "enriched": true
+    },
+    {
+      "id": "n40751c0fd94e",
+      "ticker": "KSB",
+      "company": "Ksb Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Ksb (KSB.NS) Q1 2026 Earnings Hold Firm at ₹15.54 - Earnings Turnaround",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZVVUWUNiVktjcWhrUTk0dFpGRmxxRDBPX0NOY2NxY3BodFJFM3JMYVVjcFJkVkVwaklKaDB1TEhwOE9LQTh2aWdyWGduOXE4RXVsMV9XVFJORXB5cjljUFpvM3E1SHBsTzZpRHBpT25keElDWm9ZSTJqSWU5Ti16UWVxN29WNk0zU0c4ZVNfMDRJdw?oc=5",
+      "source": "https://www.siam.in/",
+      "date": "2026-10-24T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "KSB Q1 earnings hold firm at ₹15.54 showing earnings turnaround.",
+      "enriched": true
+    },
+    {
+      "id": "ne296fb0cf019",
+      "ticker": "SWSOLAR",
+      "company": "Sterling and Wilson Renewable Energy Limited",
+      "sector": "Construction",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Sterling and Wilson (NSE:SWSOLAR) Q2 FY27 Call: Order Book, O&M and Pipeline",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWGE4Q01DZWRUZzZWU0l1NFl2NjAtSWNwZmFpRE5id1pjU0pOekxPWHJrdnBTbmFZTldkb0syTTc5aTFwaGdnci1BTmFaME1NR3RiYjNhZHNNMlBzdk9YQ1RJT1hTel84d2oyMGdhU0k2WkhhenBGZmtDV3ZCQmhhN2ZOY1VpMmRLUi1ZeGFjYWlzWWItdWhzd3hFSTJDd3lUdkVPOGNYbDRsZU5sOFVQT2NoSGNDYlF3S1BDeUtFdFduN3F1bU5ZTGtZakN4a2xxUm9DR2h5VzRlNDVsd1JBejAxUXJRR2RqOXdONTRYVF8?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-24T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Sterling and Wilson discusses order book, O&M services, and pipeline in Q2 FY27 earnings call.",
+      "enriched": true
+    },
+    {
+      "id": "n605206f48665",
+      "ticker": "RACLGEAR",
+      "company": "RACL Geartech Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "RACL Geartech NSE:RACLGEAR Brazil Export Order Latin America",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVTJCdTBhUl9feFp3UWlkYXZwdkNpYTFJeUNfQU94cHJRN3VBbHgwZWExNklVYzhMZ2VNLTlQSzlydEJNUVk2WWFjTnNidFVjbHVwd3hVVjlZd3laT3FkRTFZUHBaZU95emg3LUl4cGo5ZmJkMHVDRVpjZmp4aUdoeEMySDdZRkhOYXprYnZOTUxMVjZyQmpIaS1zcmt6cHBHc2NfZlo3cmdNUjFlMEVCWTZzMm9xc1ZCeGc?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-23T11:09:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "RACL Geartech secures export order for Brazil, expanding Latin American presence.",
+      "enriched": true
+    },
+    {
+      "id": "n228de8e83ca1",
+      "ticker": "NUVOCO",
+      "company": "Nuvoco Vistas Corporation Limited",
+      "sector": "Construction Materials",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Nuvoco Vistas misses Q2 2026 EPS forecast as costs rise By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb0FhUVp6NTMyeTNYQ1ZOV1VydXVLNk00TUdmQU5FUUtyVmRmc19GTDhjbVd2OHZvLTRCWURueG8wYUhQZXZRRTVCcm9jLU5UQmctWlJja1o3SlBPQ3hJalgyd1lBd2dvWlRBM0ZrWlRuam1sbzIzM25EclJVdWJNQ1ktaGEyVG5ZZEZyMWx0VGw5WmFfSzlnV01Cc1ZHM3U3YmljaWV4NnVfRDNDY1UwdDhmeHhhdTNVOXNDOU44QTlMd0pOUnJ2OEMzaldWSjVHUUIzWmRyUnA?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "negative",
+      "takeaway": "Nuvoco Vistas misses Q2 2026 EPS forecast as input costs rise.",
+      "enriched": true
+    },
+    {
+      "id": "ne42f30c1cdb2",
+      "ticker": "JSWSTEEL",
+      "company": "JSW Steel Limited",
+      "sector": "Metals & Mining",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "JSW JFE Steel Limited Approves Investment for Capacity Expansion",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzVlJ1MDB3UUZFaFN2V1FIaUpjR3ZaV3VfN3pCZ0lzS1ljLTFPbnNMd2xIZXFnaS1wRk91Y2NtNGV0NW40QmFqbzIwa013WDJrWWNoSnFBQkg1bUxkTmpobjN0cEstbmJ2X2c?oc=5",
+      "source": "JFEスチール株式会社",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "JSW Steel approves investment for capacity expansion.",
+      "enriched": true
+    },
+    {
+      "id": "n7a75c9df0135",
+      "ticker": "METROBRAND",
+      "company": "Metro Brands Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Metro Brands METROBRAND Q2 FY27 Earnings Call Key Highlights",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZk1wcVdFRXNaZ0ozeFpid2llYnlrNHFHNjQxaTNFbjFINGFpSDhPOTdobDQ2bTNrOWRRRThSMTI3YXhsTjRZVEVQd3diV3dIYmNPblVvcXQ1bXpJT21KSVVxRm5KdVFsbVpYWnRmcHB0UndidjdPM2VCa055RlhaMW5OeFN0RGdfS1lkTUFFdU9qVUNtYS1wOFdOcDJIaFF0c3FFUjBQbnRBVmJndlByeHdYSFhnY1p6Yk53NGZSQkV0b2VN?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Metro Brands reports Q2 FY27 earnings in call highlights.",
+      "enriched": true
+    },
+    {
+      "id": "na20deec09257",
+      "ticker": "INFY",
+      "company": "Infosys Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Infosys Q2 2026 beats revenue, cuts outlook",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVWlHd0NwcUo4Q25uNjA3N2VkMDhHUWtVWW5kOHlBekZXNy1ZV0dockJYNUczNDJ1NU5Wb1ZHT0JlWUZwaUFTV2x2N2FIQWt2NW1CcmJKOG5DSHNBcVRQeC11UEFtblQ1VVQ2cmNZN0owVGVVaGVXblRkSjlrUHJwdXpsaFhsWmhpTmRlVHpkYjBmcU9XQzBUdEgxdUR4a1JUQktteGVSSktMZjZEd2UyUWU0cXhWbHdEckNMZzJnYU4?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "neutral",
+      "takeaway": "Infosys beats Q2 revenue but cuts full-year outlook.",
+      "enriched": true
+    },
+    {
+      "id": "n35bde6fc2465",
+      "ticker": "COFORGE",
+      "company": "Coforge Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Coforge lifts margins in Q2 2026 on record deal intake",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeEZHNjRDT3dqUEtCVTk0aXZHMi1Vc0xyeGg5aG9PajQ2OHBOMGprOThEdGktVnljNVEyZVlydXZLYkplNVh2eUxzVlI4LWVHRmxsMnYtRnQ4OGlTWjQ3MGQ1RDktZHVRQnd5eElLS1g0MGx4R0FtbDl0QlQzMXBpUUdlRVNHUkxMcTJDdi1GZ3gxMjhSeGVzdjZWQVduVFpqZ1h3TWJQNWpvUi14eU5qVWczLV82UFo2Q3lLdkJIcHBUTDBkQjZObVFxZ1lZRzVE?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Coforge lifts Q2 margins on record deal intake.",
+      "enriched": true
+    },
+    {
+      "id": "nb3334ed54f78",
+      "ticker": "THEME",
+      "company": "Specialty Chemicals",
+      "sector": "Chemicals",
+      "scope": [
+        "universe"
+      ],
+      "title": "Himadri Speciality Chemicals plans ₹1,613 crore capacity expansion across key businesses",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQckN0YzRaWGE1bWlVX0pmdTFuMEtVVXhiZjdLZlc3dFV4MWxNWEhKSFp6OURKc2Z3VzF5RzE2cTVMQ0FOR1p1WV9BRmFVanAyWUh5ZWVEMVpSSDg5RWhEel9md2NYb3hVclUzRlRDZmNEVHRId000SnE5UHd4MGdFMUxkRTdYUnMtTWc3Y3ZnVzZpdm9SSms2c2hidnIzb1NLTnZyblBRcjRuODlCTjVaczJIQlRoUmxQbEdPSklqelVrWm5idzdJczhBZmtMaWJXRkMtZWRrclh0LXNkeHlhekVjMGNJVFIwQlhVZXNB0gHzAUFVX3lxTE5fWHdTTHpFbElHTWhmRDlPN3BTRzlQVURIOC0zZEg4MHZiN3l0U0RyTElZTE13MVF4S01DNnhqZmFYM0JBZHFTc05qNE5QVkxKQkpXRFVhX2g5ZnZaa1FhZEZWR2dCZlhPY3J4VzZuWEowRDRoVjJPWTlzR1Jjd3RTNllhdHR5NDNwQ3ljdXlnX2gxdGhwWWtHbnUxS2pFc2U4REVhOG9DUHkyWDR5MEpKS05VRU00UTNLdUZ5MEIwNHFzVHlYR3BmY3FXaFBBb2ExYklhZVF4MzBpM3FCVUJRMnNXeDA2UWY5RXRWRnl4MkwzUQ?oc=5",
+      "source": "Livemint",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Himadri Speciality Chemicals plans ₹1,613 crore capacity expansion across businesses.",
+      "enriched": true
+    },
+    {
+      "id": "n598c5edc008c",
+      "ticker": "SHYAMMETL",
+      "company": "Shyam Metalics and Energy Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shyam Metalics announces merger of Shree Venkateshwara Electrocast into subsidiary",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOU5JT29jRHFQclYxdFUxTVpkX09qcDhjLTZFUXpTWkVxak1VaG9YRVdYNmV4bXhHanMxdjVGLUZ1Tkh3ZDlVTTlpMHdIbEN0T09tcmZQSDAxdTRqVkFWLTZ6Q3dDVUJuNEtQOWdUR2ljTFE3S0lfVXFUVDV4ajlrUW9GUWhEelV5V0YxVTMxdEpra0c1SmFUYlZtU1ZuaWRhRjdnZTBQZk9UdF9BTjBNa0NNVHlibTIxOWRz?oc=5",
+      "source": "Business Upturn",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Shyam Metalics merging Shree Venkateshwara Electrocast into its subsidiary to streamline operations.",
+      "enriched": true
+    },
+    {
+      "id": "n286b05943902",
+      "ticker": "DRREDDY",
+      "company": "Dr. Reddy's Laboratories Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Dr. Reddy's Laboratories Limited 2027 Q2 - Results - Earnings Call Presentation (NYSE:RDY) 2026-10-23",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWUFYZ0lrczV6UkhwRjFoTUJSY2d4SVNXZUI2VUFHOVVXTi1haXlGSTBSeEtpekxwR2pWQ0k2TUxhY0ZCcWdDXzRHUHFJMWN4RlQ0UTJ5ejk1dHctb1oyNUo0YXZPYlBsSi04aFNrY3F2LVh3LXc4UVNwNnR3ZHpmWVk1UTNFX21fNmk5bWZGaWE3QWUxRUFSM0lzcnNBUXNmSHZRbXJpUlVnamQ2RGNOR1NjTWg?oc=5",
+      "source": "Seeking Alpha",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Dr. Reddy's Q2 2027 earnings call presentation released; financial performance details available.",
+      "enriched": true
+    },
+    {
+      "id": "n5d72d2b88b97",
+      "ticker": "AEROFLEX",
+      "company": "Aeroflex Industries Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aeroflex Industries Strengthens R&D Capabilities with Patent for Automated 3D Engineering Technology",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1hwOFh0ZHNHdmtRRUQtMVM5SGNINldldUF5YnM3aDlQT1JGaU4zbDduVG1YdVRKcjVDdzNmQ29XakNCYkNVLTdrM1dsVkl5QU1QdnBtSTA0WnNKWktaZ0JFNXFRNlVWcHNlVVlDS0J3LThVZ3RjYy03MTluMmJ1Z1JSQ3o5Sl82Nk1zNEo0cDR3SU84RWRoOE1xTzZXVF9manBYckJ0T3lxU0JoUTZpX29MOUdldlBodkFPQUNud0hsTmpSTkJFRnBKZTllUQ?oc=5",
+      "source": "Machine Maker",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Patent",
+      "importance": "low",
+      "mood": "positive",
+      "takeaway": "Aeroflex Industries secures patent for automated 3D engineering technology, strengthening R&D.",
+      "enriched": true
+    },
+    {
+      "id": "nbe7b6e1af07d",
+      "ticker": "AEROENTER",
+      "company": "Aeroflex Enterprises Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aeroflex Enterprises NSE:AEROENTER Stilonn Acquisition",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVVVFQzlqUVNaMm8xRml0Mnc4NHlkQjFrbFVwZ1FtanZPa21CSldPNi1IRUUyc18zQ1FIQUJ5M3prMEVab0hlLXBXSmtFU3EyZ1ZKbzZyNms4S1JnS0Z2cV9hNEp3X0ZCWDZXaVg1RFY4U0xRVWljQ1hpYTJpSTFFTFdpdnlLM1RzcUlyMFpJYlpHYzg5VG5QTW9raUVGTlFiQmttcGo0REJUQ3pKbURVYmlSSDluRTczQk81dnFUMWlXZw?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Acquisition",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Aeroflex Enterprises acquires Stilonn, expanding its business portfolio.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n1f38228937df",
+      "ticker": "ARIS",
+      "company": "Arisinfra Solutions Limited",
+      "sector": "Construction Materials",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Arisinfra Solutions seeks shareholder approval for ₹550 crore RPT limits",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTVJUjVHejZJUWpqMHF3MTNpRzVHN0xfaXlnRWFhWnd2Zk56bGZRRnZxd2loemx5RzVQVHB3Z295LVJISldWYVBva3hiQWRBdkFNUmdRMmt3SXBPMXNPTlpTY0VFMGg3RlpRbzRQMHkxcUFUT2c5dGJWYlB5MGpQdXg4NDlCVWhWcGE5VGhxYnkxNUpxb2l2YVJEZW42OTRMeTVPQVRCel9Nek5YanpuOS1Na1pNcG1EejBoalB3aG85Zw?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Approval",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Arisinfra Solutions seeks shareholder approval to raise related-party transaction limits to ₹550 crore.",
+      "enriched": true
+    },
+    {
+      "id": "n3fea4f23931d",
+      "ticker": "COFORGE",
+      "company": "Coforge Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Coforge Q2 FY27 slides: margins upgraded as order intake tops $1B By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeWtEZC04UUNTb18yVzZMMDI5VERweUlYNTNDTm9HRzl2SE9tM28yRlNIdTNDZVJ0cHQ5cHlDUUZ5eE9KRFRFLUp1WlNyblo0eVhJYV9TczdMVVhNek9lQWttRU1vYXZWQzR5cld0bm1EdE93UHBWTE84anVleGR3M19fMEVLdzZ3WkRIWW9jR3Zib3J2cFdMTWZKdk5ScFRxS0FqNkVwOTE1dXQ3aWpLcnluaGVXX1d1QXJRbVdmbFROUQ?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Coforge Q2 FY27 order intake exceeds $1 billion with margin upgrades, signaling strong demand.",
+      "enriched": true
+    },
+    {
+      "id": "n83c2f2a865ce",
+      "ticker": "INTELLECT",
+      "company": "Intellect Design Arena Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Intellect Design Arena Q2 FY27 Earnings Call Date and Details",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcG15N2h5Y0FKUDFqdy1nX2RSNExWc1FQWXVHUzgtUXlRbFdzWDhXME1KRjdtaElCeW9acU5UdXBGb2N5emZsaUJXVk9aNXJyT3lZQ1FhN3ZsMHB6dUVwNnVHR19JX0FzTVVOY0ctcGNnQXgzNUtCQlJadFdhVVpsOFNfMks2UkhjQTRESDRNdHdjaDZ4anphQ3JJa2dwaHpGY3NUaDFudUZ5VUQzUE80WFNaalc5Z0JX?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Intellect Design Arena Q2 FY27 earnings call scheduled; financial results to be announced.",
+      "enriched": true
+    },
+    {
+      "id": "n00acd0739383",
+      "ticker": "WEBELSOLAR",
+      "company": "Websol Energy System Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Websol Renewables Names Vinay Vyas CEO, Targets ₹1,000 Crore Revenue And Capacity Expansion By 2028",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOG9kMUp6dnFoQzczdEIyUlhhZWRnbXNDWURZdWxpMWhUNXptNVROck9ydVhZZlVyM1ptcm96UjE4MU1xX1g2V082RDNaNks0My0zME1zRTQxb3F1SzNNc09zNlI3R1ZDNFB3UFpUTWt5Ymtzek9jTnBuVE9Gdm12OHVuTHhiNzBCTFZmUmYxZmk2R00xNTNpcWEyTGFJZ2g1YW1veUgwRmdGSW1Zdk1jOWk0MmFyUFhtb3NVczVGU2tWUUx3OGRqajlfZWRLdFR4MEY0cWR30gHbAUFVX3lxTE9KQllDU01TOWtOTzJ5SmdHS01NSjVYZF9Kb3psWDhNaWxiLXkweVZpbTVlT1ZlN0g0NkNYbWVGVV9KRlR1UW5tc1RNUWdkd3lHeHp3ZTl3QlpVOUZCY1B3NXhwRV91czFveU5ZdmotSGlhTzJVSXBlQnBUVjh2NHdZem5VcmFCUHFpbWJSUFZJRnQtQU9iQVRkMHJlZWpoYk1yZEVNeDJFQ3d0UU1lS0dMQ1Zvc2s2Y2FUTWstUFJwOFZQUk5VSU1KY2YxeE1nV3hEX3VIOEVtZjg5TQ?oc=5",
+      "source": "Free Press Journal",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Websol Renewables appoints new CEO and targets ₹1,000 crore revenue with capacity expansion by 2028.",
+      "enriched": true
+    },
+    {
+      "id": "n969b42c37aa3",
+      "ticker": "PETRONET",
+      "company": "Petronet LNG Limited",
+      "sector": "Oil Gas & Consumable Fuels",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Petronet LNG signs binding term sheet with Gruner Renewable Energy for ₹1,200 Cr compressed bio-gas joint venture",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQYTRTeDB5a1d0eEZCNms4dWlZRXpCRzY0YnhncFRnRVVZcEJuSEhKMXdjS1hJcHN1cFkxOGRQazlhbC1uWHF4Y29YMzhNLXBWMnhMbFdkT1lWNXpnOTg0di03SDBORTdha0M0eXRWWkJqNDZ3WXFfdjVMOVJqb05iTHFxMzZ5Sm9sRUFhTy1kbk1aZi1uVkxjcXYxV0J1bFl1RjZNYlpfQWJPWm0xajFKT3E4U0lhT1dGbHNKLUlfbms5Tlg1dG12NmR1SHBpVHZZMGNVc2szRU92VXBqcjUxQ21XaVJKZnpudGcwTjFwVQ?oc=5",
+      "source": "Trade Brains",
+      "date": "2026-10-23T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Joint Venture",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Petronet LNG signs binding term sheet with Gruner for ₹1,200 crore compressed bio-gas joint venture.",
+      "sources_count": 3,
+      "enriched": true
+    },
+    {
+      "id": "n298eccf86fec",
+      "ticker": "CLEAN",
+      "company": "Clean Science and Technology Limited",
+      "sector": "Chemicals",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Clean Science and Technology (NSE:CLEAN): What Is the Q2 FY27 Earnings Conference Call About?",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcjJVbHZCMUlQWklXS19ocy13SGFWWTNYM0F2R0thN1o0UWMwRlNXc2dhYUl1ekhIMFNqdmMtTkhROXdCUFJzRnZXWk5Jd3k0cmluYkZCRUw1TTZObGxiblQ0dDZOdWNTLW9VOTBSS2tZcy1ESlZuQm96Y2RGbURBUkxIRDNWTWhaNy1yYkFkQ29YbzZwMEVKNW1fcUE3bTQ4YzZZeUpuSFZkVTFneTRUR0M4bVJ1NTVTUEVBS0FDZjI3WGhVQi15MjZqLWlYdzRHOHc?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-22T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Clean Science and Technology Q2 FY27 earnings conference call details announced.",
+      "enriched": true
+    },
+    {
+      "id": "n1cce0a22c867",
+      "ticker": "SHYAMMETL",
+      "company": "Shyam Metalics and Energy Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Shyam Metalics NCLT Approves Subsidiary Merger Scheme",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWEZpa19QRnBoWndXRGFSUUhCSTRUQThEYTZfNFVoQTZvTHFBMlJ3V3lWTmlQaHc4QzRGMFZXaGhuUnROR1NSODVvNXlaTERjSTloQU1UdmVQcGlwcjFGYkR4UDhkNXdGd3p2d2VpaUpSSk1KOHV4YmVGUWdHN1ktYTVvRmhFMmxkVDB2U3R5dlBkYVZzenNveVpBWmlVWFk0bkJHeFlRanhQMU5jRkFzQ29nZllrOXVET2phVg?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-22T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "NCLT approves Shyam Metalics' subsidiary merger scheme.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nad1956526bca",
+      "ticker": "ICICIPRULI",
+      "company": "ICICI Prudential Life Insurance Company Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "ICICI Prudential Life Insurance Faces Rs 5,914 Crore Tax Demand After Income Tax Department Issues Rectification Order for AY 2023",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTElPT0dtR2xZUnFPNUJRX3ZRa29pdE1ranU2QUxkLXZqeGZPRktBUW1QaTVEZG14MW43OGdDbjVMbzQ3emg5RHZ6T1lGajJBRzNhajNydlptUHhQR0hvUkNkcG9RamtXVzBvS3NVVXdPSk8yNEFhaEFoLVF2OFhaSVdfa0JjWDNQazMxQUVCeENEem4wQk9kQ2FiUVZySjBhbUR2M25yRE1YMHZOMzM5cHI5NThfTzN4OWc2dmxvWUp3WFBhbDg2RW1ndUs3RDY4LS0wSXhxVlFkNnVDTzNMT2FHUEFUUzRv?oc=5",
+      "source": "StudyCafe",
+      "date": "2026-10-20T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Income tax department issues Rs 5,914 crore tax demand against ICICI Prudential for AY 2023.",
+      "enriched": true
+    },
+    {
+      "id": "nf4ed843b967b",
+      "ticker": "TRENT",
+      "company": "Trent Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Trent Limited Announces Resignation of Non-Executive Director Harish Bhat",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdnpwYjRadzJTZ0JrdmpyV3VYTTdEckZXVERjeTBObHk5My1MeTMzaFU1THdEUE9yRGRxNnloZmthZ1EwWmU4ZHl1a1F2UUVMRUZzc2xycURDTG9qMTk2T0U0Qk5XdXZ6Mlp3VnFnZjZkT2xGUThUS1F1bU52S3htTlZ3eEN0SWFsZFJ3Rmg3bmVMWGVCWDdWTVJUQ1VSQTBaSFc5RW83eC1nX1lDVTNfNWllWUduSHlQelVfb1U5a0NqTGVDYTBnVW1zaVRfM3FMVnNHTmZyUnVNRWVOZnhaaWVLQzM4QlZyUFE?oc=5",
+      "source": "The Globe and Mail",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Resignation",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Non-Executive Director Harish Bhat resigns from Trent Limited.",
+      "enriched": true
+    },
+    {
+      "id": "n2f912cae9df8",
+      "ticker": "SWIGGY",
+      "company": "Swiggy Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Swiggy Lynks Logistics Stake Sale and Business Restructuring Explained",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZmlLUURERUpTT3NWYW0xWExWQkhMdEJNcFVvdTByRjZFTnhFYWlFbnI1UnczTU9qel80Tzg4dlB5V0hkeC05dFpZMW9BTlpGY0E4cU5xcnBCVVFHREhsUzNUUUtXbkFYaEZwakk2TmhWTWZDNWhPQ2JIU082NUhhMXV6WllITXVJelZMLWNreGNBdkM4WlJpdWdWdGR2b1BwbHFuUmJ1YWNKQ0hmMmdteS0zdEFKNHFiaWd2eUprWElHV1FwVi16TA?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Stake sale",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Swiggy sells stake in Lynks Logistics and restructures the business.",
+      "enriched": true
+    },
+    {
+      "id": "n31410aade54a",
+      "ticker": "SBICARD",
+      "company": "SBI Cards and Payment Services Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "SBI Cards SBICARD Q2 FY27 Earnings Call October 2026",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX21udXg5NXpkM1BGcXdWdjNYSy1uYkpLb2tOakU4R1d2UTFpUTAzanBJZmRvekZQaFdDcEhLX3ZfNGNkQnBrQ250RmNVemgxNFlVUDZIUkhtUHJwdnZqM2thSTdkM2M4WUE0OFg3NDhZUFJaWFp6UGR2d2tuelpuMWFjN1k5bHJITXRjbFprNDVyb080LXFqdU15dXVQVDA5ZGNRcDhTbDBqUmpK?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "SBI Cards reports Q2 FY27 earnings.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n7d86f848e55b",
+      "ticker": "GENUSPOWER",
+      "company": "Genus Power Infrastructures Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Genus Power Infrastructures board to consider equity buyback on Oct 26",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd2VpR29QVTNxWi1OaS1UaG9vN3hXLXBjN3ZuemI2NkF3RFJrYUp0NTNBbklyUjIzU1gwZl92V3o4VVpFT1Q3Zlhoa1ZiVUhoWUlLNlh1VHZuMHhuWC1MYzRtYjgzSWR5eEpva0FPRjRORnljbnFMRzZSdE5SVlZNcWhwTldUZFpfNGZkdlg5anFsVVdMTEFpX0tZeHRNdFFkZC1DeG5oazU4UnQyTkdaZHhjMWpudE1rOTkxdUFB?oc=5",
+      "source": "scanx.trade",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Buyback",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Genus Power Infrastructures board to consider equity buyback on Oct 26.",
+      "enriched": true
+    },
+    {
+      "id": "na62f186c1137",
+      "ticker": "ICICIGI",
+      "company": "ICICI Lombard General Insurance Company Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "ICICI Lombard: Reports Q2 & H1 FY2027 Earnings Conference Call Transcript",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzYxeDNjMFBEWWxoX0lEb0k2Z05wd2M1OGpkV1ZkR01iV3FaR2IxQUxiM1VoRHZSZUxJb0tyclp5cHIxOE55d1FuMzMxRUJGa0ZIU1RVNXVGa181N3paMDNvZkFmR1pRd2VZZEoxWGpEbXFKUHBGeUJXUF9RUXN0VG9jR1FVY09IaUpoRXp2bTNsVTNEQ0E?oc=5",
+      "source": "InvestyWise",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "ICICI Lombard reports Q2 & H1 FY2027 earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n219f92fe222c",
+      "ticker": "PIRAMALFIN",
+      "company": "Piramal Finance Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Piramal Finance posts 67% profit jump in Q2 2027 By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV3A3eVB2YVd3c1hUUWtQLWxmcnJxTlUzLTBMNTVwSGo2WDdhellpSDJScklvV2tYWm0tb0xJUFBSUHQtLXN6YmoxMXVVYUo1TlhkRThmNzJZUkNPQld6eUNlT3lQMzAzRFZDakVqU1ZWbXdpR1pfeDFXVmt5N1gyTURuVjhWYXhOcmRHUkxBczJsRTItTHpIZTFtOWdaWXNQN1F2SHVBRFoxUzVjNmkwSkpfY216YkhjQUk2Z1FQZEpVdDF6M0g4cnNQakdzQQ?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Piramal Finance posts 67% profit jump in Q2 2027.",
+      "enriched": true
+    },
+    {
+      "id": "n946929def1a9",
+      "ticker": "DLF",
+      "company": "DLF Limited",
+      "sector": "Realty",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "DLF Q2: How a Rs 738-crore non-cash gain supported profit growth even as core development earnings fell...",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaU52cS1LZGpqcF9iRTBkRkFMYW5xYkNIQnlVQkpIWlJERDJSdG9OdDFXS2ExQ0I0Z3JRanRydzFzMk1icFdoVk5pV3h1OVJkYUJUZGdOc1VGdU9pY2Q2QkNrRUpuNXhSWHVtSklJdmI2dVJ0LUJPUlg4bjN4cjBuZTdJc3ZHNGdwNTZQSm5DRHNCd2VQRFVwZVpIUFNxN1NNUmtrSkNRNzlfVng1LVYxRlBSQV9ESHNtVmZCM01heG9rWGVaT3ZqYTVvTDEtS1hjSHJzMnRlSC05WFpLWFZVS2dOZUJkdFN3QkFpSXNDQnlLSHdDOXJJM1Y2dGIzM3gwSEZ5VWhZbWVyQmVj0gGSAkFVX3lxTFB3U2V0MkUtQ0FOZnBmSUdreGszbEl1WEluLXVsVlp5TmoxXzVEaHUxRXIxblZzblp6S3NkbU9CSXptbE1wLTkwUEFfRHZmdE1LT2xsSjBnUnVmZmVPeGI0X1lLbWhQaHlqUzVSX1FOMjRDazFQRjAwVWw2Q0E5aHpXTGpRcnowN0dqVkUwQW1GX2xDUDdvVXlDejlSX1gzd1VsT0NTNU1raXVud3Z3OTAwVXFnQWxFSHV2ZlFRclBoaFVTMU1yWVg1NEMzMERDZGNMS2ExT1FncEdrVm1NNDk2UXZjZnNfb29OZTF4T1E3M05CajRCS2FsVXRFQnoyRTRtSG1FQ2lhc0VtRTBod0J6UUE?oc=5",
+      "source": "Moneycontrol.com",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "DLF Q2 profit boosted by Rs 738-crore non-cash gain; core development earnings fell.",
+      "enriched": true
+    },
+    {
+      "id": "n8c0e2f771923",
+      "ticker": "AEROFLEX",
+      "company": "Aeroflex Industries Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aeroflex Industries Secures Patent for 3D Hose Design",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeHlLdE54LU5nQmpvdFlZN0l2SjJYY1I1bDdrR3ZPTDBiclZBN0tabkFLUVhYQUZsV3cyXzNKTllIWktOU1JiSjlHRmQwOEV5ODhBb3RuUmV2dVhaeXZFdDBTX3JIOTU5SWpiajB2RUdwLWpBY0hLUkdCSktDRmNaa0haT0JpQVlvdlE?oc=5",
+      "source": "HDFC Sky",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Approvals&IP",
+      "keyword": "Patent",
+      "importance": "low",
+      "mood": "positive",
+      "takeaway": "Aeroflex Industries secures patent for 3D hose design.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "n7713cb5e56d2",
+      "ticker": "DCBBANK",
+      "company": "DCB Bank Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "DCB Bank DCBBANK Q2 FY27 Earnings Call Date & Details",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOUt6R1hNVHd4bTZsNUxrWTFaSGtZYl9uMk5YOW1kaFJINEZhOVVTUzdnbEt4QkxtRDFEZlZrWHMtUmpwQ3pFMlNtTnBSVlV4WDhhdTRaNmhjMUtwQ0N0NVdxVDFXODBCOVVJMms4SkVkV09LMVMyQkxlNXhWS3J2MUc1LTI5N0RaNk5Md3lxZGctcFY4Z01nal9HX2VhZnppUHI2aUZOWEZXTkE?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "DCB Bank to announce Q2 FY27 earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n35a1cd2e6acb",
+      "ticker": "INDIANB",
+      "company": "Indian Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "TCS expands Indian Bank partnership, deploys BaNCS for Treasury in Sri Lanka",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUlZLOUVRY2RjajlibF94Yk5ydmxuSHFZZmxORThQVl9YMm1rakNMaTJ6clhxWHR5MFNGTzNueUd2UFF5ZEdSVmhiRElmOHgxclVqY0tnWEhmSUhEOXR0UHRuOWJfLXFETnl1ZXFIOElYNVlyMlMtbEM3Zl9yU2owTWJaSWttTGw3S0M3M1pkTE4zVlJlYXR0bDZrOWhSTHlQMG5mMlVfQXRJZlVXMUtULU9OenQ3eWtoNy1qNHlaM1VxR0JTcHR2dGpESHlpNWE2dTZjRnhZam94OWdnbXFwWmFiMW_SAesBQVVfeXFMTmE2VlpNdHJjakhMZzlSUjNrLV9UNFVCQkR4Q0tmb3BjaEFhbFBsOWlydjFDc0NXNXJSbzZwdEVHM1MwUjJUcm1YazFabS1MR3p1alVQUXhzUmlMR2tNUk43UjVFNEdTZDNMYjJ3X0tFeWRxeTVIbmVFZThCTWtNV0xBWlJEY3FGNTRTSlAwMFlzMFZSeE5uR1JuUzY4anlzemFwbzFWc0VyVWtqWmlqNi1DMmMyaDF0YTlWVGxJQzRqSUtYZlZKVUh2Z0lYQmRwNmE1MVpCRDFxME8xQUVWVnFrYlluQzlOa01VVQ?oc=5",
+      "source": "BusinessLine",
+      "date": "2026-10-19T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "TCS expands partnership with Indian Bank, deploys treasury software in Sri Lanka.",
+      "enriched": true
+    },
+    {
+      "id": "nbcad32f3be66",
+      "ticker": "PNB",
+      "company": "Punjab National Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Punjab National Bank eyes Rs 6,000 crore quarterly profit after record September earnings",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQY2FjQnpzSHlFT0lqdEs5a1ROTkREQlRzWXIxaUxXMTRQX2VxOWRrQlVmMEtfUU5yQlIxWmdxRnFrYmRfUkI0ZnkzbFdiMGthbEJYdW1ZcmVyYWZkRGlmaVdBYkVMUlpmMEtwWHFTWHQxbEVwRlhFWno3UTBHWEI3YzZwaXN1TkZwS3Q5czg4WUIyNnpTbjZLRFRNck5EMEtFal9ITG92Mjh1R2NhdmhJa3RVVnJsOW0yT1lDaUU2OHZJV29xa3lEeGQzTlMtVEwxWnVNT2Q0QTgwcmhXWU82YXNWQnJ6dUQ3d3BfTlhYd3ZyRjVwenpLZk9sZHRvN3Rfb1hnazJB0gGLAkFVX3lxTFBwNEhLWlpzTmxVdVN2UThkNklvN2tjMG9RUVVOOGFQNDlMSkFXTUhJQlJQWHAtMWJRUklLWFFQVG1xMGptQlhaMndHZi1YNWgzMkotNzE5bFNqM0p3MTlwWG1LM3F4aVlYYmV6RWVxS3VpcEp0MjdlS0FPWlhxX0VwZnl0cndmYjFmU1dZRW9tdFlRYkdveXdNMWtSc1Fvb3JzLVhWZkNiQmNCUVNyYXVPV2p3Y1JHTko3a1F1N3FWUV9wS0hjSFpjU0tNbkJ5d3ZUU0tKUVg5eUZ4eUZlV2lJakIwM3BQS1FuUHFoLTdzUTNDdE9JUzM1ZFdXb2pTMEUtNTV4SFotc3BtTQ?oc=5",
+      "source": "The Economic Times",
+      "date": "2026-10-18T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Punjab National Bank posts record September earnings, targets Rs 6,000 crore quarterly profit.",
+      "enriched": true
+    },
+    {
+      "id": "n26c1f0d3c80a",
+      "ticker": "GRAVITA",
+      "company": "Gravita India Limited",
+      "sector": "Metals & Mining",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Gravita India GRAVITA Rights Issue RMIL Acquisition Rs 94.42 Cr",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT3k0cXhFUFVuUW5EdzJfeWJ2WVMwYUcyQlNJMnRLLXRVaThyY2dIUkxzWWw4OF9MQlpDLVhxNmZTSG5UOVBHLUY2RVp2Smg3RXJubGxpTmVjaXlKaDNsbGphVjdPMHhnOHJiV3Z5cXNwNlJ2YkgtSk1LUjZWd2x3VGxpSUYtT0RhMjhsNFR4dTdFdVRFNzNkYUQ1WTFWQThRdjVtVzlCQmk3WjVscGl3S05PRTlDcDRRS0pMNzg3b1R5X20tN3dPWEt1RmxqUQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-17T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Rights Issue",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Gravita India launches Rs 94.42 crore rights issue to fund RMIL acquisition.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "ne7073be6bbae",
+      "ticker": "JSWSTEEL",
+      "company": "JSW Steel Limited",
+      "sector": "Metals & Mining",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "JSW Steel-Piombino Steel Merger Gets NCLT Nod; Share Swap Ratio Explained",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcnFiTWZrR05nYzIya3NGU1o5UXM1RkNaTmxSSEhqYWFzTV9ISmtUc09qUzRQNXNSZzlqdzU0a1FBZUN6a1dDTzlrblR5dXF3QWROV1ZxdW43OTVhTU51amVKUnJJeGdrZ2Qzbm1wM191Tm1uSFpITHFOOC10akhjeTBUTjRvcGswZ1UtR3RkaXpCUHNYSzAxVFBHbGp4NFQtbnp2TUtLTjNVUEs3Rmc4a3N0RQ?oc=5",
+      "source": "PSU Connect",
+      "date": "2026-10-17T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "JSW Steel-Piombino Steel merger gets NCLT approval; share swap ratio finalized.",
+      "enriched": true
+    },
+    {
+      "id": "n7433d6c9477a",
+      "ticker": "ICICIBANK",
+      "company": "ICICI Bank Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: ICICI Bank posts strong Q2 2026 profit growth, shares flat",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaVNTb0ZFZ0pHUnJGY1AxdDRPUVZoX3BfWW1UNmFNcXMyMnlHbk9uZDdlWG9Mc1BKYW9vQkhHNWpVTXR1dlA3WVBoUkw1eVlaUTJ0UUlHdHhpLVVZV1hvRi13Uy0tQW1TMkRyQ1N1M1cyeXIyczFBaWdmS3o5a0NsbHV0OFRVUVFqZVFTdzkxcWhFUW5uWWctMjlIMkxnZWNuX1VaNEtwMk50a2hzMk44RUhZTTY0cGh0c0doVENRWXU4WEtLejRlb1JJUVoxZEtLR3c0Ng?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-17T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "ICICI Bank posts strong Q2 2026 profit growth.",
+      "enriched": true
+    },
+    {
+      "id": "nc46071ac36be",
+      "ticker": "HDFCBANK",
+      "company": "HDFC Bank Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: HDFC Bank Q2 2026 margin pressure eases as growth stays firm",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOUVadUd2TXh0UXFlc1ZkUEUxUnhMNEVrYV9PNFhEQmtjTzFjV1YxXzRsOUVBOE9tUDdUUkRXM1YwQnF4czMtcF8yYndHYjBnaWRLT21xTmY3UlVDY3Bpd2lHbWJaNDY3ME0xaXJ6WENNSl96MHNUYlJKNTNnR1lmTGxIelR2bU4xdGJkUDdudTlzZmVCQ1RDdEFkZWxmZUFzR18yVWxRZDBwSzhDLTJjV1FZUEFhWnlQVEIweEhjMGxBd20xdmlNb1h2bmlmYTRzYW50M1Vtbkc?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-17T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "HDFC Bank Q2 2026: margin pressure eases, growth remains firm.",
+      "enriched": true
+    },
+    {
+      "id": "n3aef5fc427fd",
+      "ticker": "DLF",
+      "company": "DLF Limited",
+      "sector": "Realty",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: DLF posts strong q2 2026 results on luxury sales",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeEk3dUtZaGxWRzdINlNUaUEwVm1ZWlliS3dxQmNESWRMRFlleVppZVFiYnVwZ3NiVWZ0MTRVVXpaMEk4eEtQSnFJTU1rdW9lWGdOMVIwYkJtNUZmUUdqTjE1SEpSdFRtYmpFczNOMFk1R3BaYlphTElYNHI1aDBhSlEwbWNyeGhYZS1vRFpBZHZCZFRLZnhJdVZWN2liR2h4amhKNW10cWJnVndZNE1pT3RRVVRjazBiM0RJek9lZFdTSTRYWHctNg?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-17T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "DLF reports strong Q2 2026 results driven by luxury segment sales growth.",
+      "enriched": true
+    },
+    {
+      "id": "n83a92de6c849",
+      "ticker": "NBCC",
+      "company": "NBCC (India) Limited",
+      "sector": "Construction",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "NBCC-HSCC Merger Update: MCA Issues Corrigendum to October 9 Order",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMU9EeVI5aVQzVnc0STJqaFlkTjFydnlnR3RXYS1hWUhNdkVRcXBJSVI3djhkUkJOOWtVdFRtcnIwTlNIU2NUN3NlVVNOQTVpWS1EVEphN2lHLVpTaVlZQ3VMWHoxS19pTlhVamtmVV83VVZYbWt4bkVZLWVfOXpoVGRRQ0Y4UEI3Y0x2bVFkTHQ0eFI4NUtUZzlxdlU4NmlmSVE?oc=5",
+      "source": "PSU Connect",
+      "date": "2026-10-17T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Merger",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "MCA issues corrigendum to October 9 order in NBCC-HSCC merger process.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "ncb7064067281",
+      "ticker": "CANBK",
+      "company": "Canara Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Canara Bank fraud case: Court orders proclamation against Jatin Mehta and others",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOS0Q2dWZyb2tkZXk2cnBwbmp6dm10bzRSVVZ6WlpjSXJPYWRuMHJhTjkxTVQ3YUV2WFo2NDU3bjd6a2VfdTM4MUpSdEEyTVVudXR4RlFKaS1fMzdqbnNBa1J2N2VaMkFQblRxODB1dWY1QzZ5RFh3M3VXVHo3cC1FOVJoMkQwQk01eW1vdzZITjZrTHRGNWtfMzhPcTE5N3hFdnRIX1RQVERmcFF2ellkQ1JrR01IV1dPZW9pTXBoSkVLQzlVaWJuVmw3dWUwWUVhSVFQdnJjS2xJVkRTZjMzZXQ0Um5YQjY0V2pKdktHa2p2Z3RW0gH7AUFVX3lxTE9Mc1hoTUtxUkQzYTZZNHlCNExpZFRSaGx1RzZYcllrMVRPT25kVGQ2cDdMNVB4RTBuRmszOUpaTk1BN0dwdHhzTi1qSGJzUk42QWpXM0hIMVFYaGE1YkNYZ3lyaDU1VkJETlcxZlBra2JuQTN5U2xvVkpnOGJmZWJ4cndUajRYOW10N05rd0hVdWhESFZ3SkJJZTJWbGdZSVd0RHR0M2ZxR3BsbWVRMUJuMUlqSEY1c3ZaaHVlbDUtRTFhVTVTYVN4NHpLcGIwWm50SDhZS3J0OTl5a1VrNkVEMFVLRjJlREZFbG1SOWtCMjZJQWNaM0JJY3pn?oc=5",
+      "source": "BusinessLine",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Fraud",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Court orders proclamation against Jatin Mehta and others in Canara Bank fraud case.",
+      "enriched": true
+    },
+    {
+      "id": "n5d4435cc9848",
+      "ticker": "BANDHANBNK",
+      "company": "Bandhan Bank Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Bandhan Bank Q2FY27 Earnings Call Date and Details",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNWtNUW1FYnFIY3Q4b25zS1pSRVR4NW9ZZG9GZzloZk50dHhVUHNTRFJHTjhIMHBHSmlwcUZsdURRVWYySTVHcGdObmpXUDlaN1Y2QUozcFhYUU56ek4tZ21HZWdCSUh3aHFjRW80enp2M3FrdjAtLWRHdkNSWWlwdWg1YUNveXZYSDJnOV9PUGM0VnJKSjg0ZGMzZ3ppOXdmdnlKMU4xQXhieFh2YWpvYTVsQW5YTmRC?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Bandhan Bank Q2FY27 earnings call scheduled.",
+      "enriched": true
+    },
+    {
+      "id": "n67467943cce8",
+      "ticker": "TMPV",
+      "company": "Tata Motors Passenger Vehicles Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdmpTNHJXVEI3cW03RFlLaGJrcTA2ZXYwMHpCNGN6VXVNSmlfN3M5ZmV4WDliLUVMTGg0V3pUMWZqSjR6TVhtVW82eGpKRVJmZVdwRFk2N1RfOE5hT1drTTNTdzRFUHVaYllMUy1EOHNISzVFWm1IaWNEMHpsQ3dFTTBkMy1Pc3Zxb1k4YVpPSGYxSGtGUXpoRWVEMklXUjQ1YjZIVTBfUVN5N1lNcVBSMkltYTlGZHJMb0MxQ2I3Vy12T3Y5MzI0UEo5eFhKN1ZOeFBsclJPcDRlUThYOW1yVVByRE5wX3ZCc1F5Tkgwb2VyUdIB-AFBVV95cUxOTno0LTh5SE9nYVBlRDBkT1hiQmZNMWIxSDNwVzVtWl9ZNWt6MDRkcTE3cTZWTVF4SHNCZmN3TDFGZkJwU2VWTTNOVUdGM2tpS3c2RnRqTjRwT2xmUm1DLUZBdllucVdJRk9sWFVGNUkxeWthY3JkNkQxLWY2ZmYzWVc4WjRtUWRuSnBibkZCN201c3JYd0l3MkVXT0k1YWJ0TThLSnpoN3prTkw2elhpeU5rdWEzZlJIS2NBX3hZRFRDNFBnZ29uQ0pzdkJtcmNmUzNzMmhCRkhfb3J2NnlnWDFsSzFMbm83UzJPWlpwQWE5bzU2a0pLVQ?oc=5",
+      "source": "BusinessLine",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Partnership",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Stellantis and Tata Motors expand partnership to develop vehicles in Pune.",
+      "enriched": true
+    },
+    {
+      "id": "nac76861a35e3",
+      "ticker": "POLYCAB",
+      "company": "Polycab India Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Polycab India NCLAT Hearing: Asier Metals Case Reserved for Order",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTjZTLWZsTExhVjc0MEZFUFpjSldfY0U0a0JncDFKMWtZT2wza2tpbkNQaGFyanE2Tm1ldWdTYVY0NmZuVU83a005OHpGZWNiM0lPRGRXYm54dE5tZVJCV01PdFlzRWxBbngxN1FmWUwteVRSVXVBbUlCV28zelU3c1dQMFBnRXJmelc3S0xmZHkyc0VLYmFlSE1lVnhlUmlEQXpEV2hLemE5R3hhY21BUGpGNUc3cENnZEFOOA?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "NCLAT hearing in Polycab India's Asier Metals case reserved for order.",
+      "enriched": true,
+      "sources_count": 2
+    },
+    {
+      "id": "na98ba84c3ce8",
+      "ticker": "BANKINDIA",
+      "company": "Bank of India",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Bank of India classifies Future Enterprises account as fraud",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPN3dJdTg5V1BTT3MxaG02em03NkNaOWNZLVhIMVhoS3lJeWxoS2dFcEZXLVBKWHJkbHVHREJZTXZ0b3RsRUJ0d1dGaUVzTVoxWGtjV01NSllPblhDb0hHTFFtSGcxQ2pIcDhvd2RweHdVTDliVU5tWVBZY2p0UXBxMVByMDA3ajRhazhIMzVLRERmYVZtWmJGVFdUU0I2ZzY4UmtVQVA3ZkFCUmktM2RnblJ5b08tcG5naVpkSzRxWU9jME5pOG13QmlMNUsxMzREUnNQNXVmNy1KZFhNSHE0X2QwZmpBMFAtS2o5RTlQa3PSAfcBQVVfeXFMTjdQckx0MkZzcTl5TTJoOGprM1BKVnpXS2xLRDVZZ21lMEZQdV94Nnh3dmhIVFl2NWVlVzhZY21vVk92eEZZYjhrSy1HTWxnbWNmV2Vfd1ptYUZOQWNraTMtLWc5ZTFGRE5rS3JWNG11NS1sNFZsVkJIS2JSRTBoMzBvVDBIUjE1OEcyQmxYdVpQRHBzdG9tckc4cjVzQkNKby0wa3V4UWFTWm0wOUg2UGVjdlZNZTBXSWUzVDhrZzJJWlhxWlpHY2ttaXJTWEtDZUVpaWRTbmFCYzNOWmpXWnVUMkZOdG1yNE1kZ0tqTzVhd19wY0VLcw?oc=5",
+      "source": "BusinessLine",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Fraud",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Bank of India classifies Future Enterprises account as fraud.",
+      "enriched": true
+    },
+    {
+      "id": "n5924e76133cd",
+      "ticker": "HAVELLS",
+      "company": "Havells India Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Havells India Q2FY27 Earnings Call Scheduled for 22 October 2026",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSG43Rjd1dGQyeVJ6d1RHb1hfRHl2WFA5U0FFcFAzbnZBQjJaaXlVcXlHZjdjcV9OQV9paHh2b1YwakdiMXo3NUFZNkZTZWNOXzM0ZXQzWnZLMU9QT3Y4Q2lMMlhqcTdZSHJ6aHlaQXBzREgtX25yS2xwRGV3NmVhSEplYnlvUnRkTmdHX3FZSkhzRm5fSWRmNFU3N1FFcmlDeUtCcnZxRWxaQXBEcEwtalRKMUstemFSczZNeEtWQkNBdVNa?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Havells India Q2FY27 earnings call scheduled for 22 October 2026.",
+      "enriched": true
+    },
+    {
+      "id": "n7207bc2fe226",
+      "ticker": "LAURUSLABS",
+      "company": "Laurus Labs Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Laurus Labs Invests Rs 107.8 Crore in KRKA Pharma Through Rights Issue",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMTdtQ0QteUMxVzJpN0RGeTRnMDBEdDM1aFNaMzM1dk9HcWhobXJEMEpfOHlfLXdnSXZZX2UyVU85anF6ZDVNTk9XOU0tNUJBb3ZHYkg5R2dyLTZBTzl6MnhHYVpkWGU1ZVR3MktnYUVVSHFsanpCZUlNWld4RUtyaGppVUJKaDlRWUNjc20yVFhfNjZkTlZaNm40MXdWM0FOdWp5bFV5N3BxZHJ1R1JqVy1ELWxoc0J0Y0xuNlNIUEI5aFRPWUZzYmNpdDdlc083V1BR0gHYAUFVX3lxTFByWmRWdUQwZFAzcUM1NWZ2bnhjNDZZS2RFU2VjUDM5ZThtdHpXUG84QjgycE9GRUVHelVvR3ZWMVZsTkxzS1JaNWhIZF85NTk0bjRDclltX3FqanJHWXJVenVta2twbWk5dGtLcU1xVFZ0Q2dKVXJHT3BQM3VFS0dsWURZTHhFREJYTHJzbjk2T0NQeXpCb1RTbGRuRkNjNk1xVGJQdzdHVWx2dndzVGZNcGdqOUIzQ3g3VGZid0RWNzFuQW4wUTMxWU5Ba01ZZi0zdHZlWXZQZQ?oc=5",
+      "source": "Medical Dialogues",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Rights Issue",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Laurus Labs invests Rs 107.8 crore in KRKA Pharma through rights issue.",
+      "enriched": true
+    },
+    {
+      "id": "n66113cc9175e",
+      "ticker": "PNB",
+      "company": "Punjab National Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Punjab National Bank (BOM:532461) (Q2 2027) Earnings Call Highlights: Profit Jumps 12. ...",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeWxKcGFKTE8zb3VvVUNLR09nYW9KVmdMM0o2RHhBUGcwRmpodllfT1ZUZHNIQlN6NUZuLU80X3hlN2RSZU52U0NCNVdiR3Y2eU9xYThoZVJnV1ZQX3gwVUVxZm5JTEhzQWNfUkJncXlkLXlTOGEyeDVweWtZWDlaUkJWS0FidURSUUZEbjdmajFRMmFBTE1NWXgwLU4?oc=5",
+      "source": "Yahoo Finance",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "PNB profit jumps 12% in Q2 2027.",
+      "enriched": true
+    },
+    {
+      "id": "nbc12529cfd3b",
+      "ticker": "PNB",
+      "company": "Punjab National Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Punjab National Bank posts strong Q2 2026 profit growth",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVkpka0FMVHBLaU1hNTRLRF9peXNPUXBnWkxUOTd1dUdwM2V1dWJFNkQzRHRod19qSXFmXzd5R1FIbWYtaFZrbHFxY2JIazR4WEdRenlpcTBDWjVXa0FyWEo4Z0FxRHlJb19BZFRpOEpLR1pXdzhWN20zbHRFTllvTlVIQlhwMF80N3hDMW83andyVEpSMHVCTHhzbzdCLVUxdVFKc05xWWg5RHBPamZRNEJDa3ZvZm1XUmJaUUZuSVVRdTlWbkZuNHVsb2ZZOFNYWXc?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "PNB posts strong Q2 2026 profit growth.",
+      "enriched": true
+    },
+    {
+      "id": "nb8ef8589a612",
+      "ticker": "LTM",
+      "company": "LTM Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: LTM Limited posts steady q2 2027 growth, lifts AI mix",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObjdMY1NnaU5Dc1lEa2VhRzNXRS1WbF9ydlMtTnJZZHBQa1N6SWlHQkpDQ1dfbmJBTThpUTNDVXRrMjd4UlBTWkRBYmJTcWhLaHFid0h1YXFPcUs4LW1QRFNNN2VNY1UzVFZCWkQwQ0U2b1lESmJOLWlXU2xaWGFsX0dDRDFtczVmejJBYXZNcmNUNWw3Wjc0d1NmdEpDY0w1NEl6aWROcWc3VWRFT0diQkRieGJZN19hdTNuZzJTb3F4Um1lYXlKWUo4MEZDdw?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "LTM posts steady Q2 growth with rising AI revenue contribution.",
+      "enriched": true
+    },
+    {
+      "id": "n4aed90162daa",
+      "ticker": "ARE&M",
+      "company": "Amara Raja Energy & Mobility Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Amara Raja Energy & Mobility CGST Appeals Order October 2026",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZVo3VEJBNng2eXpCVU1zN0FHRGV1LXpnc25RZ1c3emJTWXBYMmpGeTJWZU9pWVV3NlhGSTBtMzNLcWxOWmJDMEZ3WGZULWRqTG5MMC1scUg2eDBGMlFhbFhVU2JBc1U4YU5ubEJacmhHaTY1SXBEbFFJRzF6MGlBSlRFdHM0MzRuRjBjNTNkN01TN01pWm5fOXhackd1Um52VF9zdDhTeXcteUlDakhjamRmR1ppc0lvV3R6cnB6YzRUeUV6eTBNWUd1MkZhZXc?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "low",
+      "mood": "neutral",
+      "takeaway": "Amara Raja receives CGST appeals order from October 2026.",
+      "enriched": true
+    },
+    {
+      "id": "ne3499e31d609",
+      "ticker": "AURUM",
+      "company": "Aurum PropTech Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Aurum Proptech Q2 FY27 Total Income Up 57% To ₹137 Crore; Housing.Com Acquisition To Power The AI-Native Real Estate Operating System.",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcWdqczl6cEpqN3RUaWVqNTRvTE9ueG9leTJRLUF2ZURDbHA1YjlGaDN5QWIwZ1M5U1JDWWlqcTF3bTEwMVhGaERWLWthVGJRZlk5Rzl3Qzd5QnpvZDZqbjBaVk1NdGh3dEtUd1N4Yk5mRlJhbTNHcGI5TWpmd0c0dlVCbmx5MHhJVmhzOFZTRnJFWHplY0FNd0RRY2R0b1NBTklwclktWnNSZUM4SGxkanVodU5kTnZBX3QzY1JfYjVieExaMDZnSUNMOWxfRHR2dTNXSkh1VExMdVJDZ2VhUThJRm9ZdGVuRGx6SVlIS3Fjcy1fVWZVZW5vNWlnZUY3NXc?oc=5",
+      "source": "TRIPURA STAR NEWS",
+      "date": "2026-10-16T07:00:00.000Z",
+      "topic": "Deals",
+      "keyword": "Acquisition",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Aurum PropTech acquires Housing.Com; Q2 income up 57% to ₹137 crore.",
+      "enriched": true
+    },
+    {
+      "id": "n7dcc5b44791c",
+      "ticker": "YATHARTH",
+      "company": "Yatharth Hospital & Trauma Care Services Limited",
+      "sector": "Healthcare",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Yatharth Hospital (NSE:YATHARTH): Why Did Members Approve a Preferential Issue at the EGM?",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFQ0VTEwSDdTVi1QaUZuWTU0dnhPXzE2b24wSVJfS08ta2dMMzZKazdhc1ljM1pZa3p1dmNNNGlOMzFHVXU5aXBwWHkxUTg5a2kydmJnUWFoVHE2ME5KYkhZSDBpcmhENFZUSTNqNTQxZk1oU1lQQnBBVEloUm9zYW5sODc3eFI4X0hUNUhuRENsRjB4S3ZWR25IZ08tSmVUUXBYZHpMa0tVMC1IdWZCZEgzUU9WbkVxSU5IQkRKMzZwY29MNExEUDRGT2k1QQ?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Preferential Issue",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Yatharth Hospital members approve preferential issue at EGM.",
+      "enriched": true
+    },
+    {
+      "id": "n242d6b09521f",
+      "ticker": "BOSCHLTD",
+      "company": "Bosch Limited",
+      "sector": "Automobile and Auto Components",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Bosch Limited Q2 2026 Earnings: Revenue Climbs 10.82% YoY to ₹19,594.7 Crore; EPS at ₹940.27 - Analyst Coverage Count",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQW9sajhab1RXcVkzeTJ6U3FPVEpzNUEwdkdMS1dtNzlQdFFsVTUySkxLZFd5bWlyQ0VOUXFSZEZkb0VpREJHcUgwOXZtb1JPSVhFV0lIeUo5anVXZ0hxbC0tNGZibXFNSDNnclVYRG1qWUJ5eGpieEhST09SeV91WGxVNVBoMGs5MUtRTEFEZDFEZWJkTnozQ0p1Mmp4TVZtNF9RUnJLS3RjNXFqQUl3a0J3MjRKYXJJSF9aYzZnRllYNjNX?oc=5",
+      "source": "https://www.siam.in/",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Bosch Q2 2026 revenue up 10.82% YoY to ₹19,594.7 crore.",
+      "enriched": true
+    },
+    {
+      "id": "nd8654c1452e7",
+      "ticker": "JIOFIN",
+      "company": "Jio Financial Services Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Jio Financial posts strong Q2 2027 growth as stock stays flat By Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2VDNm16VWtZbUVxaFE3SVQtNkhnVUJOcGgwMU9FUGZSOWZxY2pfYThGNDNWUHpFSDBvQk5HbXRzSTJ0X1dhTTNZYl9ZU20taF9YUGZkLXU2ck5WeXZHeEJUc2s5ZTNpYUFBTXVIMGNueU9YOXdQeGpUY3V2Z0F4MDZlbGxUYk1qQ2dNdFprZ0ktX3F0MFJoMmFvOWZMazFVeV9pSW1rWUJRVmZTTW9UM1RMdHU2QXFQNWtuZW9neFhwcTJMNDU3N2V6ejdxeHdMRGw0N1lFNTUyU05Fa0JuWA?oc=5",
+      "source": "Investing.com India",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "positive",
+      "takeaway": "Jio Financial posts strong Q2 2027 growth in earnings.",
+      "enriched": true
+    },
+    {
+      "id": "n87be3b54a751",
+      "ticker": "SUBEXLTD",
+      "company": "Subex Limited",
+      "sector": "Information Technology",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Subex Limited Q2 2026 Earnings: EPS Holds at ₹0.51 as Revenue Softens 2.29% Year-on-Year - Adjusted Earnings Analysis",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ3BBRWd2aEFnTGNVQUF6WlNVRWl2MGh4ckNfRGFFdXYta3RCS1d4SVUwUHNEZ0lTUmxJemJZcDlrX2E4VHlxaTlJNEQ1VmlfcDJtY3U2X1UzNWp6Q1BaVUJIc0lQWkpveFdjdGJyY092OHJadzRHaFVHTVFuRlgzRlR4bWZKQjFidTZEV0ZaRTdfUkZoMjVXV292SkkzSXhhcEZ6azM4TkowOTNSUkZiLVJwWWRWOHJRaTU2VktBMTU0dw?oc=5",
+      "source": "https://www.siam.in/",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Subex Q2 2026 earnings flat; revenue declined 2.29% year-on-year.",
+      "enriched": true
+    },
+    {
+      "id": "nbb0579112a61",
+      "ticker": "ETHOSLTD",
+      "company": "Ethos Limited",
+      "sector": "Consumer Durables",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Ethos ETHOSLTD GST Appellate Order: Key Details for Investors",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQkdBckFoYmxyeGxOM29CTHRjNzRMVDlYblp3V2ExcXNZdjZkVWQ3Q1pRaUlic1lCOWRNbmZPYWVKZ0h1XzdldEFRRG1Sd181ODJmRWhkY3FLMFhtSXZVMm5XVWQ5VjcwRzVhT2VBeWVndmFHTHB4bGFZUjZLTmNMSzVWamZ6ZTRQTWFHUWJsMGdDUFhLYjUyME1ONEowZnkwUE1abFFpc3BvbWRYeWE4dEN2OS1UaGk2UWRRRA?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Ethos Limited receives GST appellate order.",
+      "enriched": true
+    },
+    {
+      "id": "nbbf3c6770eb1",
+      "ticker": "SOLEX",
+      "company": "Solex Energy Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Solex Green Energy Bags ₹180.98 Crore Solar Module Order",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVHVfMWowbEpvaWwzWVlKYmtXR21qb2pzZXVVLXA1Qk1hVHNwOXcxM2ZHN0puazVTdUFzdDUwRUszUWVUNVNZbG56cTl4QXJ5YzFJWVNBZU1wVjRsN0YxMndOSFVKdzgyc0NQdUxnY2pneHNEeHNsYmhDX3lGQzZzSGNxWGFIaVJPcnhkbFZTV0ludWRYVWFIN3ZfVzhCMDN6?oc=5",
+      "source": "https://smallcapspotlight.in/",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Orders",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Solex Energy bags ₹180.98 crore solar module order.",
+      "enriched": true
+    },
+    {
+      "id": "n880dcd4cad71",
+      "ticker": "POLYCAB",
+      "company": "Polycab India Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Earnings call transcript: Polycab India posts record Q2 2026 results",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMUNpbkJUd2Jvb2xXNWRBTHZBejVpaVdUX0xVcGtVMFgyRXg5WVN1NWE3MEtESjF5WERWWGRmTjFVQ05NUV81Z0RVNmJXUmZGMUtMZFE2dlAyYVpjN2hmaV9GVEMwNGhIMy1fQWdiQk1kTXU0Ukl4OWw3ZHlTZUZOdTJMWEhWVjhGX1lSYm1HTTBqTmtrMUVZaVhsb0xySW9UNWltektUbm9EUlRmck9aXzZ2R2NfNzFfSm5lenc5SVI?oc=5",
+      "source": "Investing.com",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Polycab India posts record Q2 2026 results.",
+      "enriched": true
+    },
+    {
+      "id": "nbc7fc3d5c940",
+      "ticker": "DELTACORP",
+      "company": "Delta Corp Limited",
+      "sector": "Consumer Services",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Delta Corp DELTACORP GST Order Deltin Denzong Casino 2026",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM3RmczN6UkFOeURISk9rSVR3em5sTmZpX0M1VlBXVjdSZFVZaTlpUUxyUks1dktRZW1PQ3R2LXlscGZvclBRTFNYSTA5R290MmI4bVdpSDV1OW9lbjJYQUFHdDdqcHpRYmdsTDY2VlRUQ2hXd1BKVmc0SzVTVTJCeFYySEJZMGV4cnkyM09kbFJHX2dBcGRvMXVlRVhZYkkxVHg4eXdQc0RiVFhQUkZRMHR1eW92a1Z5SWNMT2ZMOEVYV0dV?oc=5",
+      "source": "Kalkine India",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "medium",
+      "mood": "neutral",
+      "takeaway": "Delta Corp receives GST order related to Deltin Denzong Casino.",
+      "enriched": true
+    },
+    {
+      "id": "nad348cf4838d",
+      "ticker": "YESBANK",
+      "company": "Yes Bank Limited",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "BREAKING | Yes Bank AT-1 Bond Write-Off: Supreme Court Refuses To Interfere With Bombay High Court Order...",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdC1ueTZnQkRQd2hHT2wtT0FpNS1ON19tTVFmOU1kd1VBQWd6b3owY1JtN3FITERTNmFTVWY3UUVHeWVKQy1yZVc5NEpJSnM2M1pFRnNKcXRLOWhmeW05a1RJUkdDaThvTWQxTUV1VldMa3hkaWJKTVdURDBDRGRiOVNMUVh2eGNQeER0MnlMejV1MnFhb2puSGJTYlJTVzh3YklMOHhuTXJZX1NuSEJKLXZBVXBfT2J0TTlzWS1TTXhuRmlLV29tNi1OeE0wMDJzWk9VNURNSGdXUjY1VDk4TGRXTk9MMzFYOWFpaGZFcEFMNVnSAfgBQVVfeXFMTkhvSUQtZURURmRXVUM0c1NMeXlzMlFYb0dqT2loNURUeHE2WHZIaHROR213Q1ZmUzB4M2l0OHQ1LU5rUC1ZNWdIeTZZQnlkdnBSM2RGc3Y5ZXBESkdETDFXX1RQYUFaLWtoSG9LWGczTDJOR1habWJES2xrcTF2M0dPVk1OZkdsWVVnUU9IR2luclJHQWYtaDI4Q0VwMWJSNU5qTGowUzNhbzlKcllaUGVRSXd0TGViNW9ESE5SdW41T3BZdGRrVFFUVDRzU3VsU2dDd2JPU2I4LWxWVEhYc3A2bTJBSlB5NjBYN0ZPc2lDWGtTWFM2UGw?oc=5",
+      "source": "LiveLawBiz",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Trouble",
+      "keyword": "Order",
+      "importance": "high",
+      "mood": "negative",
+      "takeaway": "Supreme Court refuses to interfere with Yes Bank AT-1 bond write-off order.",
+      "enriched": true
+    },
+    {
+      "id": "n940aea698d12",
+      "ticker": "AEROFLEX",
+      "company": "Aeroflex Industries Limited",
+      "sector": "Capital Goods",
+      "scope": [
+        "portfolio",
+        "watchlist"
+      ],
+      "title": "Aeroflex Industries to invest Rs 202 crore in capacity expansion by March 2028",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcHUzUVRYdEhSZkkyNEd1a2lNWDNFWWtQQkRmMHZwVURIWmc4NkVRdnBXZGh4ZGNJYktUNWVyQXRzX2wxRkVaczVzOEJjMmptQzVCRE04S2hpUVJheDdTSkpLQ0cxY2hYci10UmphZVpWalRRZWlxYmlSN2lwWDdiMFdmcC1zc2JuMHluQnhRcW0yRUdxRjlqWGMxYUVUY2ViVVpXd3BLNk1pSDdqWGdELWVVQnFoOXVFTkRaY2hwRzVweVZRcXfSAcwBQVVfeXFMTnF1VThwQ29OLTduTTJkYnF1M19HT1ZiUmtCa2NDTUY5UmtkUG5oY1hoWjlPbTFsZkdiNWVoNmFNOHIyOFNpQjlVellhTVliSWp1TFo3RzREZ1gwcnFoclVCRWRidFhpY0lTZnhUMzh2SVUwX3RxdHRWal9hTkhKaG9lUnBrWEFHN0UzMEtqY2pmZHZTR1czUENxc2o5SGZLYWsyaHJFdEFfV3F3UVE4aThIZTRzd1Y4Tll4REdHNWdtZEZURl9vcnRmU3Zs?oc=5",
+      "source": "Indian Chemical News",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Growth",
+      "keyword": "Capacity Expansion",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Aeroflex Industries to invest ₹202 crore in capacity expansion by March 2028.",
+      "sources_count": 2,
+      "enriched": true
+    },
+    {
+      "id": "nebe9a0c74941",
+      "ticker": "INDIANB",
+      "company": "Indian Bank",
+      "sector": "Financial Services",
+      "scope": [
+        "watchlist"
+      ],
+      "title": "Indian Bank’s First-Half FY2026-27 Profit Crosses USD-700 Million as Bad Loans Shrink and Operating Earnings Surge",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOSFdQdmNRYlJMamk3d1gtZDZuRDNKeDVhTEdmZXlnQU0tSzBHZUVQMXVpdzgxczBucW1XZzk4YVI5MGNMeU12Tm1zdEtEb3kycDhyWTNBZnphTE9NWHZyZU9FTWtWT1VocjZma1ZEM2IwLXF4RW5WTVc0RTVDT0hWcXphc1VDdHo3cGFzZnltZ0pYSVVMV1BOMUF5WlpsM3ZNR3pIand0TkxWVzM1M2tOOW5EczBGMUNRRDNLNDRLaUJWV1lSeTc0VVE4XzFCdG5uMHMyUmVsWUM0TVg5WUljdXVuUlRhZTZhNndXbHNGMk9rUlgzZUd3X0taZkVFNE5HbVBNQkFzMW9QaXpzUWd5cWV3?oc=5",
+      "source": "Spherical Insights",
+      "date": "2026-10-15T07:00:00.000Z",
+      "topic": "Money",
+      "keyword": "Earnings",
+      "importance": "high",
+      "mood": "positive",
+      "takeaway": "Indian Bank H1 FY2026-27 profit crosses $700M; bad loans shrink.",
       "enriched": true
     }
   ]
